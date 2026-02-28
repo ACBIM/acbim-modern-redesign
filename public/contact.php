@@ -145,10 +145,6 @@ function acbim_normalize_message($value) {
     return trim($value);
 }
 
-function acbim_encode_mime_header_utf8($value) {
-    return '=?UTF-8?B?' . base64_encode((string) $value) . '?=';
-}
-
 function acbim_client_ip() {
     if (!empty($_SERVER['REMOTE_ADDR'])) {
         return (string) $_SERVER['REMOTE_ADDR'];
@@ -229,7 +225,11 @@ $cleanName = acbim_clean_header_value($name);
 $cleanEmail = acbim_clean_header_value($email);
 $cleanSubject = acbim_clean_header_value($subject);
 
-$mailSubject = '[' . $SITE_NAME . '] Nouveau message site web - ' . $cleanSubject;
+$mailSubjectAscii = trim(preg_replace('/[^\x20-\x7E]/', ' ', $cleanSubject));
+if ($mailSubjectAscii === '') {
+    $mailSubjectAscii = 'Nouveau message';
+}
+$mailSubject = '[' . $SITE_NAME . '] ' . $mailSubjectAscii;
 
 $bodyLines = array(
     'Nouveau message recu depuis le formulaire du site ACBIM.',
@@ -255,21 +255,15 @@ if ($originUrl !== '') {
 $mailBody = implode("\n", $bodyLines);
 
 $headers = array(
-    'MIME-Version: 1.0',
-    'Content-Type: text/plain; charset=UTF-8',
-    'From: ' . $SITE_NAME . ' <' . $CONTACT_FROM . '>',
-    'Sender: ' . $CONTACT_FROM,
+    'From: ' . $CONTACT_FROM,
     'Reply-To: ' . $cleanEmail,
-    'X-ACBIM-Request-Id: ' . $requestId,
-    'X-Mailer: PHP/' . phpversion(),
 );
 
 $mailSent = @mail(
     $CONTACT_TO,
-    acbim_encode_mime_header_utf8($mailSubject),
+    $mailSubject,
     $mailBody,
-    implode("\r\n", $headers),
-    '-f' . $CONTACT_FROM
+    implode("\r\n", $headers)
 );
 
 if (!$mailSent) {
@@ -277,7 +271,7 @@ if (!$mailSent) {
         $MAIL_LOG_PATH,
         $requestId,
         'error',
-        'mail() returned false to=' . $CONTACT_TO . ' from=' . $CONTACT_FROM
+        'mail() returned false mode=minimal to=' . $CONTACT_TO . ' from=' . $CONTACT_FROM
     );
     acbim_respond(500, false, 'Le message n a pas pu etre envoye pour le moment. Reference: ' . $requestId . '. Merci de reessayer ou de nous contacter par email.');
 }
@@ -286,6 +280,6 @@ acbim_log_mail_event(
     $MAIL_LOG_PATH,
     $requestId,
     'ok',
-    'mail() accepted by server to=' . $CONTACT_TO . ' from=' . $CONTACT_FROM
+    'mail() accepted by server mode=minimal to=' . $CONTACT_TO . ' from=' . $CONTACT_FROM
 );
 acbim_respond(200, true, 'Message envoye. Merci, nous revenons vers vous rapidement. Reference: ' . $requestId . '.');
