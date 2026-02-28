@@ -6,7 +6,8 @@
 // - Returns JSON for fetch() requests, HTML fallback otherwise
 
 $CONTACT_TO = 'contact@acbim.fr';
-$CONTACT_FROM = 'contact@acbim.fr';
+$CONTACT_FROM = 'no-reply@acbimcloud.fr';
+$MAIL_LOG_PATH = __DIR__ . '/contact-mail.log';
 $SITE_NAME = 'ACBIM';
 $MIN_SUBMIT_DELAY_MS = 1500;
 $MAX_NAME_LENGTH = 120;
@@ -162,6 +163,20 @@ function acbim_assert_post_method() {
     }
 }
 
+function acbim_log_mail_event($logPath, $requestId, $status, $detail) {
+    $line = sprintf(
+        "[%s] request=%s status=%s detail=%s ip=%s ua=%s\n",
+        date('c'),
+        $requestId,
+        $status,
+        str_replace(array("\r", "\n"), ' ', (string) $detail),
+        acbim_client_ip(),
+        str_replace(array("\r", "\n"), ' ', isset($_SERVER['HTTP_USER_AGENT']) ? (string) $_SERVER['HTTP_USER_AGENT'] : 'unknown')
+    );
+
+    @file_put_contents($logPath, $line, FILE_APPEND);
+}
+
 acbim_apply_cors_headers($ALLOWED_ORIGINS);
 acbim_handle_preflight($ALLOWED_ORIGINS);
 acbim_assert_post_method();
@@ -181,6 +196,7 @@ if ($message === '') {
 }
 $originUrl = acbim_get_post('origin_url');
 $formStartedAt = acbim_get_post('form_started_at');
+$requestId = bin2hex(random_bytes(4));
 
 if ($formStartedAt !== '' && ctype_digit($formStartedAt)) {
     $submittedAtMs = (int) $formStartedAt;
@@ -217,6 +233,7 @@ $mailSubject = '[' . $SITE_NAME . '] Nouveau message site web - ' . $cleanSubjec
 
 $bodyLines = array(
     'Nouveau message recu depuis le formulaire du site ACBIM.',
+    'Reference technique : ' . $requestId,
     '',
     'Nom : ' . $name,
     'Email : ' . $email,
@@ -241,7 +258,9 @@ $headers = array(
     'MIME-Version: 1.0',
     'Content-Type: text/plain; charset=UTF-8',
     'From: ' . $SITE_NAME . ' <' . $CONTACT_FROM . '>',
+    'Sender: ' . $CONTACT_FROM,
     'Reply-To: ' . $cleanEmail,
+    'X-ACBIM-Request-Id: ' . $requestId,
     'X-Mailer: PHP/' . phpversion(),
 );
 
@@ -249,11 +268,14 @@ $mailSent = @mail(
     $CONTACT_TO,
     acbim_encode_mime_header_utf8($mailSubject),
     $mailBody,
-    implode("\r\n", $headers)
+    implode("\r\n", $headers),
+    '-f' . $CONTACT_FROM
 );
 
 if (!$mailSent) {
-    acbim_respond(500, false, 'Le message n a pas pu etre envoye pour le moment. Merci de reessayer ou de nous contacter par email.');
+    acbim_log_mail_event($MAIL_LOG_PATH, $requestId, 'error', 'mail() returned false');
+    acbim_respond(500, false, 'Le message n a pas pu etre envoye pour le moment. Reference: ' . $requestId . '. Merci de reessayer ou de nous contacter par email.');
 }
 
-acbim_respond(200, true, 'Message envoye. Merci, nous revenons vers vous rapidement.');
+acbim_log_mail_event($MAIL_LOG_PATH, $requestId, 'ok', 'mail() accepted by server');
+acbim_respond(200, true, 'Message envoye. Merci, nous revenons vers vous rapidement. Reference: ' . $requestId . '.');
