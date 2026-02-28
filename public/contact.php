@@ -5,7 +5,7 @@
 // - Accepts POST form submissions
 // - Returns JSON for fetch() requests, HTML fallback otherwise
 
-$CONTACT_TO = 'contact@acbim.fr';
+$CONTACT_TO = 'mopus3d@gmail.com';
 $CONTACT_FROM = 'no-reply@acbimcloud.fr';
 $MAIL_LOG_PATH = __DIR__ . '/contact-mail.log';
 $SITE_NAME = 'ACBIM';
@@ -273,9 +273,19 @@ $mailSent = @mail(
 );
 
 if (!$mailSent) {
-    acbim_log_mail_event($MAIL_LOG_PATH, $requestId, 'error', 'mail() returned false');
+    acbim_log_mail_event(
+        $MAIL_LOG_PATH,
+        $requestId,
+        'error',
+        'mail() returned false to=' . $CONTACT_TO . ' from=' . $CONTACT_FROM
+    );
     acbim_respond(500, false, 'Le message n a pas pu etre envoye pour le moment. Reference: ' . $requestId . '. Merci de reessayer ou de nous contacter par email.');
 }
 
-acbim_log_mail_event($MAIL_LOG_PATH, $requestId, 'ok', 'mail() accepted by server');
+acbim_log_mail_event(
+    $MAIL_LOG_PATH,
+    $requestId,
+    'ok',
+    'mail() accepted by server to=' . $CONTACT_TO . ' from=' . $CONTACT_FROM
+);
 acbim_respond(200, true, 'Message envoye. Merci, nous revenons vers vous rapidement. Reference: ' . $requestId . '.');
