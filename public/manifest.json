@@ -1,0 +1,22 @@
+{
+  "name": "ACBIM - BIM et numérisation 3D",
+  "short_name": "ACBIM",
+  "description": "ACBIM accompagne vos projets BIM, relevés scanner 3D, drone, visite virtuelle et plans 2D.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ee7527",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ]
+}

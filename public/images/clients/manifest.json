@@ -1,0 +1,232 @@
+{
+  "20200121-dgfip-aurillac-04.png": {
+    "source": "20200121-dgfip-aurillac-04.png",
+    "fallback": "/images/clients/20200121-dgfip-aurillac-04.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/clients/20200121-dgfip-aurillac-04-w768.webp"
+      }
+    ]
+  },
+  "acdeau.jfif": {
+    "source": "acdeau.jfif",
+    "fallback": "/images/clients/acdeau.webp",
+    "variants": [
+      {
+        "width": 225,
+        "src": "/images/clients/acdeau-w225.webp"
+      }
+    ]
+  },
+  "agglomeration-du-bassin-d-aurillac.png": {
+    "source": "agglomeration-du-bassin-d-aurillac.png",
+    "fallback": "/images/clients/agglomeration-du-bassin-d-aurillac.webp",
+    "variants": [
+      {
+        "width": 750,
+        "src": "/images/clients/agglomeration-du-bassin-d-aurillac-w750.webp"
+      }
+    ]
+  },
+  "alterego.png": {
+    "source": "alterego.png",
+    "fallback": "/images/clients/alterego.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/clients/alterego-w768.webp"
+      }
+    ]
+  },
+  "clermont-auvergne-metropole.png": {
+    "source": "clermont-auvergne-metropole.png",
+    "fallback": "/images/clients/clermont-auvergne-metropole.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/clients/clermont-auvergne-metropole-w768.webp"
+      }
+    ]
+  },
+  "cnrs.svg": {
+    "source": "cnrs.svg",
+    "fallback": "/images/clients/cnrs.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/clients/cnrs-w768.webp"
+      }
+    ]
+  },
+  "colas.png": {
+    "source": "colas.png",
+    "fallback": "/images/clients/colas.webp",
+    "variants": [
+      {
+        "width": 398,
+        "src": "/images/clients/colas-w398.webp"
+      }
+    ]
+  },
+  "com-de-communes-chataigneraie-cantalienne.png": {
+    "source": "com-de-communes-chataigneraie-cantalienne.png",
+    "fallback": "/images/clients/com-de-communes-chataigneraie-cantalienne.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/clients/com-de-communes-chataigneraie-cantalienne-w768.webp"
+      }
+    ]
+  },
+  "covalence.jpg": {
+    "source": "covalence.jpg",
+    "fallback": "/images/clients/covalence.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/clients/covalence-w768.webp"
+      }
+    ]
+  },
+  "credit-agricole-centre-france.svg": {
+    "source": "credit-agricole-centre-france.svg",
+    "fallback": "/images/clients/credit-agricole-centre-france.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/clients/credit-agricole-centre-france-w768.webp"
+      }
+    ]
+  },
+  "departement-de-la-correze.jpg": {
+    "source": "departement-de-la-correze.jpg",
+    "fallback": "/images/clients/departement-de-la-correze.webp",
+    "variants": [
+      {
+        "width": 692,
+        "src": "/images/clients/departement-de-la-correze-w692.webp"
+      }
+    ]
+  },
+  "departement-du-cantal.png": {
+    "source": "departement-du-cantal.png",
+    "fallback": "/images/clients/departement-du-cantal.webp",
+    "variants": [
+      {
+        "width": 346,
+        "src": "/images/clients/departement-du-cantal-w346.webp"
+      }
+    ]
+  },
+  "gard.png": {
+    "source": "gard.png",
+    "fallback": "/images/clients/gard.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/clients/gard-w768.webp"
+      }
+    ]
+  },
+  "gard.webp": {
+    "source": "gard.webp",
+    "fallback": "/images/clients/gard-2.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/clients/gard-2-w768.webp"
+      }
+    ]
+  },
+  "gayrel-sas.jfif": {
+    "source": "gayrel-sas.jfif",
+    "fallback": "/images/clients/gayrel-sas.webp",
+    "variants": [
+      {
+        "width": 200,
+        "src": "/images/clients/gayrel-sas-w200.webp"
+      }
+    ]
+  },
+  "groupe-pochet.png": {
+    "source": "groupe-pochet.png",
+    "fallback": "/images/clients/groupe-pochet.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/clients/groupe-pochet-w768.webp"
+      }
+    ]
+  },
+  "lallemand.png": {
+    "source": "lallemand.png",
+    "fallback": "/images/clients/lallemand.webp",
+    "variants": [
+      {
+        "width": 365,
+        "src": "/images/clients/lallemand-w365.webp"
+      }
+    ]
+  },
+  "laumond-menuiserie.jfif": {
+    "source": "laumond-menuiserie.jfif",
+    "fallback": "/images/clients/laumond-menuiserie.webp",
+    "variants": [
+      {
+        "width": 225,
+        "src": "/images/clients/laumond-menuiserie-w225.webp"
+      }
+    ]
+  },
+  "Matiere_SAS.png": {
+    "source": "Matiere_SAS.png",
+    "fallback": "/images/clients/matiere-sas.webp",
+    "variants": [
+      {
+        "width": 225,
+        "src": "/images/clients/matiere-sas-w225.webp"
+      }
+    ]
+  },
+  "prefecture-du-cantal.jpg": {
+    "source": "prefecture-du-cantal.jpg",
+    "fallback": "/images/clients/prefecture-du-cantal.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/clients/prefecture-du-cantal-w768.webp"
+      }
+    ]
+  },
+  "region-auvergne-rhone-alpes.png": {
+    "source": "region-auvergne-rhone-alpes.png",
+    "fallback": "/images/clients/region-auvergne-rhone-alpes.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/clients/region-auvergne-rhone-alpes-w768.webp"
+      }
+    ]
+  },
+  "sncf-gares-connexions.png": {
+    "source": "sncf-gares-connexions.png",
+    "fallback": "/images/clients/sncf-gares-connexions.webp",
+    "variants": [
+      {
+        "width": 656,
+        "src": "/images/clients/sncf-gares-connexions-w656.webp"
+      }
+    ]
+  },
+  "ville-d-aurillac.png": {
+    "source": "ville-d-aurillac.png",
+    "fallback": "/images/clients/ville-d-aurillac.webp",
+    "variants": [
+      {
+        "width": 150,
+        "src": "/images/clients/ville-d-aurillac-w150.webp"
+      }
+    ]
+  }
+}

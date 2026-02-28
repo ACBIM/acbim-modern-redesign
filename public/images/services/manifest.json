@@ -1,0 +1,44 @@
+{
+  "nuage de points abtract visualization.webp": {
+    "source": "nuage de points abtract visualization.webp",
+    "fallback": "/images/services/nuage-de-points-abtract-visualization.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/services/nuage-de-points-abtract-visualization-w768.webp"
+      },
+      {
+        "width": 943,
+        "src": "/images/services/nuage-de-points-abtract-visualization-w943.webp"
+      }
+    ]
+  },
+  "patinoire_PC.png": {
+    "source": "patinoire_PC.png",
+    "fallback": "/images/services/patinoire-pc.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/services/patinoire-pc-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/services/patinoire-pc-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/services/patinoire-pc-w1600.webp"
+      }
+    ]
+  },
+  "visu_nuage.webp": {
+    "source": "visu_nuage.webp",
+    "fallback": "/images/services/visu-nuage.webp",
+    "variants": [
+      {
+        "width": 410,
+        "src": "/images/services/visu-nuage-w410.webp"
+      }
+    ]
+  }
+}

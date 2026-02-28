@@ -1,0 +1,516 @@
+[
+  {
+    "slug": "releve-scanner-3d-numerisation",
+    "iconKey": "cloud-pc",
+    "title": "Relevé scanner 3D, numérisation",
+    "subtitle": "La précision du réel, capturée numériquement en 3 dimensions",
+    "imageUrl": "/images/services/patinoire-pc.webp",
+    "description": "Capture millimétrique de l’existant (intérieur/extérieur) par scanner laser 3D pour créer un nuage de points fiable. Une base précise pour tous vos projets de rénovation, de diagnostic ou de gestion patrimoniale.",
+    "detailedDescription": "Le relevé scanner 3D permet de capturer l’existant avec une grande précision (intérieur et/ou extérieur) afin de produire un nuage de points fiable, véritable “photographie métrique” du bâtiment. Cette base de référence sert ensuite à sécuriser vos décisions et vos études : rénovation, diagnostics, réaménagement, mise en conformité, gestion patrimoniale. Chez ACBIM, la numérisation ne s’arrête pas à l’acquisition : nous structurons la donnée et la préparons pour vos usages (plans 2D, coupes, façades, maquette BIM, contrôles dimensionnels), avec une approche orientée livrable exploitable.",
+    "benefits": [
+      "Base de référence fiable pour décider, concevoir et chiffrer",
+      "Moins d’aléas sur chantier : réduction des reprises et des imprévus",
+      "Relevé complet des zones complexes (volumes, réseaux apparents, façades…)",
+      "Donnée directement exploitable pour plans 2D, coupes/façades et BIM",
+      "Exécution et mise en oeuvre rapide, 1000 m² jour, livrable J+2"
+    ],
+    "process": [
+      {
+        "title": "1. Définition des besoins",
+        "description": "Analyse de vos objectifs et définition du périmètre de la mission pour une capture optimisée.",
+        "iconKey": "clipboard-list"
+      },
+      {
+        "title": "2. Capture sur site",
+        "description": "Déploiement de nos scanners laser 3D pour une acquisition rapide et non intrusive des données.",
+        "iconKey": "cloud-pc"
+      },
+      {
+        "title": "3. Traitement des données",
+        "description": "Assemblage et nettoyage des nuages de points pour créer un modèle 3D cohérent et exploitable.",
+        "iconKey": "cog"
+      },
+      {
+        "title": "4. Livraison",
+        "description": "Fourniture des nuages de points (bruts ou traités) prêts à être importés dans vos logiciels.",
+        "iconKey": "document-download"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/images/optimized/scan-3d/leica-rtc360-lt-on-tripod-with-scan-screen-right-facing-72dpi-rgb.webp",
+        "alt": "Leica RTC 360 ACBIM",
+        "caption": "Laser scanner ACBIM - Leica RTC 360"
+      },
+      {
+        "src": "/images/optimized/scan-3d/img-20230808-114545.webp",
+        "alt": "Scan en porte-a-faux d'une façade de musée",
+        "caption": "Scan 3D tête inversée en porte-a-faux pour une façade de musée, clermont Fd (63)"
+      },
+      {
+        "src": "/images/optimized/scan-3d/sedieres.webp",
+        "alt": "Nuage de points 3D, Chateau de Sédières",
+        "caption": "Nuage de points 3D, Chateau de Sédières, classé MH"
+      },
+      {
+        "src": "/images/optimized/scan-3d/trepiedcremaillere1.webp",
+        "alt": "Scanner 3D installé sur trépied grande hauteure",
+        "caption": "Scanner 3D installé sur trépied grande hauteure, crémaillère, patinoire Lioran(15)"
+      }
+    ],
+    "relatedProjects": [
+      "controle-chantier",
+      "industrie",
+      "patinoire-du-lioran",
+      "musee-des-beaux-arts",
+      "chateau-sedieres-correze"
+    ]
+  },
+
+
+  {
+    "slug": "dessin-2d-plans-coupes-elevations",
+    "iconKey": "collection",
+    "title": "Dessin 2D, plans, coupes, élévations et plans topographiques",
+    "subtitle": "Plans bâtiment et plans topo clairs, normés et directement exploitables",
+    "imageUrl": "/images/optimized/ortho-image-de-facade.webp",
+    "cardImageUrl": "/images/optimized/ortho-image-de-facade.webp",
+    "description": "Production de plans 2D (plans, coupes, façades) et de plans topographiques géoréférencés pour la conception, la réhabilitation et l'exécution. Des livrables clairs, normés et directement exploitables par architectes, géomètres, maîtres d'œuvre, entreprises et maîtrise d'ouvrage.",
+    "detailedDescription": "Nous réalisons des plans 2D (plans de niveaux, coupes, façades) et des plans topographiques géoréférencés pour la conception, la réhabilitation et l’exécution. Notre objectif : livrer des documents clairs, normés et immédiatement exploitables par la maîtrise d’ouvrage, la maîtrise d’œuvre, les entreprises, les architectes et bureaux d’études. À partir de nuages de points, de maquettes 3D, de relevés terrain ou de documents existants, nous produisons l’ensemble des pièces graphiques nécessaires : plans d’état des lieux, coupes, élévations, détails. Chaque fichier est structuré (calques, nomenclatures, conventions) pour s’intégrer facilement à vos méthodes de travail. Nous réalisons également les plans topo selon le besoin du projet : modèle numérique de terrain 3D, altimétries, courbes de niveau, emprises. Vous disposez ainsi d’une base graphique fiable, lisible et cohérente, idéale pour les études, les consultations et la coordination des intervenants.",
+    "seoKeywords": [
+      "plan topographique",
+      "plans topographiques",
+      "dessin 2D bâtiment",
+      "plans coupes façades",
+      "plan de masse topographique",
+      "relevé topographique",
+      "plans géoréférencés",
+      "courbes de niveau",
+      "plans DWG PDF"
+    ],
+    "benefits": [
+      "Plans 2D et plans topographiques clairs et normalisés",
+      "Livrables fiables pour la conception, l'exécution et la consultation",
+      "Plans topo géoréférencés avec altimétries, MNT et courbes de niveau selon besoin",
+      "Support essentiel à la maîtrise d'œuvre et à la coordination des intervenants",
+      "Livrables adaptés à vos standards (charte graphique, formats, conventions de nommage)",
+      "Cohérence multi-vues (plans/coupes/façades alignés entre eux)"
+    ],
+    "process": [
+      {
+        "title": "1. Analyse des données source",
+        "description": "Exploitation des nuages de points, maquettes 3d, relevés topo et anciens plans pour cadrer le niveau de détail attendu.",
+        "iconKey": "clipboard-list"
+      },
+      {
+        "title": "2. Production graphique 2D et topographique",
+        "description": "Dessin des plans de niveaux, coupes, façades, détails techniques et plans topographiques (plan de masse, altimétrie, courbes de niveau) selon vos spécifications.",
+        "iconKey": "collection"
+      },
+      {
+        "title": "3. Contrôle qualité",
+        "description": "Vérification de la cohérence graphique, des cotations, des repères et de la conformité des livrables au cahier des charges.",
+        "iconKey": "cog"
+      },
+      {
+        "title": "4. Livraison multi-formats",
+        "description": "Fourniture des plans aux formats DWG et PDF (et géoréférencement selon besoin), prêts à l'emploi pour vos équipes.",
+        "iconKey": "document-download"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/images/optimized/plans-2d/plan.webp",
+        "alt": "plan 2d Cantal",
+        "caption": "Extrait d'un plan d'étage en 2D"
+      },
+      {
+        "src": "/images/optimized/plans-2d/cahors.webp",
+        "alt": "Ortho de façade avec cotations",
+        "caption": "Ortho de façade avec cotations"
+      },
+      {
+        "src": "/images/optimized/plans-2d/cd19.webp",
+        "alt": "vue d'élévation sortie de revit",
+        "caption": "Vue d'élévation, de façade 2D, sortie depuis une maquette 3D revit"
+      },
+      {
+        "src": "/images/optimized/plans-2d/pleaufacade.webp",
+        "alt": "vue d'élévation collège sortie de revit",
+        "caption": "Vue d'élévation collège, de façade 2D, sortie depuis une maquette 3D revit avec annotations 2d"
+      },
+      {
+        "src": "/images/optimized/plans-2d/topo.webp",
+        "alt": "Plan topographique, topo Cantal",
+        "caption": "Plan topographique, RGF93 IGN 69 CC45, Cantal"
+      },
+      {
+        "src": "/images/optimized/plans-2d/patinoire5.webp",
+        "alt": "Coupe 2D technique sur le batiment patinoire du Lioran",
+        "caption": "Coupe 2D technqiue sur le batiment patinoire du Lioran, Cantal 15"
+      },
+      {
+        "src": "/images/optimized/plans-2d/patinoire1.webp",
+        "alt": "Plan de toiture sur le batiment patinoire du Lioran",
+        "caption": "Plan de toiture complexe sur la patinoire du Lioran"
+      },
+      {
+        "src": "/images/optimized/plans-2d/vic1.webp",
+        "alt": "Vue de façade vic sur cere,  cantal",
+        "caption": "Vue de façade, établissement de santé"
+      }
+    ],
+    "relatedProjects": [
+      "centre-de-soins-vic",
+      "plan-topo-eco-musee",
+      "plan-topo-drone-drugeac",
+      "topo-suivi-carriere",
+      "controle-chantier"
+    ]
+  },
+
+
+  {
+    "slug": "maquette-numerique-3d-bim",
+    "iconKey": "cube",
+    "title": "Maquette numérique 3D, BIM",
+    "subtitle": "Voir, comprendre et gérer vos bâtiments grâce à la 3D et le processus BIM",
+    "imageUrl": "/images/services/bim.webp",
+    "description": "Modélisation d’une maquette 3D structurée à partir des nuages de points 3D ou base de plan 2D. Un support volumique et didactique fiable pour concevoir, coordonner et produire des livrables de tout ordre, 3D, 2D, VR...",
+    "detailedDescription": "Nous transformons les données d'entrée (nuages de points, plans, mesures terrain, base de donnée) en une maquette numérique 3D claire et structurée, adaptée à votre usage : étude, simulation thermique, rénovation, exploitation, maintenance. La maquette 3D facilite la compréhension du bâtiment, accélère la prise de décision et sécurise les choix techniques. Selon le niveau d’attendu, elle peut être plus ou moins détaillée et enrichie (espaces, matériaux, équipements, repérages), elle reste évolutive et ajustable, avec une livraison en formats ouverts (IFC) ou natifs (REVIT) pour une utilisation immédiate par vos équipes et vos partenaires.",
+    "benefits": [
+      "Meilleure coordination et moins d’erreurs",
+      "Une représentation 3d accéssible pour tous",
+      "Décisions plus rapides (scénarios, variantes, validations)",
+      "Base fiable pour études et scénarios de rénovation",
+      "Support aux atoûts majeurs pour la gestion et maintenance"
+    ],
+    "process": [
+      {
+        "title": "1. Charte et protocole",
+        "description": "Définition des objectifs, des niveaux de détail (LOD/LOI) et des règles de modélisation.",
+        "iconKey": "clipboard-list"
+      },
+      {
+        "title": "2. Modélisation",
+        "description": "Création de la maquette (architecture, structure, CVC, plomberie...) à partir des nuages de points.",
+        "iconKey": "cube"
+      },
+      {
+        "title": "3. Enrichissement des données",
+        "description": "Intégration des informations et des propriétés aux objets de la maquette.",
+        "iconKey": "cog"
+      },
+      {
+        "title": "4. Livraison et exploitation",
+        "description": "Fourniture de la maquette au format natif (Revit) et/ou ouvert (IFC). Sorties plans, coupes, élévations 2D facilitées",
+        "iconKey": "document-download"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/images/optimized/maquette-numerique-3d-bim/barg.webp",
+        "alt": "Extrait de maquette numérique 3D BIM",
+        "caption": "Coupe 3D et vue perspective de maquette numérique 3D BIM, musée"
+      },
+      {
+        "src": "/images/optimized/maquette-numerique-3d-bim/bargoin1.webp",
+        "alt": "Maquette numérique 3D BIM, clermont auvergne métropole",
+        "caption": "Maquette numérique 3D BIM, vue extérieure"
+      },
+      {
+        "src": "/images/optimized/maquette-numerique-3d-bim/sedieres1.webp",
+        "alt": "Chateau de Sédières, classé MH, en maquette 3D",
+        "caption": "Chateau de Sédières, classé MH, en maquette 3D"
+      },
+      {
+        "src": "/images/optimized/maquette-numerique-3d-bim/hdd.webp",
+        "alt": "Coupe de maquette 3D, hotel du département Cantal",
+        "caption": "Coupe axonométrique de maquette 3D, hotel du département Cantal"
+      },
+      {
+        "src": "/images/optimized/maquette-numerique-3d-bim/maquetteetnuage.webp",
+        "alt": "maquette 3d revit et nuage de points 3d",
+        "caption": "Maquette 3d sous revit avec nuage de points 3d du relevé"
+      },
+      {
+        "src": "/images/optimized/maquette-numerique-3d-bim/saintmam.webp",
+        "alt": "Bâtiments de collège dans l'environnement nuage de points",
+        "caption": "Bâtiments de collège dans l'environnement nuage de points"
+      },
+      {
+        "src": "/images/optimized/maquette-numerique-3d-bim/sedieres2.webp",
+        "alt": "Chateau de Sédières, classé MH, en maquette 3D",
+        "caption": "Chateau de Sédières, classé MH, en maquette 3D, revit et ifc"
+      }
+    ],
+    "relatedProjects": [
+      "patinoire-du-lioran",
+      "musee-des-beaux-arts",
+      "chateau-sedieres-correze",
+      "industrie"
+    ]
+  },
+
+
+  {
+    "slug": "releve-et-capture-par-drone",
+    "iconKey": "drone",
+    "title": "Relevé et missions techniques par drone",
+    "subtitle": "Prenez de la hauteur pour une vision globale",
+    "imageUrl": "/images/services/m4e.webp",
+    "description": "Drone et télépilote professionnel pour des acquisitions rapides et précises : orthophotos, modèles 3D, nuages de points avec géoréférencement RTK.",
+    "detailedDescription": "Le drone est un outil idéal pour relever des toitures, des façades, de grandes emprises ou des sites difficiles d’accès en sécurité et rapidement. Avec notre DJI Matrice 4E, nous capturons des images haute résolution puis produisons des livrables concrets : orthophotos, nuages de points, modèles 3D texturés et modèles de terrain (MNT/MNS). Pour sécuriser la précision, nous réalisons une acquisition RTK temps réel et utilisons un pivot mobile afin de réduire l’impact des perturbations GNSS (activité solaire, variations géomagnétiques). Les vols sont opérés par un télépilote professionnel certifié depuis 2021 (CATS + OPEN A1/A2/A3), dans le respect de la réglementation.",
+    "benefits": [
+      "Rapidité de déploiement et d'acquisition",
+      "Données géoréférencées de haute précision",
+      "Multiples applications (topographie, inspection...)",
+      "Accès aux zones difficiles sans moyens lourds",
+      "Livrables concrets pour étude, suivi et préparation de travaux",
+      "10 ha par heure"
+    ],
+    "process": [
+      {
+        "title": "1. Plan de vol",
+        "description": "Préparation de la mission, autorisations de vol et définition des paramètres de capture.",
+        "iconKey": "clipboard-list"
+      },
+      {
+        "title": "2. Acquisition sur site",
+        "description": "Réalisation des vols par nos télépilotes certifiés dans le respect de la réglementation.",
+        "iconKey": "drone"
+      },
+      {
+        "title": "3. Photogrammétrie",
+        "description": "Traitement des images pour générer des orthophotos, nuages de points et modèles 3D texturés.",
+        "iconKey": "cog"
+      },
+      {
+        "title": "4. Analyse et livraison",
+        "description": "Fourniture des données traitées et rapports d'inspection associés. Traitement des données par nos géomètres",
+        "iconKey": "document-download"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/images/optimized/drone/dji-matrice-4E.webp",
+        "alt": "ACBIM DJI Matrice 4E, M4E",
+        "caption": "Le dji matrice 4 entreprise, M4E, rapidité, exhaustivité, qualité, performance"
+      },
+      {
+        "src": "/images/optimized/drone/sedieres3d.webp",
+        "alt": "Chateau de Sédières Corrèze",
+        "caption": "Maillage 3D avec texture, rendu 3D photogrammétrique, Chateau de Sédières"
+      },
+      {
+        "src": "/images/optimized/drone/champagnac.webp",
+        "alt": "Nuage de points aérien, couleur rvb",
+        "caption": "Nuage de points 3d aérien d'une Commune Cantalienne, couleur rvb"
+      },
+      {
+        "src": "/images/optimized/drone/barg-gs.webp",
+        "alt": "Gaussian splatting, par drone du musée à Clermont Ferrand",
+        "caption": "Gaussian splatting, par drone du musée à Clermont Ferrand"
+      },
+      {
+        "src": "/images/optimized/drone/m4e-photogrammetrie.webp",
+        "alt": "m4e en mission photogrammétrique dans le Cantal",
+        "caption": "Viusel représentant la couverture photogrammétrique du drone M4E, acbim"
+      }
+    ],
+    "relatedProjects": [
+      "espace-public",
+      "releve-toiture-drone",
+      "ortho-drone-champagnac",
+      "topo-suivi-carriere",
+      "chateau-sedieres-correze"
+    ]
+  },
+
+
+  {
+    "slug": "image-video-communication-de-projet",
+    "iconKey": "camera",
+    "title": "Image, vidéo, communication de projet",
+    "subtitle": "Donnez vie à vos projets avant même leur construction",
+    "imageUrl": "/images/services/render.webp",
+    "description": "Images 3D, photomontages, animations et vidéos pour expliquer, convaincre et valoriser vos projets (concours, concertation, présentations, intégration paysagère).",
+    "detailedDescription": "Nous produisons des visuels et contenus de communication qui transforment un dossier technique en message clair. Images 3D réalistes, rendus d’ambiance, photomontages d’insertion, séquences animées : chaque support est conçu pour aider à décider et à obtenir l’adhésion. Nous adaptons le niveau de détail au contexte (concours, permis, présentation client, concertation) et travaillons à partir de vos plans, maquettes 3D ou relevés existants. L’objectif : une représentation crédible, lisible et cohérente avec votre intention architecturale.",
+    "benefits": [
+      "Compréhension immédiate du projet (même pour les non-spécialistes)",
+      "Outil de décision et d’arbitrage (volumes, matières, ambiances)",
+      "Supports puissants pour concours, concertation et présentations",
+      "Meilleure adhésion des parties prenantes grâce à des visuels crédibles"
+    ],
+    "process": [
+      {
+        "title": "1. Cadrage et scénario",
+        "description": "Définition de l'ambiance, des points de vue et du message à transmettre.",
+        "iconKey": "clipboard-list"
+      },
+      {
+        "title": "2. Modélisation et texturing",
+        "description": "Création des scènes 3D, application des matériaux, textures et éclairages.",
+        "iconKey": "camera"
+      },
+      {
+        "title": "3. Rendu et post-production",
+        "description": "Calcul des images haute définition et retouches finales pour un résultat optimal.",
+        "iconKey": "cog"
+      },
+      {
+        "title": "4. Livraison",
+        "description": "Fourniture des visuels aux formats souhaités pour le web, l'impression ou la vidéo.",
+        "iconKey": "document-download"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/images/optimized/imges-3d/image2-006.webp",
+        "alt": "Image de synthèse 3D, patinoire du Lioran",
+        "caption": "Image de synthèse 3D, patinoire du Lioran"
+      },
+      {
+        "src": "/images/optimized/imges-3d/image26.webp",
+        "alt": "Rendu 3D twinmotion batiment industriel",
+        "caption": "Rendu 3D batiment industriel"
+      },
+      {
+        "src": "/images/optimized/imges-3d/video1-instantane1.webp",
+        "alt": "Rendu image de synthèse 3D, patinoire du lioran",
+        "caption": "Rendu image de synthèse 3D depuis la maquette BIM du batiment"
+      },
+      {
+        "src": "/images/optimized/imges-3d/image31.webp",
+        "alt": "Vue aérienne 3D type drone, batiment industriel Cantal",
+        "caption": "Vue aérienne 3D type drone, étude de projet pour un batiment industriel Cantal"
+      },
+      {
+        "src": "/images/optimized/imges-3d/beffroi-6.webp",
+        "alt": "Projection 3D du futur projet de réaménagement à Salers 15",
+        "caption": "Projection 3D du futur projet de réaménagement à Salers 15"
+      }
+    ],
+    "relatedProjects": [
+      "espace-public"
+    ]
+  },
+
+
+  {
+    "slug": "visite-virtuelle-360-3d",
+    "iconKey": "virtual-tour",
+    "title": "Visite virtuelle 360°, 3D",
+    "subtitle": "Explorez vos espaces sans vous déplacer",
+    "imageUrl": "/images/optimized/visite-virtuelle/vr1.webp",
+    "cardImageUrl": "/images/optimized/visite-virtuelle/visitevirtuellecasquestablette.webp",
+    "matterportEmbedUrl": "https://my.matterport.com/show/?m=uwtDmNUc6VQ",
+    "description": "Explorez vos sites comme si vous y étiez grâce à nos visites immersives. Un outil intuitif pour la compréhension, la prise de décision, la maintenance ou la communication de projet.",
+    "detailedDescription": "La visite virtuelle 360°/3D permet de parcourir un bâtiment à distance, de façon intuitive, depuis un ordinateur, une tablette ou un smartphone. Elle est idéale pour limiter les déplacements, partager une vision commune et accélérer les arbitrages. Nous capturons vos espaces sur site, puis construisons une visite fluide et structurée avec points de navigation, repères et contenus interactifs (informations, liens, documents). Vous obtenez un support clair pour la compréhension des lieux, la préparation d’interventions, la communication interne/externe et la valorisation de vos espaces.",
+    "benefits": [
+      "Immersion et lecture simple des espaces",
+      "Moins de déplacements et de re-visites",
+      "Partage facile avec toutes les parties prenantes",
+      "Support utile pour réunions, communication et suivi",
+      "Préparation facilitée des interventions et visites techniques",
+      "Expérience fluide sur ordinateur, mobile et tablette",
+      "Support moderne pour communication et présentation"
+    ],
+    "process": [
+      {
+        "title": "1. Capture ou préparation",
+        "description": "Relevé des espaces sur site, à l'aide d'un appareil dédié.",
+        "iconKey": "camera"
+      },
+      {
+        "title": "2. Création de la visite",
+        "description": "Assemblage, création des points de navigation et enrichissement avec du contenu interactif.",
+        "iconKey": "virtual-tour"
+      },
+      {
+        "title": "3. Personnalisation",
+        "description": "Intégration de fiches techniques, fiches produits, liens et informations contextuelles.",
+        "iconKey": "cog"
+      },
+      {
+        "title": "4. Déploiement",
+        "description": "Hébergement de la visite et fourniture d'un lien pour une intégration facile sur votre site web.",
+        "iconKey": "document-download"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/images/optimized/visite-virtuelle/dollhouse.webp",
+        "alt": "Visualisation 3D matterport",
+        "caption": "Visualisation 3D de la visite virtuelle matterport"
+      },
+      {
+        "src": "/images/optimized/visite-virtuelle/housevr.webp",
+        "alt": "Vue 3D du modèle et images 360",
+        "caption": "Vue 3D du modèle et ses images 360"
+      },
+      {
+        "src": "/images/optimized/visite-virtuelle/vr1.webp",
+        "alt": "image capturée depuis une visite virtuelle HD",
+        "caption": "Image capturée depuis une visite virtuelle HD"
+      },
+      {
+        "src": "/images/optimized/visite-virtuelle/visitevirtuellecasquestablette.webp",
+        "alt": "Visite virtuelle sur smartphone, PC, casque VR, tablette",
+        "caption": "Visite virtuelle sur smartphone, PC, casque VR, tablette"
+      },
+      {
+        "src": "/images/optimized/visite-virtuelle/matterport.webp",
+        "alt": "Le matterport ACBIM",
+        "caption": "L'appareil dédié aux visites virtuelles hyper réalistes, matterport"
+      }
+    ],
+    "relatedProjects": [
+      "commerce-pisciniste"
+    ]
+  },
+
+
+  {
+    "slug": "programme-renovation-energetique-batiments",
+    "iconKey": "reno-energetique",
+    "title": "Programme de renovation energetique de batiments",
+    "subtitle": "De la capture du bati aux scenarios de rénovations thermiques",
+    "imageUrl": "/images/services/renovation-energetique.webp",
+    "cardImageRotationUrls": [
+      "/images/optimized/maquette-numerique-3d-bim/thermique-vert.webp"
+    ],
+    "description": "Nous deployons une chaine complete scan 3D -> maquette numerique -> audit energetique sur maquette -> livrables. Cette methode a deja ete appliquee sur pres de 160 batiments, avec des recommandations techniques et des scenarios d'amelioration directement exploitables.",
+    "detailedDescription": "",
+    "benefits": [
+      "Processus eprouve sur pres de 160 batiments",
+      "Vision globale et fiable de l'etat existant",
+      "Scenarios d'amelioration energetique bases sur la maquette",
+      "Livrables complets: 3D, plans 2D et audit"
+    ],
+    "process": [
+      {
+        "title": "1. Releve scan 3D de l'existant",
+        "description": "Acquisition rapide et precise du bati pour fiabiliser les donnees d'entree.",
+        "iconKey": "scan"
+      },
+      {
+        "title": "2. Maquette numerique du batiment",
+        "description": "Structuration BIM de l'existant pour analyser et simuler les performances.",
+        "iconKey": "cube"
+      },
+      {
+        "title": "3. Audit energetique sur maquette",
+        "description": "Evaluation des performances et comparaison de scenarios d'amelioration.",
+        "iconKey": "cog"
+      },
+      {
+        "title": "4. Livrables et plan d'action",
+        "description": "Remise des livrables 3D, plans 2D et rapport d'audit avec recommandations.",
+        "iconKey": "document-download"
+      }
+    ],
+    "relatedProjects": [
+    ]
+  }
+]

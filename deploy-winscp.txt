@@ -1,0 +1,23 @@
+; WinSCP deployment script for ACBIM static site
+; Fill in the placeholders __FTP_USER__ and __FTP_PASS__
+;
+; Usage (PowerShell):
+;   & "C:\\Program Files (x86)\\WinSCP\\WinSCP.com" /script:"C:\\DEV\\siteW\\acbim-modern-redesign\\deploy-winscp.txt"
+;
+; Prerequisites:
+;   - Run `npm run export` to update the `out/` folder before deploying.
+
+open ftp://__FTP_USER__:__FTP_PASS__@acbimcloud.fr/
+
+option batch on
+option confirm off
+option transfer binary
+
+cd /files/siteTempo
+mkdir /files/siteTempo
+
+; Mirror local export to remote path and delete removed files
+synchronize remote -delete "C:\\DEV\\siteW\\acbim-modern-redesign\\out" .
+
+exit
+

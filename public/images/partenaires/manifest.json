@@ -1,0 +1,42 @@
+{
+  "2b-maitrise-concept.png": {
+    "source": "2b-maitrise-concept.png",
+    "fallback": "/images/partenaires/2b-maitrise-concept.webp",
+    "variants": [
+      {
+        "width": 163,
+        "src": "/images/partenaires/2b-maitrise-concept-w163.webp"
+      }
+    ]
+  },
+  "acdeau.webp": {
+    "source": "acdeau.webp",
+    "fallback": "/images/partenaires/acdeau.webp",
+    "variants": [
+      {
+        "width": 240,
+        "src": "/images/partenaires/acdeau-w240.webp"
+      }
+    ]
+  },
+  "enerbim.webp": {
+    "source": "enerbim.webp",
+    "fallback": "/images/partenaires/enerbim.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/partenaires/enerbim-w768.webp"
+      }
+    ]
+  },
+  "ereah.jfif": {
+    "source": "ereah.jfif",
+    "fallback": "/images/partenaires/ereah.webp",
+    "variants": [
+      {
+        "width": 200,
+        "src": "/images/partenaires/ereah-w200.webp"
+      }
+    ]
+  }
+}

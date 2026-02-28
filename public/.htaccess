@@ -1,0 +1,26 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Canonical host: force www
+  RewriteCond %{HTTP_HOST} ^aura-bim\.fr$ [NC]
+  RewriteRule ^(.*)$ https://www.aura-bim.fr/$1 [R=301,L]
+
+  # Legacy URLs from former SiteW pages
+  RewriteRule ^scanner-3d-leve-topo\.m\.htm$ https://www.aura-bim.fr/services/releve-scanner-3d-numerisation/ [R=301,L,NC]
+  RewriteRule ^modelisation-maquette3d-bim\.p\.htm$ https://www.aura-bim.fr/services/maquette-numerique-3d-bim/ [R=301,L,NC]
+  RewriteRule ^assistance-bim\.q\.htm$ https://www.aura-bim.fr/services/maquette-numerique-3d-bim/ [R=301,L,NC]
+  RewriteRule ^Gestion-exploitation-maintenance\.r\.htm$ https://www.aura-bim.fr/services/maquette-numerique-3d-bim/ [R=301,L,NC]
+  RewriteRule ^images-3d-video-3d\.n\.htm$ https://www.aura-bim.fr/services/image-video-communication-de-projet/ [R=301,L,NC]
+  RewriteRule ^plan-2d-topo-interieur\.w\.htm$ https://www.aura-bim.fr/services/dessin-2d-plans-coupes-elevations/ [R=301,L,NC]
+  RewriteRule ^drone-photogrammetrie\.t\.htm$ https://www.aura-bim.fr/services/releve-et-capture-par-drone/ [R=301,L,NC]
+  RewriteRule ^visite-virtuelle-3d-rapide\.v\.htm$ https://www.aura-bim.fr/services/visite-virtuelle-360-3d/ [R=301,L,NC]
+  RewriteRule ^carte-interactive-3d\.x\.htm$ https://www.aura-bim.fr/projets/ [R=301,L,NC]
+  RewriteRule ^references-clients\.k\.htm$ https://www.aura-bim.fr/a-propos/ [R=301,L,NC]
+  RewriteRule ^formation-modeleur-revit\.u\.htm$ https://www.aura-bim.fr/contact/ [R=301,L,NC]
+  RewriteRule ^EQUIPE\.b\.htm$ https://www.aura-bim.fr/a-propos/ [R=301,L,NC]
+  RewriteRule ^CONTACT\.c\.htm$ https://www.aura-bim.fr/contact/ [R=301,L,NC]
+
+  # Secondary / historical domains -> canonical domain
+  RewriteCond %{HTTP_HOST} ^(www\.)?(acbim\.fr|mopus3d\.fr)$ [NC]
+  RewriteRule ^(.*)$ https://www.aura-bim.fr/$1 [R=301,L]
+</IfModule>

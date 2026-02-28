@@ -1,0 +1,3200 @@
+{
+  "appareil terrain/drone DJI.png": {
+    "source": "appareil terrain/drone DJI.png",
+    "fallback": "/images/optimized/appareil-terrain/drone-dji.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/appareil-terrain/drone-dji-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/appareil-terrain/drone-dji-w1280.webp"
+      },
+      {
+        "width": 1418,
+        "src": "/images/optimized/appareil-terrain/drone-dji-w1418.webp"
+      }
+    ]
+  },
+  "appareil terrain/GPS e300.webp": {
+    "source": "appareil terrain/GPS e300.webp",
+    "fallback": "/images/optimized/appareil-terrain/gps-e300.webp",
+    "variants": [
+      {
+        "width": 225,
+        "src": "/images/optimized/appareil-terrain/gps-e300-w225.webp"
+      }
+    ]
+  },
+  "appareil terrain/matterport.webp": {
+    "source": "appareil terrain/matterport.webp",
+    "fallback": "/images/optimized/appareil-terrain/matterport.webp",
+    "variants": [
+      {
+        "width": 197,
+        "src": "/images/optimized/appareil-terrain/matterport-w197.webp"
+      }
+    ]
+  },
+  "appareil terrain/station totale.webp": {
+    "source": "appareil terrain/station totale.webp",
+    "fallback": "/images/optimized/appareil-terrain/station-totale.webp",
+    "variants": [
+      {
+        "width": 224,
+        "src": "/images/optimized/appareil-terrain/station-totale-w224.webp"
+      }
+    ]
+  },
+  "appareil terrain/visite virtuelle casques tablette.webp": {
+    "source": "appareil terrain/visite virtuelle casques tablette.webp",
+    "fallback": "/images/optimized/appareil-terrain/visite-virtuelle-casques-tablette.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/appareil-terrain/visite-virtuelle-casques-tablette-w768.webp"
+      },
+      {
+        "width": 1110,
+        "src": "/images/optimized/appareil-terrain/visite-virtuelle-casques-tablette-w1110.webp"
+      }
+    ]
+  },
+  "background/bgClient.webp": {
+    "source": "background/bgClient.webp",
+    "fallback": "/images/optimized/background/bgclient.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/background/bgclient-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/background/bgclient-w1280.webp"
+      },
+      {
+        "width": 1300,
+        "src": "/images/optimized/background/bgclient-w1300.webp"
+      }
+    ]
+  },
+  "background/bgClient2.webp": {
+    "source": "background/bgClient2.webp",
+    "fallback": "/images/optimized/background/bgclient2.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/background/bgclient2-w768.webp"
+      },
+      {
+        "width": 1000,
+        "src": "/images/optimized/background/bgclient2-w1000.webp"
+      }
+    ]
+  },
+  "carrousel/20200121_DGFIP_AURILLAC_04.webp": {
+    "source": "carrousel/20200121_DGFIP_AURILLAC_04.webp",
+    "fallback": "/images/optimized/carrousel/20200121-dgfip-aurillac-04.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/carrousel/20200121-dgfip-aurillac-04-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/carrousel/20200121-dgfip-aurillac-04-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/carrousel/20200121-dgfip-aurillac-04-w1600.webp"
+      }
+    ]
+  },
+  "carrousel/Aerienne_2.webp": {
+    "source": "carrousel/Aerienne_2.webp",
+    "fallback": "/images/optimized/carrousel/aerienne-2.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/carrousel/aerienne-2-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/carrousel/aerienne-2-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/carrousel/aerienne-2-w1600.webp"
+      }
+    ]
+  },
+  "carrousel/BEFFROI_6.webp": {
+    "source": "carrousel/BEFFROI_6.webp",
+    "fallback": "/images/optimized/carrousel/beffroi-6.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/carrousel/beffroi-6-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/carrousel/beffroi-6-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/carrousel/beffroi-6-w1600.webp"
+      }
+    ]
+  },
+  "carrousel/Image2_002.webp": {
+    "source": "carrousel/Image2_002.webp",
+    "fallback": "/images/optimized/carrousel/image2-002.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/carrousel/image2-002-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/carrousel/image2-002-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/carrousel/image2-002-w1600.webp"
+      }
+    ]
+  },
+  "carrousel/Image33.webp": {
+    "source": "carrousel/Image33.webp",
+    "fallback": "/images/optimized/carrousel/image33.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/carrousel/image33-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/carrousel/image33-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/carrousel/image33-w1600.webp"
+      }
+    ]
+  },
+  "carrousel/MP_RealEstate-dollhouse.webp": {
+    "source": "carrousel/MP_RealEstate-dollhouse.webp",
+    "fallback": "/images/optimized/carrousel/mp-realestate-dollhouse.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/carrousel/mp-realestate-dollhouse-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/carrousel/mp-realestate-dollhouse-w1280.webp"
+      },
+      {
+        "width": 1512,
+        "src": "/images/optimized/carrousel/mp-realestate-dollhouse-w1512.webp"
+      }
+    ]
+  },
+  "carrousel/ortho image de facade.webp": {
+    "source": "carrousel/ortho image de facade.webp",
+    "fallback": "/images/optimized/carrousel/ortho-image-de-facade.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/carrousel/ortho-image-de-facade-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/carrousel/ortho-image-de-facade-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/carrousel/ortho-image-de-facade-w1600.webp"
+      }
+    ]
+  },
+  "clients/20200121-dgfip-aurillac-04.png": {
+    "source": "clients/20200121-dgfip-aurillac-04.png",
+    "fallback": "/images/optimized/clients/20200121-dgfip-aurillac-04.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/clients/20200121-dgfip-aurillac-04-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/clients/20200121-dgfip-aurillac-04-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/clients/20200121-dgfip-aurillac-04-w1600.webp"
+      }
+    ]
+  },
+  "clients/acdeau.jfif": {
+    "source": "clients/acdeau.jfif",
+    "fallback": "/images/optimized/clients/acdeau.webp",
+    "variants": [
+      {
+        "width": 225,
+        "src": "/images/optimized/clients/acdeau-w225.webp"
+      }
+    ]
+  },
+  "clients/agglomeration-du-bassin-d-aurillac.png": {
+    "source": "clients/agglomeration-du-bassin-d-aurillac.png",
+    "fallback": "/images/optimized/clients/agglomeration-du-bassin-d-aurillac.webp",
+    "variants": [
+      {
+        "width": 750,
+        "src": "/images/optimized/clients/agglomeration-du-bassin-d-aurillac-w750.webp"
+      }
+    ]
+  },
+  "clients/alterego.png": {
+    "source": "clients/alterego.png",
+    "fallback": "/images/optimized/clients/alterego.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/clients/alterego-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/clients/alterego-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/clients/alterego-w1600.webp"
+      }
+    ]
+  },
+  "clients/clermont-auvergne-metropole.png": {
+    "source": "clients/clermont-auvergne-metropole.png",
+    "fallback": "/images/optimized/clients/clermont-auvergne-metropole.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/clients/clermont-auvergne-metropole-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/clients/clermont-auvergne-metropole-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/clients/clermont-auvergne-metropole-w1600.webp"
+      }
+    ]
+  },
+  "clients/cnrs.svg": {
+    "source": "clients/cnrs.svg",
+    "fallback": "/images/optimized/clients/cnrs.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/clients/cnrs-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/clients/cnrs-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/clients/cnrs-w1600.webp"
+      }
+    ]
+  },
+  "clients/colas.png": {
+    "source": "clients/colas.png",
+    "fallback": "/images/optimized/clients/colas.webp",
+    "variants": [
+      {
+        "width": 398,
+        "src": "/images/optimized/clients/colas-w398.webp"
+      }
+    ]
+  },
+  "clients/com-de-communes-chataigneraie-cantalienne.png": {
+    "source": "clients/com-de-communes-chataigneraie-cantalienne.png",
+    "fallback": "/images/optimized/clients/com-de-communes-chataigneraie-cantalienne.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/clients/com-de-communes-chataigneraie-cantalienne-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/clients/com-de-communes-chataigneraie-cantalienne-w1280.webp"
+      },
+      {
+        "width": 1365,
+        "src": "/images/optimized/clients/com-de-communes-chataigneraie-cantalienne-w1365.webp"
+      }
+    ]
+  },
+  "clients/covalence.jpg": {
+    "source": "clients/covalence.jpg",
+    "fallback": "/images/optimized/clients/covalence.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/clients/covalence-w768.webp"
+      },
+      {
+        "width": 1265,
+        "src": "/images/optimized/clients/covalence-w1265.webp"
+      }
+    ]
+  },
+  "clients/credit-agricole-centre-france.svg": {
+    "source": "clients/credit-agricole-centre-france.svg",
+    "fallback": "/images/optimized/clients/credit-agricole-centre-france.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/clients/credit-agricole-centre-france-w768.webp"
+      },
+      {
+        "width": 1191,
+        "src": "/images/optimized/clients/credit-agricole-centre-france-w1191.webp"
+      }
+    ]
+  },
+  "clients/departement-de-la-correze.jpg": {
+    "source": "clients/departement-de-la-correze.jpg",
+    "fallback": "/images/optimized/clients/departement-de-la-correze.webp",
+    "variants": [
+      {
+        "width": 692,
+        "src": "/images/optimized/clients/departement-de-la-correze-w692.webp"
+      }
+    ]
+  },
+  "clients/departement-du-cantal.png": {
+    "source": "clients/departement-du-cantal.png",
+    "fallback": "/images/optimized/clients/departement-du-cantal.webp",
+    "variants": [
+      {
+        "width": 346,
+        "src": "/images/optimized/clients/departement-du-cantal-w346.webp"
+      }
+    ]
+  },
+  "clients/gard.png": {
+    "source": "clients/gard.png",
+    "fallback": "/images/optimized/clients/gard.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/clients/gard-w768.webp"
+      },
+      {
+        "width": 1200,
+        "src": "/images/optimized/clients/gard-w1200.webp"
+      }
+    ]
+  },
+  "clients/gard.webp": {
+    "source": "clients/gard.webp",
+    "fallback": "/images/optimized/clients/gard-2.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/clients/gard-2-w768.webp"
+      },
+      {
+        "width": 1200,
+        "src": "/images/optimized/clients/gard-2-w1200.webp"
+      }
+    ]
+  },
+  "clients/gayrel-sas.jfif": {
+    "source": "clients/gayrel-sas.jfif",
+    "fallback": "/images/optimized/clients/gayrel-sas.webp",
+    "variants": [
+      {
+        "width": 200,
+        "src": "/images/optimized/clients/gayrel-sas-w200.webp"
+      }
+    ]
+  },
+  "clients/groupe-pochet.png": {
+    "source": "clients/groupe-pochet.png",
+    "fallback": "/images/optimized/clients/groupe-pochet.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/clients/groupe-pochet-w768.webp"
+      },
+      {
+        "width": 896,
+        "src": "/images/optimized/clients/groupe-pochet-w896.webp"
+      }
+    ]
+  },
+  "clients/lallemand.png": {
+    "source": "clients/lallemand.png",
+    "fallback": "/images/optimized/clients/lallemand.webp",
+    "variants": [
+      {
+        "width": 365,
+        "src": "/images/optimized/clients/lallemand-w365.webp"
+      }
+    ]
+  },
+  "clients/laumond-menuiserie.jfif": {
+    "source": "clients/laumond-menuiserie.jfif",
+    "fallback": "/images/optimized/clients/laumond-menuiserie.webp",
+    "variants": [
+      {
+        "width": 225,
+        "src": "/images/optimized/clients/laumond-menuiserie-w225.webp"
+      }
+    ]
+  },
+  "clients/Matiere_SAS.png": {
+    "source": "clients/Matiere_SAS.png",
+    "fallback": "/images/optimized/clients/matiere-sas.webp",
+    "variants": [
+      {
+        "width": 225,
+        "src": "/images/optimized/clients/matiere-sas-w225.webp"
+      }
+    ]
+  },
+  "clients/prefecture-du-cantal.jpg": {
+    "source": "clients/prefecture-du-cantal.jpg",
+    "fallback": "/images/optimized/clients/prefecture-du-cantal.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/clients/prefecture-du-cantal-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/clients/prefecture-du-cantal-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/clients/prefecture-du-cantal-w1600.webp"
+      }
+    ]
+  },
+  "clients/region-auvergne-rhone-alpes.png": {
+    "source": "clients/region-auvergne-rhone-alpes.png",
+    "fallback": "/images/optimized/clients/region-auvergne-rhone-alpes.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/clients/region-auvergne-rhone-alpes-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/clients/region-auvergne-rhone-alpes-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/clients/region-auvergne-rhone-alpes-w1600.webp"
+      }
+    ]
+  },
+  "clients/sncf-gares-connexions.png": {
+    "source": "clients/sncf-gares-connexions.png",
+    "fallback": "/images/optimized/clients/sncf-gares-connexions.webp",
+    "variants": [
+      {
+        "width": 656,
+        "src": "/images/optimized/clients/sncf-gares-connexions-w656.webp"
+      }
+    ]
+  },
+  "clients/ville-d-aurillac.png": {
+    "source": "clients/ville-d-aurillac.png",
+    "fallback": "/images/optimized/clients/ville-d-aurillac.webp",
+    "variants": [
+      {
+        "width": 150,
+        "src": "/images/optimized/clients/ville-d-aurillac-w150.webp"
+      }
+    ]
+  },
+  "drone/barg_gs.png": {
+    "source": "drone/barg_gs.png",
+    "fallback": "/images/optimized/drone/barg-gs.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/drone/barg-gs-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/drone/barg-gs-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/drone/barg-gs-w1600.webp"
+      }
+    ]
+  },
+  "drone/champagnac.png": {
+    "source": "drone/champagnac.png",
+    "fallback": "/images/optimized/drone/champagnac.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/drone/champagnac-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/drone/champagnac-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/drone/champagnac-w1600.webp"
+      }
+    ]
+  },
+  "drone/dji-matrice-4E.webp": {
+    "source": "drone/dji-matrice-4E.webp",
+    "fallback": "/images/optimized/drone/dji-matrice-4e.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/drone/dji-matrice-4e-w768.webp"
+      },
+      {
+        "width": 800,
+        "src": "/images/optimized/drone/dji-matrice-4e-w800.webp"
+      }
+    ]
+  },
+  "drone/drone photogrammetrie.webp": {
+    "source": "drone/drone photogrammetrie.webp",
+    "fallback": "/images/optimized/drone/drone-photogrammetrie.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/drone/drone-photogrammetrie-w768.webp"
+      }
+    ]
+  },
+  "drone/Gemini_Generated_Image_3vij73vij73vij73.png": {
+    "source": "drone/Gemini_Generated_Image_3vij73vij73vij73.png",
+    "fallback": "/images/optimized/drone/gemini-generated-image-3vij73vij73vij73.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/drone/gemini-generated-image-3vij73vij73vij73-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/drone/gemini-generated-image-3vij73vij73vij73-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/drone/gemini-generated-image-3vij73vij73vij73-w1600.webp"
+      }
+    ]
+  },
+  "drone/m4e.png": {
+    "source": "drone/m4e.png",
+    "fallback": "/images/optimized/drone/m4e.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/drone/m4e-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/drone/m4e-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/drone/m4e-w1600.webp"
+      }
+    ]
+  },
+  "drone/M4E_photogrammetrie.png": {
+    "source": "drone/M4E_photogrammetrie.png",
+    "fallback": "/images/optimized/drone/m4e-photogrammetrie.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/drone/m4e-photogrammetrie-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/drone/m4e-photogrammetrie-w1280.webp"
+      },
+      {
+        "width": 1536,
+        "src": "/images/optimized/drone/m4e-photogrammetrie-w1536.webp"
+      }
+    ]
+  },
+  "drone/mnt-vebret.png": {
+    "source": "drone/mnt-vebret.png",
+    "fallback": "/images/optimized/drone/mnt-vebret.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/drone/mnt-vebret-w768.webp"
+      },
+      {
+        "width": 1201,
+        "src": "/images/optimized/drone/mnt-vebret-w1201.webp"
+      }
+    ]
+  },
+  "drone/ortho-champagnac.png": {
+    "source": "drone/ortho-champagnac.png",
+    "fallback": "/images/optimized/drone/ortho-champagnac.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/drone/ortho-champagnac-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/drone/ortho-champagnac-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/drone/ortho-champagnac-w1600.webp"
+      }
+    ]
+  },
+  "drone/ortho-champagnac1.png": {
+    "source": "drone/ortho-champagnac1.png",
+    "fallback": "/images/optimized/drone/ortho-champagnac1.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/drone/ortho-champagnac1-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/drone/ortho-champagnac1-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/drone/ortho-champagnac1-w1600.webp"
+      }
+    ]
+  },
+  "drone/ortho-vebret.png": {
+    "source": "drone/ortho-vebret.png",
+    "fallback": "/images/optimized/drone/ortho-vebret.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/drone/ortho-vebret-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/drone/ortho-vebret-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/drone/ortho-vebret-w1600.webp"
+      }
+    ]
+  },
+  "drone/plan-guide.png": {
+    "source": "drone/plan-guide.png",
+    "fallback": "/images/optimized/drone/plan-guide.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/drone/plan-guide-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/drone/plan-guide-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/drone/plan-guide-w1600.webp"
+      }
+    ]
+  },
+  "drone/sedieres3d.png": {
+    "source": "drone/sedieres3d.png",
+    "fallback": "/images/optimized/drone/sedieres3d.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/drone/sedieres3d-w768.webp"
+      },
+      {
+        "width": 1272,
+        "src": "/images/optimized/drone/sedieres3d-w1272.webp"
+      }
+    ]
+  },
+  "drone/tableau-cubes-vebret.png": {
+    "source": "drone/tableau-cubes-vebret.png",
+    "fallback": "/images/optimized/drone/tableau-cubes-vebret.webp",
+    "variants": [
+      {
+        "width": 362,
+        "src": "/images/optimized/drone/tableau-cubes-vebret-w362.webp"
+      }
+    ]
+  },
+  "drone/toit01.png": {
+    "source": "drone/toit01.png",
+    "fallback": "/images/optimized/drone/toit01.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/drone/toit01-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/drone/toit01-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/drone/toit01-w1600.webp"
+      }
+    ]
+  },
+  "drone/toit02.png": {
+    "source": "drone/toit02.png",
+    "fallback": "/images/optimized/drone/toit02.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/drone/toit02-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/drone/toit02-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/drone/toit02-w1600.webp"
+      }
+    ]
+  },
+  "drone/toit03.png": {
+    "source": "drone/toit03.png",
+    "fallback": "/images/optimized/drone/toit03.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/drone/toit03-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/drone/toit03-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/drone/toit03-w1600.webp"
+      }
+    ]
+  },
+  "drone/toit04.png": {
+    "source": "drone/toit04.png",
+    "fallback": "/images/optimized/drone/toit04.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/drone/toit04-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/drone/toit04-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/drone/toit04-w1600.webp"
+      }
+    ]
+  },
+  "drone/toit1.png": {
+    "source": "drone/toit1.png",
+    "fallback": "/images/optimized/drone/toit1.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/drone/toit1-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/drone/toit1-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/drone/toit1-w1600.webp"
+      }
+    ]
+  },
+  "drone/toit2.png": {
+    "source": "drone/toit2.png",
+    "fallback": "/images/optimized/drone/toit2.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/drone/toit2-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/drone/toit2-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/drone/toit2-w1600.webp"
+      }
+    ]
+  },
+  "hero/20200121_DGFIP_AURILLAC_04.webp": {
+    "source": "hero/20200121_DGFIP_AURILLAC_04.webp",
+    "fallback": "/images/optimized/hero/20200121-dgfip-aurillac-04.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/hero/20200121-dgfip-aurillac-04-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/hero/20200121-dgfip-aurillac-04-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/hero/20200121-dgfip-aurillac-04-w1600.webp"
+      }
+    ]
+  },
+  "hero/Aerienne_2.webp": {
+    "source": "hero/Aerienne_2.webp",
+    "fallback": "/images/optimized/hero/aerienne-2.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/hero/aerienne-2-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/hero/aerienne-2-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/hero/aerienne-2-w1600.webp"
+      }
+    ]
+  },
+  "hero/BARGOIN_EXI_ACBIM_TZ_TN_M3D.png": {
+    "source": "hero/BARGOIN_EXI_ACBIM_TZ_TN_M3D.png",
+    "fallback": "/images/optimized/hero/bargoin-exi-acbim-tz-tn-m3d.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/hero/bargoin-exi-acbim-tz-tn-m3d-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/hero/bargoin-exi-acbim-tz-tn-m3d-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/hero/bargoin-exi-acbim-tz-tn-m3d-w1600.webp"
+      }
+    ]
+  },
+  "hero/BEFFROI_6.webp": {
+    "source": "hero/BEFFROI_6.webp",
+    "fallback": "/images/optimized/hero/beffroi-6.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/hero/beffroi-6-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/hero/beffroi-6-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/hero/beffroi-6-w1600.webp"
+      }
+    ]
+  },
+  "hero/bgClient.jpg": {
+    "source": "hero/bgClient.jpg",
+    "fallback": "/images/optimized/hero/bgclient.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/hero/bgclient-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/hero/bgclient-w1280.webp"
+      },
+      {
+        "width": 1300,
+        "src": "/images/optimized/hero/bgclient-w1300.webp"
+      }
+    ]
+  },
+  "hero/Chateau de Sedieres 20220616 DEF.png": {
+    "source": "hero/Chateau de Sedieres 20220616 DEF.png",
+    "fallback": "/images/optimized/hero/chateau-de-sedieres-20220616-def.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/hero/chateau-de-sedieres-20220616-def-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/hero/chateau-de-sedieres-20220616-def-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/hero/chateau-de-sedieres-20220616-def-w1600.webp"
+      }
+    ]
+  },
+  "hero/Chateau de Sedieres 20220616 DEF2.png": {
+    "source": "hero/Chateau de Sedieres 20220616 DEF2.png",
+    "fallback": "/images/optimized/hero/chateau-de-sedieres-20220616-def2.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/hero/chateau-de-sedieres-20220616-def2-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/hero/chateau-de-sedieres-20220616-def2-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/hero/chateau-de-sedieres-20220616-def2-w1600.webp"
+      }
+    ]
+  },
+  "hero/ChateauA0.png": {
+    "source": "hero/ChateauA0.png",
+    "fallback": "/images/optimized/hero/chateaua0.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/hero/chateaua0-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/hero/chateaua0-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/hero/chateaua0-w1600.webp"
+      }
+    ]
+  },
+  "hero/contour-de-carte-topo.jpg": {
+    "source": "hero/contour-de-carte-topo.jpg",
+    "fallback": "/images/optimized/hero/contour-de-carte-topo.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/hero/contour-de-carte-topo-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/hero/contour-de-carte-topo-w1280.webp"
+      },
+      {
+        "width": 1300,
+        "src": "/images/optimized/hero/contour-de-carte-topo-w1300.webp"
+      }
+    ]
+  },
+  "hero/Image2_002.webp": {
+    "source": "hero/Image2_002.webp",
+    "fallback": "/images/optimized/hero/image2-002.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/hero/image2-002-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/hero/image2-002-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/hero/image2-002-w1600.webp"
+      }
+    ]
+  },
+  "hero/Image33.webp": {
+    "source": "hero/Image33.webp",
+    "fallback": "/images/optimized/hero/image33.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/hero/image33-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/hero/image33-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/hero/image33-w1600.webp"
+      }
+    ]
+  },
+  "hero/M4E.png": {
+    "source": "hero/M4E.png",
+    "fallback": "/images/optimized/hero/m4e.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/hero/m4e-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/hero/m4e-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/hero/m4e-w1600.webp"
+      }
+    ]
+  },
+  "hero/MP_RealEstate-dollhouse.webp": {
+    "source": "hero/MP_RealEstate-dollhouse.webp",
+    "fallback": "/images/optimized/hero/mp-realestate-dollhouse.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/hero/mp-realestate-dollhouse-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/hero/mp-realestate-dollhouse-w1280.webp"
+      },
+      {
+        "width": 1512,
+        "src": "/images/optimized/hero/mp-realestate-dollhouse-w1512.webp"
+      }
+    ]
+  },
+  "hero/ortho image de facade.webp": {
+    "source": "hero/ortho image de facade.webp",
+    "fallback": "/images/optimized/hero/ortho-image-de-facade.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/hero/ortho-image-de-facade-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/hero/ortho-image-de-facade-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/hero/ortho-image-de-facade-w1600.webp"
+      }
+    ]
+  },
+  "Icons/cloud_PC.svg": {
+    "source": "Icons/cloud_PC.svg",
+    "fallback": "/images/optimized/icons/cloud-pc.webp",
+    "variants": [
+      {
+        "width": 24,
+        "src": "/images/optimized/icons/cloud-pc-w24.webp"
+      }
+    ]
+  },
+  "Icons/drone.svg": {
+    "source": "Icons/drone.svg",
+    "fallback": "/images/optimized/icons/drone.webp",
+    "variants": [
+      {
+        "width": 24,
+        "src": "/images/optimized/icons/drone-w24.webp"
+      }
+    ]
+  },
+  "Icons/floorplan-solid.svg": {
+    "source": "Icons/floorplan-solid.svg",
+    "fallback": "/images/optimized/icons/floorplan-solid.webp",
+    "variants": [
+      {
+        "width": 15,
+        "src": "/images/optimized/icons/floorplan-solid-w15.webp"
+      }
+    ]
+  },
+  "Icons/reno_energetique.svg": {
+    "source": "Icons/reno_energetique.svg",
+    "fallback": "/images/optimized/icons/reno-energetique.webp",
+    "variants": [
+      {
+        "width": 32,
+        "src": "/images/optimized/icons/reno-energetique-w32.webp"
+      }
+    ]
+  },
+  "Icons/vr360.svg": {
+    "source": "Icons/vr360.svg",
+    "fallback": "/images/optimized/icons/vr360.webp",
+    "variants": [
+      {
+        "width": 24,
+        "src": "/images/optimized/icons/vr360-w24.webp"
+      }
+    ]
+  },
+  "imges 3d/Aerienne_1.jpg": {
+    "source": "imges 3d/Aerienne_1.jpg",
+    "fallback": "/images/optimized/imges-3d/aerienne-1.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/imges-3d/aerienne-1-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/imges-3d/aerienne-1-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/imges-3d/aerienne-1-w1600.webp"
+      }
+    ]
+  },
+  "imges 3d/BEFFROI_2.jpg": {
+    "source": "imges 3d/BEFFROI_2.jpg",
+    "fallback": "/images/optimized/imges-3d/beffroi-2.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/imges-3d/beffroi-2-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/imges-3d/beffroi-2-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/imges-3d/beffroi-2-w1600.webp"
+      }
+    ]
+  },
+  "imges 3d/BEFFROI_5.webp": {
+    "source": "imges 3d/BEFFROI_5.webp",
+    "fallback": "/images/optimized/imges-3d/beffroi-5.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/imges-3d/beffroi-5-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/imges-3d/beffroi-5-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/imges-3d/beffroi-5-w1600.webp"
+      }
+    ]
+  },
+  "imges 3d/BEFFROI_6.webp": {
+    "source": "imges 3d/BEFFROI_6.webp",
+    "fallback": "/images/optimized/imges-3d/beffroi-6.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/imges-3d/beffroi-6-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/imges-3d/beffroi-6-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/imges-3d/beffroi-6-w1600.webp"
+      }
+    ]
+  },
+  "imges 3d/BEFFROI_HAUT_1.jpg": {
+    "source": "imges 3d/BEFFROI_HAUT_1.jpg",
+    "fallback": "/images/optimized/imges-3d/beffroi-haut-1.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/imges-3d/beffroi-haut-1-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/imges-3d/beffroi-haut-1-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/imges-3d/beffroi-haut-1-w1600.webp"
+      }
+    ]
+  },
+  "imges 3d/COUSTIL_5.jpg": {
+    "source": "imges 3d/COUSTIL_5.jpg",
+    "fallback": "/images/optimized/imges-3d/coustil-5.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/imges-3d/coustil-5-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/imges-3d/coustil-5-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/imges-3d/coustil-5-w1600.webp"
+      }
+    ]
+  },
+  "imges 3d/COUSTIL_6_000.jpg": {
+    "source": "imges 3d/COUSTIL_6_000.jpg",
+    "fallback": "/images/optimized/imges-3d/coustil-6-000.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/imges-3d/coustil-6-000-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/imges-3d/coustil-6-000-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/imges-3d/coustil-6-000-w1600.webp"
+      }
+    ]
+  },
+  "imges 3d/Image2.webp": {
+    "source": "imges 3d/Image2.webp",
+    "fallback": "/images/optimized/imges-3d/image2.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/imges-3d/image2-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/imges-3d/image2-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/imges-3d/image2-w1600.webp"
+      }
+    ]
+  },
+  "imges 3d/Image26.webp": {
+    "source": "imges 3d/Image26.webp",
+    "fallback": "/images/optimized/imges-3d/image26.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/imges-3d/image26-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/imges-3d/image26-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/imges-3d/image26-w1600.webp"
+      }
+    ]
+  },
+  "imges 3d/Image27.webp": {
+    "source": "imges 3d/Image27.webp",
+    "fallback": "/images/optimized/imges-3d/image27.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/imges-3d/image27-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/imges-3d/image27-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/imges-3d/image27-w1600.webp"
+      }
+    ]
+  },
+  "imges 3d/Image28.webp": {
+    "source": "imges 3d/Image28.webp",
+    "fallback": "/images/optimized/imges-3d/image28.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/imges-3d/image28-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/imges-3d/image28-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/imges-3d/image28-w1600.webp"
+      }
+    ]
+  },
+  "imges 3d/Image29.webp": {
+    "source": "imges 3d/Image29.webp",
+    "fallback": "/images/optimized/imges-3d/image29.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/imges-3d/image29-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/imges-3d/image29-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/imges-3d/image29-w1600.webp"
+      }
+    ]
+  },
+  "imges 3d/Image2_000.webp": {
+    "source": "imges 3d/Image2_000.webp",
+    "fallback": "/images/optimized/imges-3d/image2-000.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/imges-3d/image2-000-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/imges-3d/image2-000-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/imges-3d/image2-000-w1600.webp"
+      }
+    ]
+  },
+  "imges 3d/Image2_002.webp": {
+    "source": "imges 3d/Image2_002.webp",
+    "fallback": "/images/optimized/imges-3d/image2-002.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/imges-3d/image2-002-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/imges-3d/image2-002-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/imges-3d/image2-002-w1600.webp"
+      }
+    ]
+  },
+  "imges 3d/Image2_005.webp": {
+    "source": "imges 3d/Image2_005.webp",
+    "fallback": "/images/optimized/imges-3d/image2-005.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/imges-3d/image2-005-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/imges-3d/image2-005-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/imges-3d/image2-005-w1600.webp"
+      }
+    ]
+  },
+  "imges 3d/Image2_006.webp": {
+    "source": "imges 3d/Image2_006.webp",
+    "fallback": "/images/optimized/imges-3d/image2-006.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/imges-3d/image2-006-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/imges-3d/image2-006-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/imges-3d/image2-006-w1600.webp"
+      }
+    ]
+  },
+  "imges 3d/Image2_007.webp": {
+    "source": "imges 3d/Image2_007.webp",
+    "fallback": "/images/optimized/imges-3d/image2-007.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/imges-3d/image2-007-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/imges-3d/image2-007-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/imges-3d/image2-007-w1600.webp"
+      }
+    ]
+  },
+  "imges 3d/Image30.webp": {
+    "source": "imges 3d/Image30.webp",
+    "fallback": "/images/optimized/imges-3d/image30.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/imges-3d/image30-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/imges-3d/image30-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/imges-3d/image30-w1600.webp"
+      }
+    ]
+  },
+  "imges 3d/Image31.webp": {
+    "source": "imges 3d/Image31.webp",
+    "fallback": "/images/optimized/imges-3d/image31.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/imges-3d/image31-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/imges-3d/image31-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/imges-3d/image31-w1600.webp"
+      }
+    ]
+  },
+  "imges 3d/Image31_000.webp": {
+    "source": "imges 3d/Image31_000.webp",
+    "fallback": "/images/optimized/imges-3d/image31-000.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/imges-3d/image31-000-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/imges-3d/image31-000-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/imges-3d/image31-000-w1600.webp"
+      }
+    ]
+  },
+  "imges 3d/Image32.webp": {
+    "source": "imges 3d/Image32.webp",
+    "fallback": "/images/optimized/imges-3d/image32.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/imges-3d/image32-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/imges-3d/image32-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/imges-3d/image32-w1600.webp"
+      }
+    ]
+  },
+  "imges 3d/Image33.webp": {
+    "source": "imges 3d/Image33.webp",
+    "fallback": "/images/optimized/imges-3d/image33.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/imges-3d/image33-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/imges-3d/image33-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/imges-3d/image33-w1600.webp"
+      }
+    ]
+  },
+  "imges 3d/Image34.webp": {
+    "source": "imges 3d/Image34.webp",
+    "fallback": "/images/optimized/imges-3d/image34.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/imges-3d/image34-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/imges-3d/image34-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/imges-3d/image34-w1600.webp"
+      }
+    ]
+  },
+  "imges 3d/Vidéo1 - Instantané1.webp": {
+    "source": "imges 3d/Vidéo1 - Instantané1.webp",
+    "fallback": "/images/optimized/imges-3d/video1-instantane1.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/imges-3d/video1-instantane1-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/imges-3d/video1-instantane1-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/imges-3d/video1-instantane1-w1600.webp"
+      }
+    ]
+  },
+  "maquette numerique 3d bim/20200121_DGFIP_AURILLAC_04.webp": {
+    "source": "maquette numerique 3d bim/20200121_DGFIP_AURILLAC_04.webp",
+    "fallback": "/images/optimized/maquette-numerique-3d-bim/20200121-dgfip-aurillac-04.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/maquette-numerique-3d-bim/20200121-dgfip-aurillac-04-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/maquette-numerique-3d-bim/20200121-dgfip-aurillac-04-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/maquette-numerique-3d-bim/20200121-dgfip-aurillac-04-w1600.webp"
+      }
+    ]
+  },
+  "maquette numerique 3d bim/barg.png": {
+    "source": "maquette numerique 3d bim/barg.png",
+    "fallback": "/images/optimized/maquette-numerique-3d-bim/barg.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/maquette-numerique-3d-bim/barg-w768.webp"
+      },
+      {
+        "width": 851,
+        "src": "/images/optimized/maquette-numerique-3d-bim/barg-w851.webp"
+      }
+    ]
+  },
+  "maquette numerique 3d bim/bargoin1.png": {
+    "source": "maquette numerique 3d bim/bargoin1.png",
+    "fallback": "/images/optimized/maquette-numerique-3d-bim/bargoin1.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/maquette-numerique-3d-bim/bargoin1-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/maquette-numerique-3d-bim/bargoin1-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/maquette-numerique-3d-bim/bargoin1-w1600.webp"
+      }
+    ]
+  },
+  "maquette numerique 3d bim/bargoin2.png": {
+    "source": "maquette numerique 3d bim/bargoin2.png",
+    "fallback": "/images/optimized/maquette-numerique-3d-bim/bargoin2.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/maquette-numerique-3d-bim/bargoin2-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/maquette-numerique-3d-bim/bargoin2-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/maquette-numerique-3d-bim/bargoin2-w1600.webp"
+      }
+    ]
+  },
+  "maquette numerique 3d bim/bargoin3.png": {
+    "source": "maquette numerique 3d bim/bargoin3.png",
+    "fallback": "/images/optimized/maquette-numerique-3d-bim/bargoin3.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/maquette-numerique-3d-bim/bargoin3-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/maquette-numerique-3d-bim/bargoin3-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/maquette-numerique-3d-bim/bargoin3-w1600.webp"
+      }
+    ]
+  },
+  "maquette numerique 3d bim/bargoin3.webp": {
+    "source": "maquette numerique 3d bim/bargoin3.webp",
+    "fallback": "/images/optimized/maquette-numerique-3d-bim/bargoin3-2.webp",
+    "variants": [
+      {
+        "width": 639,
+        "src": "/images/optimized/maquette-numerique-3d-bim/bargoin3-2-w639.webp"
+      }
+    ]
+  },
+  "maquette numerique 3d bim/HDD.webp": {
+    "source": "maquette numerique 3d bim/HDD.webp",
+    "fallback": "/images/optimized/maquette-numerique-3d-bim/hdd.webp",
+    "variants": [
+      {
+        "width": 502,
+        "src": "/images/optimized/maquette-numerique-3d-bim/hdd-w502.webp"
+      }
+    ]
+  },
+  "maquette numerique 3d bim/Image1.png": {
+    "source": "maquette numerique 3d bim/Image1.png",
+    "fallback": "/images/optimized/maquette-numerique-3d-bim/image1.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/maquette-numerique-3d-bim/image1-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/maquette-numerique-3d-bim/image1-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/maquette-numerique-3d-bim/image1-w1600.webp"
+      }
+    ]
+  },
+  "maquette numerique 3d bim/laumond-bi.png": {
+    "source": "maquette numerique 3d bim/laumond-bi.png",
+    "fallback": "/images/optimized/maquette-numerique-3d-bim/laumond-bi.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/maquette-numerique-3d-bim/laumond-bi-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/maquette-numerique-3d-bim/laumond-bi-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/maquette-numerique-3d-bim/laumond-bi-w1600.webp"
+      }
+    ]
+  },
+  "maquette numerique 3d bim/laumond-plan.png": {
+    "source": "maquette numerique 3d bim/laumond-plan.png",
+    "fallback": "/images/optimized/maquette-numerique-3d-bim/laumond-plan.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/maquette-numerique-3d-bim/laumond-plan-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/maquette-numerique-3d-bim/laumond-plan-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/maquette-numerique-3d-bim/laumond-plan-w1600.webp"
+      }
+    ]
+  },
+  "maquette numerique 3d bim/laumond1.png": {
+    "source": "maquette numerique 3d bim/laumond1.png",
+    "fallback": "/images/optimized/maquette-numerique-3d-bim/laumond1.webp",
+    "variants": [
+      {
+        "width": 733,
+        "src": "/images/optimized/maquette-numerique-3d-bim/laumond1-w733.webp"
+      }
+    ]
+  },
+  "maquette numerique 3d bim/laumond2.png": {
+    "source": "maquette numerique 3d bim/laumond2.png",
+    "fallback": "/images/optimized/maquette-numerique-3d-bim/laumond2.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/maquette-numerique-3d-bim/laumond2-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/maquette-numerique-3d-bim/laumond2-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/maquette-numerique-3d-bim/laumond2-w1600.webp"
+      }
+    ]
+  },
+  "maquette numerique 3d bim/laumond3.png": {
+    "source": "maquette numerique 3d bim/laumond3.png",
+    "fallback": "/images/optimized/maquette-numerique-3d-bim/laumond3.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/maquette-numerique-3d-bim/laumond3-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/maquette-numerique-3d-bim/laumond3-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/maquette-numerique-3d-bim/laumond3-w1600.webp"
+      }
+    ]
+  },
+  "maquette numerique 3d bim/laumond4.png": {
+    "source": "maquette numerique 3d bim/laumond4.png",
+    "fallback": "/images/optimized/maquette-numerique-3d-bim/laumond4.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/maquette-numerique-3d-bim/laumond4-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/maquette-numerique-3d-bim/laumond4-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/maquette-numerique-3d-bim/laumond4-w1600.webp"
+      }
+    ]
+  },
+  "maquette numerique 3d bim/laumond5.png": {
+    "source": "maquette numerique 3d bim/laumond5.png",
+    "fallback": "/images/optimized/maquette-numerique-3d-bim/laumond5.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/maquette-numerique-3d-bim/laumond5-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/maquette-numerique-3d-bim/laumond5-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/maquette-numerique-3d-bim/laumond5-w1600.webp"
+      }
+    ]
+  },
+  "maquette numerique 3d bim/maquetteetnuage.webp": {
+    "source": "maquette numerique 3d bim/maquetteetnuage.webp",
+    "fallback": "/images/optimized/maquette-numerique-3d-bim/maquetteetnuage.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/maquette-numerique-3d-bim/maquetteetnuage-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/maquette-numerique-3d-bim/maquetteetnuage-w1280.webp"
+      },
+      {
+        "width": 1543,
+        "src": "/images/optimized/maquette-numerique-3d-bim/maquetteetnuage-w1543.webp"
+      }
+    ]
+  },
+  "maquette numerique 3d bim/maquette_seule.webp": {
+    "source": "maquette numerique 3d bim/maquette_seule.webp",
+    "fallback": "/images/optimized/maquette-numerique-3d-bim/maquette-seule.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/maquette-numerique-3d-bim/maquette-seule-w768.webp"
+      },
+      {
+        "width": 1201,
+        "src": "/images/optimized/maquette-numerique-3d-bim/maquette-seule-w1201.webp"
+      }
+    ]
+  },
+  "maquette numerique 3d bim/patinoire-ifc-4-eclatee.png": {
+    "source": "maquette numerique 3d bim/patinoire-ifc-4-eclatee.png",
+    "fallback": "/images/optimized/maquette-numerique-3d-bim/patinoire-ifc-4-eclatee.webp",
+    "variants": [
+      {
+        "width": 488,
+        "src": "/images/optimized/maquette-numerique-3d-bim/patinoire-ifc-4-eclatee-w488.webp"
+      }
+    ]
+  },
+  "maquette numerique 3d bim/patinoire-ifc-4.png": {
+    "source": "maquette numerique 3d bim/patinoire-ifc-4.png",
+    "fallback": "/images/optimized/maquette-numerique-3d-bim/patinoire-ifc-4.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/maquette-numerique-3d-bim/patinoire-ifc-4-w768.webp"
+      },
+      {
+        "width": 1049,
+        "src": "/images/optimized/maquette-numerique-3d-bim/patinoire-ifc-4-w1049.webp"
+      }
+    ]
+  },
+  "maquette numerique 3d bim/patinoire-revit.png": {
+    "source": "maquette numerique 3d bim/patinoire-revit.png",
+    "fallback": "/images/optimized/maquette-numerique-3d-bim/patinoire-revit.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/maquette-numerique-3d-bim/patinoire-revit-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/maquette-numerique-3d-bim/patinoire-revit-w1280.webp"
+      },
+      {
+        "width": 1356,
+        "src": "/images/optimized/maquette-numerique-3d-bim/patinoire-revit-w1356.webp"
+      }
+    ]
+  },
+  "maquette numerique 3d bim/Process_synoptique.png": {
+    "source": "maquette numerique 3d bim/Process_synoptique.png",
+    "fallback": "/images/optimized/maquette-numerique-3d-bim/process-synoptique.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/maquette-numerique-3d-bim/process-synoptique-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/maquette-numerique-3d-bim/process-synoptique-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/maquette-numerique-3d-bim/process-synoptique-w1600.webp"
+      }
+    ]
+  },
+  "maquette numerique 3d bim/saintmam.png": {
+    "source": "maquette numerique 3d bim/saintmam.png",
+    "fallback": "/images/optimized/maquette-numerique-3d-bim/saintmam.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/maquette-numerique-3d-bim/saintmam-w768.webp"
+      },
+      {
+        "width": 1045,
+        "src": "/images/optimized/maquette-numerique-3d-bim/saintmam-w1045.webp"
+      }
+    ]
+  },
+  "maquette numerique 3d bim/sedieres1.png": {
+    "source": "maquette numerique 3d bim/sedieres1.png",
+    "fallback": "/images/optimized/maquette-numerique-3d-bim/sedieres1.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/maquette-numerique-3d-bim/sedieres1-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/maquette-numerique-3d-bim/sedieres1-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/maquette-numerique-3d-bim/sedieres1-w1600.webp"
+      }
+    ]
+  },
+  "maquette numerique 3d bim/sedieres2.png": {
+    "source": "maquette numerique 3d bim/sedieres2.png",
+    "fallback": "/images/optimized/maquette-numerique-3d-bim/sedieres2.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/maquette-numerique-3d-bim/sedieres2-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/maquette-numerique-3d-bim/sedieres2-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/maquette-numerique-3d-bim/sedieres2-w1600.webp"
+      }
+    ]
+  },
+  "maquette numerique 3d bim/THERMIQUE.webp": {
+    "source": "maquette numerique 3d bim/THERMIQUE.webp",
+    "fallback": "/images/optimized/maquette-numerique-3d-bim/thermique.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/maquette-numerique-3d-bim/thermique-w768.webp"
+      },
+      {
+        "width": 913,
+        "src": "/images/optimized/maquette-numerique-3d-bim/thermique-w913.webp"
+      }
+    ]
+  },
+  "maquette numerique 3d bim/THERMIQUE_vert.webp": {
+    "source": "maquette numerique 3d bim/THERMIQUE_vert.webp",
+    "fallback": "/images/optimized/maquette-numerique-3d-bim/thermique-vert.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/maquette-numerique-3d-bim/thermique-vert-w768.webp"
+      },
+      {
+        "width": 913,
+        "src": "/images/optimized/maquette-numerique-3d-bim/thermique-vert-w913.webp"
+      }
+    ]
+  },
+  "nuage de points/nuage de points abtract visualization.webp": {
+    "source": "nuage de points/nuage de points abtract visualization.webp",
+    "fallback": "/images/optimized/nuage-de-points/nuage-de-points-abtract-visualization.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/nuage-de-points/nuage-de-points-abtract-visualization-w768.webp"
+      },
+      {
+        "width": 943,
+        "src": "/images/optimized/nuage-de-points/nuage-de-points-abtract-visualization-w943.webp"
+      }
+    ]
+  },
+  "nuage de points/patinoire_PC.png": {
+    "source": "nuage de points/patinoire_PC.png",
+    "fallback": "/images/optimized/nuage-de-points/patinoire-pc.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/nuage-de-points/patinoire-pc-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/nuage-de-points/patinoire-pc-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/nuage-de-points/patinoire-pc-w1600.webp"
+      }
+    ]
+  },
+  "nuage de points/vebret-nuage-classif.png": {
+    "source": "nuage de points/vebret-nuage-classif.png",
+    "fallback": "/images/optimized/nuage-de-points/vebret-nuage-classif.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/nuage-de-points/vebret-nuage-classif-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/nuage-de-points/vebret-nuage-classif-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/nuage-de-points/vebret-nuage-classif-w1600.webp"
+      }
+    ]
+  },
+  "nuage de points/vebret-nuage.png": {
+    "source": "nuage de points/vebret-nuage.png",
+    "fallback": "/images/optimized/nuage-de-points/vebret-nuage.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/nuage-de-points/vebret-nuage-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/nuage-de-points/vebret-nuage-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/nuage-de-points/vebret-nuage-w1600.webp"
+      }
+    ]
+  },
+  "nuage de points/visu_nuage.webp": {
+    "source": "nuage de points/visu_nuage.webp",
+    "fallback": "/images/optimized/nuage-de-points/visu-nuage.webp",
+    "variants": [
+      {
+        "width": 410,
+        "src": "/images/optimized/nuage-de-points/visu-nuage-w410.webp"
+      }
+    ]
+  },
+  "og-default.png": {
+    "source": "og-default.png",
+    "fallback": "/images/optimized/og-default.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/og-default-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/og-default-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/og-default-w1600.webp"
+      }
+    ]
+  },
+  "partenaires/ACDEAU_quadri.webp": {
+    "source": "partenaires/ACDEAU_quadri.webp",
+    "fallback": "/images/optimized/partenaires/acdeau-quadri.webp",
+    "variants": [
+      {
+        "width": 240,
+        "src": "/images/optimized/partenaires/acdeau-quadri-w240.webp"
+      }
+    ]
+  },
+  "partenaires/EREAH_logo.jfif": {
+    "source": "partenaires/EREAH_logo.jfif",
+    "fallback": "/images/optimized/partenaires/ereah-logo.webp",
+    "variants": [
+      {
+        "width": 200,
+        "src": "/images/optimized/partenaires/ereah-logo-w200.webp"
+      }
+    ]
+  },
+  "partenaires/LOGO-G_VERTICAL.png": {
+    "source": "partenaires/LOGO-G_VERTICAL.png",
+    "fallback": "/images/optimized/partenaires/logo-g-vertical.webp",
+    "variants": [
+      {
+        "width": 163,
+        "src": "/images/optimized/partenaires/logo-g-vertical-w163.webp"
+      }
+    ]
+  },
+  "partenaires/Logotype-EnerBIM-gd.webp": {
+    "source": "partenaires/Logotype-EnerBIM-gd.webp",
+    "fallback": "/images/optimized/partenaires/logotype-enerbim-gd.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/partenaires/logotype-enerbim-gd-w768.webp"
+      },
+      {
+        "width": 1042,
+        "src": "/images/optimized/partenaires/logotype-enerbim-gd-w1042.webp"
+      }
+    ]
+  },
+  "plans 2d/360-facade.png": {
+    "source": "plans 2d/360-facade.png",
+    "fallback": "/images/optimized/plans-2d/360-facade.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/plans-2d/360-facade-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/plans-2d/360-facade-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/plans-2d/360-facade-w1600.webp"
+      }
+    ]
+  },
+  "plans 2d/cahors.png": {
+    "source": "plans 2d/cahors.png",
+    "fallback": "/images/optimized/plans-2d/cahors.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/plans-2d/cahors-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/plans-2d/cahors-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/plans-2d/cahors-w1600.webp"
+      }
+    ]
+  },
+  "plans 2d/cd19.png": {
+    "source": "plans 2d/cd19.png",
+    "fallback": "/images/optimized/plans-2d/cd19.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/plans-2d/cd19-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/plans-2d/cd19-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/plans-2d/cd19-w1600.webp"
+      }
+    ]
+  },
+  "plans 2d/ch-avec-nuage.png": {
+    "source": "plans 2d/ch-avec-nuage.png",
+    "fallback": "/images/optimized/plans-2d/ch-avec-nuage.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/plans-2d/ch-avec-nuage-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/plans-2d/ch-avec-nuage-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/plans-2d/ch-avec-nuage-w1600.webp"
+      }
+    ]
+  },
+  "plans 2d/drugeac-topo-ortho.png": {
+    "source": "plans 2d/drugeac-topo-ortho.png",
+    "fallback": "/images/optimized/plans-2d/drugeac-topo-ortho.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/plans-2d/drugeac-topo-ortho-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/plans-2d/drugeac-topo-ortho-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/plans-2d/drugeac-topo-ortho-w1600.webp"
+      }
+    ]
+  },
+  "plans 2d/drugeac-topo.png": {
+    "source": "plans 2d/drugeac-topo.png",
+    "fallback": "/images/optimized/plans-2d/drugeac-topo.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/plans-2d/drugeac-topo-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/plans-2d/drugeac-topo-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/plans-2d/drugeac-topo-w1600.webp"
+      }
+    ]
+  },
+  "plans 2d/eco-musee.png": {
+    "source": "plans 2d/eco-musee.png",
+    "fallback": "/images/optimized/plans-2d/eco-musee.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/plans-2d/eco-musee-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/plans-2d/eco-musee-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/plans-2d/eco-musee-w1600.webp"
+      }
+    ]
+  },
+  "plans 2d/facade-a.png": {
+    "source": "plans 2d/facade-a.png",
+    "fallback": "/images/optimized/plans-2d/facade-a.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/plans-2d/facade-a-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/plans-2d/facade-a-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/plans-2d/facade-a-w1600.webp"
+      }
+    ]
+  },
+  "plans 2d/facade-autocad.png": {
+    "source": "plans 2d/facade-autocad.png",
+    "fallback": "/images/optimized/plans-2d/facade-autocad.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/plans-2d/facade-autocad-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/plans-2d/facade-autocad-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/plans-2d/facade-autocad-w1600.webp"
+      }
+    ]
+  },
+  "plans 2d/facade-b.png": {
+    "source": "plans 2d/facade-b.png",
+    "fallback": "/images/optimized/plans-2d/facade-b.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/plans-2d/facade-b-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/plans-2d/facade-b-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/plans-2d/facade-b-w1600.webp"
+      }
+    ]
+  },
+  "plans 2d/nuage-facade.png": {
+    "source": "plans 2d/nuage-facade.png",
+    "fallback": "/images/optimized/plans-2d/nuage-facade.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/plans-2d/nuage-facade-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/plans-2d/nuage-facade-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/plans-2d/nuage-facade-w1600.webp"
+      }
+    ]
+  },
+  "plans 2d/orthoimage facade.webp": {
+    "source": "plans 2d/orthoimage facade.webp",
+    "fallback": "/images/optimized/plans-2d/orthoimage-facade.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/plans-2d/orthoimage-facade-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/plans-2d/orthoimage-facade-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/plans-2d/orthoimage-facade-w1600.webp"
+      }
+    ]
+  },
+  "plans 2d/patinoire1.png": {
+    "source": "plans 2d/patinoire1.png",
+    "fallback": "/images/optimized/plans-2d/patinoire1.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/plans-2d/patinoire1-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/plans-2d/patinoire1-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/plans-2d/patinoire1-w1600.webp"
+      }
+    ]
+  },
+  "plans 2d/patinoire2.png": {
+    "source": "plans 2d/patinoire2.png",
+    "fallback": "/images/optimized/plans-2d/patinoire2.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/plans-2d/patinoire2-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/plans-2d/patinoire2-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/plans-2d/patinoire2-w1600.webp"
+      }
+    ]
+  },
+  "plans 2d/patinoire3.png": {
+    "source": "plans 2d/patinoire3.png",
+    "fallback": "/images/optimized/plans-2d/patinoire3.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/plans-2d/patinoire3-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/plans-2d/patinoire3-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/plans-2d/patinoire3-w1600.webp"
+      }
+    ]
+  },
+  "plans 2d/patinoire4.png": {
+    "source": "plans 2d/patinoire4.png",
+    "fallback": "/images/optimized/plans-2d/patinoire4.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/plans-2d/patinoire4-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/plans-2d/patinoire4-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/plans-2d/patinoire4-w1600.webp"
+      }
+    ]
+  },
+  "plans 2d/patinoire5.png": {
+    "source": "plans 2d/patinoire5.png",
+    "fallback": "/images/optimized/plans-2d/patinoire5.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/plans-2d/patinoire5-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/plans-2d/patinoire5-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/plans-2d/patinoire5-w1600.webp"
+      }
+    ]
+  },
+  "plans 2d/patinoire6.png": {
+    "source": "plans 2d/patinoire6.png",
+    "fallback": "/images/optimized/plans-2d/patinoire6.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/plans-2d/patinoire6-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/plans-2d/patinoire6-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/plans-2d/patinoire6-w1600.webp"
+      }
+    ]
+  },
+  "plans 2d/patinoire7.png": {
+    "source": "plans 2d/patinoire7.png",
+    "fallback": "/images/optimized/plans-2d/patinoire7.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/plans-2d/patinoire7-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/plans-2d/patinoire7-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/plans-2d/patinoire7-w1600.webp"
+      }
+    ]
+  },
+  "plans 2d/patinoire8.png": {
+    "source": "plans 2d/patinoire8.png",
+    "fallback": "/images/optimized/plans-2d/patinoire8.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/plans-2d/patinoire8-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/plans-2d/patinoire8-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/plans-2d/patinoire8-w1600.webp"
+      }
+    ]
+  },
+  "plans 2d/plan-sedieres.png": {
+    "source": "plans 2d/plan-sedieres.png",
+    "fallback": "/images/optimized/plans-2d/plan-sedieres.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/plans-2d/plan-sedieres-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/plans-2d/plan-sedieres-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/plans-2d/plan-sedieres-w1600.webp"
+      }
+    ]
+  },
+  "plans 2d/plan.webp": {
+    "source": "plans 2d/plan.webp",
+    "fallback": "/images/optimized/plans-2d/plan.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/plans-2d/plan-w768.webp"
+      },
+      {
+        "width": 864,
+        "src": "/images/optimized/plans-2d/plan-w864.webp"
+      }
+    ]
+  },
+  "plans 2d/pleaufacade.png": {
+    "source": "plans 2d/pleaufacade.png",
+    "fallback": "/images/optimized/plans-2d/pleaufacade.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/plans-2d/pleaufacade-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/plans-2d/pleaufacade-w1280.webp"
+      },
+      {
+        "width": 1419,
+        "src": "/images/optimized/plans-2d/pleaufacade-w1419.webp"
+      }
+    ]
+  },
+  "plans 2d/sedieres-coupe.png": {
+    "source": "plans 2d/sedieres-coupe.png",
+    "fallback": "/images/optimized/plans-2d/sedieres-coupe.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/plans-2d/sedieres-coupe-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/plans-2d/sedieres-coupe-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/plans-2d/sedieres-coupe-w1600.webp"
+      }
+    ]
+  },
+  "plans 2d/sedieres-facade1.png": {
+    "source": "plans 2d/sedieres-facade1.png",
+    "fallback": "/images/optimized/plans-2d/sedieres-facade1.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/plans-2d/sedieres-facade1-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/plans-2d/sedieres-facade1-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/plans-2d/sedieres-facade1-w1600.webp"
+      }
+    ]
+  },
+  "plans 2d/sedieres-facade2.png": {
+    "source": "plans 2d/sedieres-facade2.png",
+    "fallback": "/images/optimized/plans-2d/sedieres-facade2.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/plans-2d/sedieres-facade2-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/plans-2d/sedieres-facade2-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/plans-2d/sedieres-facade2-w1600.webp"
+      }
+    ]
+  },
+  "plans 2d/topo.png": {
+    "source": "plans 2d/topo.png",
+    "fallback": "/images/optimized/plans-2d/topo.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/plans-2d/topo-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/plans-2d/topo-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/plans-2d/topo-w1600.webp"
+      }
+    ]
+  },
+  "plans 2d/vic-plan.png": {
+    "source": "plans 2d/vic-plan.png",
+    "fallback": "/images/optimized/plans-2d/vic-plan.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/plans-2d/vic-plan-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/plans-2d/vic-plan-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/plans-2d/vic-plan-w1600.webp"
+      }
+    ]
+  },
+  "plans 2d/vic1.png": {
+    "source": "plans 2d/vic1.png",
+    "fallback": "/images/optimized/plans-2d/vic1.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/plans-2d/vic1-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/plans-2d/vic1-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/plans-2d/vic1-w1600.webp"
+      }
+    ]
+  },
+  "plans 2d/vic10.png": {
+    "source": "plans 2d/vic10.png",
+    "fallback": "/images/optimized/plans-2d/vic10.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/plans-2d/vic10-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/plans-2d/vic10-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/plans-2d/vic10-w1600.webp"
+      }
+    ]
+  },
+  "plans 2d/vic11.png": {
+    "source": "plans 2d/vic11.png",
+    "fallback": "/images/optimized/plans-2d/vic11.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/plans-2d/vic11-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/plans-2d/vic11-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/plans-2d/vic11-w1600.webp"
+      }
+    ]
+  },
+  "plans 2d/vic2.png": {
+    "source": "plans 2d/vic2.png",
+    "fallback": "/images/optimized/plans-2d/vic2.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/plans-2d/vic2-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/plans-2d/vic2-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/plans-2d/vic2-w1600.webp"
+      }
+    ]
+  },
+  "plans 2d/vic3.png": {
+    "source": "plans 2d/vic3.png",
+    "fallback": "/images/optimized/plans-2d/vic3.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/plans-2d/vic3-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/plans-2d/vic3-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/plans-2d/vic3-w1600.webp"
+      }
+    ]
+  },
+  "preb/audit.png": {
+    "source": "preb/audit.png",
+    "fallback": "/images/optimized/preb/audit.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/preb/audit-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/preb/audit-w1280.webp"
+      },
+      {
+        "width": 1468,
+        "src": "/images/optimized/preb/audit-w1468.webp"
+      }
+    ]
+  },
+  "preb/maquetteetnuage.webp": {
+    "source": "preb/maquetteetnuage.webp",
+    "fallback": "/images/optimized/preb/maquetteetnuage.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/preb/maquetteetnuage-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/preb/maquetteetnuage-w1280.webp"
+      },
+      {
+        "width": 1543,
+        "src": "/images/optimized/preb/maquetteetnuage-w1543.webp"
+      }
+    ]
+  },
+  "preb/maquette_seule.webp": {
+    "source": "preb/maquette_seule.webp",
+    "fallback": "/images/optimized/preb/maquette-seule.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/preb/maquette-seule-w768.webp"
+      },
+      {
+        "width": 1201,
+        "src": "/images/optimized/preb/maquette-seule-w1201.webp"
+      }
+    ]
+  },
+  "preb/THERMIQUE.webp": {
+    "source": "preb/THERMIQUE.webp",
+    "fallback": "/images/optimized/preb/thermique.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/preb/thermique-w768.webp"
+      },
+      {
+        "width": 913,
+        "src": "/images/optimized/preb/thermique-w913.webp"
+      }
+    ]
+  },
+  "preb/THERMIQUE_vert.webp": {
+    "source": "preb/THERMIQUE_vert.webp",
+    "fallback": "/images/optimized/preb/thermique-vert.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/preb/thermique-vert-w768.webp"
+      },
+      {
+        "width": 913,
+        "src": "/images/optimized/preb/thermique-vert-w913.webp"
+      }
+    ]
+  },
+  "scan 3D/assSalers.png": {
+    "source": "scan 3D/assSalers.png",
+    "fallback": "/images/optimized/scan-3d/asssalers.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/scan-3d/asssalers-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/scan-3d/asssalers-w1280.webp"
+      }
+    ]
+  },
+  "scan 3D/IMG_20230808_114545.webp": {
+    "source": "scan 3D/IMG_20230808_114545.webp",
+    "fallback": "/images/optimized/scan-3d/img-20230808-114545.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/scan-3d/img-20230808-114545-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/scan-3d/img-20230808-114545-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/scan-3d/img-20230808-114545-w1600.webp"
+      }
+    ]
+  },
+  "scan 3D/IMG_20230808_114622.webp": {
+    "source": "scan 3D/IMG_20230808_114622.webp",
+    "fallback": "/images/optimized/scan-3d/img-20230808-114622.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/scan-3d/img-20230808-114622-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/scan-3d/img-20230808-114622-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/scan-3d/img-20230808-114622-w1600.webp"
+      }
+    ]
+  },
+  "scan 3D/IMG_20230808_114631.webp": {
+    "source": "scan 3D/IMG_20230808_114631.webp",
+    "fallback": "/images/optimized/scan-3d/img-20230808-114631.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/scan-3d/img-20230808-114631-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/scan-3d/img-20230808-114631-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/scan-3d/img-20230808-114631-w1600.webp"
+      }
+    ]
+  },
+  "scan 3D/IMG_20230808_121047.webp": {
+    "source": "scan 3D/IMG_20230808_121047.webp",
+    "fallback": "/images/optimized/scan-3d/img-20230808-121047.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/scan-3d/img-20230808-121047-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/scan-3d/img-20230808-121047-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/scan-3d/img-20230808-121047-w1600.webp"
+      }
+    ]
+  },
+  "scan 3D/Leica-RTC360-LT-On-Tripod-with-Scan-Screen-Right-Facing-72dpi-RGB.webp": {
+    "source": "scan 3D/Leica-RTC360-LT-On-Tripod-with-Scan-Screen-Right-Facing-72dpi-RGB.webp",
+    "fallback": "/images/optimized/scan-3d/leica-rtc360-lt-on-tripod-with-scan-screen-right-facing-72dpi-rgb.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/scan-3d/leica-rtc360-lt-on-tripod-with-scan-screen-right-facing-72dpi-rgb-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/scan-3d/leica-rtc360-lt-on-tripod-with-scan-screen-right-facing-72dpi-rgb-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/scan-3d/leica-rtc360-lt-on-tripod-with-scan-screen-right-facing-72dpi-rgb-w1600.webp"
+      }
+    ]
+  },
+  "scan 3D/sedieres.png": {
+    "source": "scan 3D/sedieres.png",
+    "fallback": "/images/optimized/scan-3d/sedieres.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/scan-3d/sedieres-w768.webp"
+      },
+      {
+        "width": 986,
+        "src": "/images/optimized/scan-3d/sedieres-w986.webp"
+      }
+    ]
+  },
+  "scan 3D/telescopique_MARQ.jpg": {
+    "source": "scan 3D/telescopique_MARQ.jpg",
+    "fallback": "/images/optimized/scan-3d/telescopique-marq.webp",
+    "variants": [
+      {
+        "width": 618,
+        "src": "/images/optimized/scan-3d/telescopique-marq-w618.webp"
+      }
+    ]
+  },
+  "scan 3D/trepiedCrémaillère1.webp": {
+    "source": "scan 3D/trepiedCrémaillère1.webp",
+    "fallback": "/images/optimized/scan-3d/trepiedcremaillere1.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/scan-3d/trepiedcremaillere1-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/scan-3d/trepiedcremaillere1-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/scan-3d/trepiedcremaillere1-w1600.webp"
+      }
+    ]
+  },
+  "scan 3D/trepiedCrémaillère2.webp": {
+    "source": "scan 3D/trepiedCrémaillère2.webp",
+    "fallback": "/images/optimized/scan-3d/trepiedcremaillere2.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/scan-3d/trepiedcremaillere2-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/scan-3d/trepiedcremaillere2-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/scan-3d/trepiedcremaillere2-w1600.webp"
+      }
+    ]
+  },
+  "visite virtuelle/dollhouse.webp": {
+    "source": "visite virtuelle/dollhouse.webp",
+    "fallback": "/images/optimized/visite-virtuelle/dollhouse.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/visite-virtuelle/dollhouse-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/visite-virtuelle/dollhouse-w1280.webp"
+      },
+      {
+        "width": 1512,
+        "src": "/images/optimized/visite-virtuelle/dollhouse-w1512.webp"
+      }
+    ]
+  },
+  "visite virtuelle/housevr.webp": {
+    "source": "visite virtuelle/housevr.webp",
+    "fallback": "/images/optimized/visite-virtuelle/housevr.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/visite-virtuelle/housevr-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/visite-virtuelle/housevr-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/visite-virtuelle/housevr-w1600.webp"
+      }
+    ]
+  },
+  "visite virtuelle/matterport.webp": {
+    "source": "visite virtuelle/matterport.webp",
+    "fallback": "/images/optimized/visite-virtuelle/matterport.webp",
+    "variants": [
+      {
+        "width": 197,
+        "src": "/images/optimized/visite-virtuelle/matterport-w197.webp"
+      }
+    ]
+  },
+  "visite virtuelle/piscine1.jpg": {
+    "source": "visite virtuelle/piscine1.jpg",
+    "fallback": "/images/optimized/visite-virtuelle/piscine1.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/visite-virtuelle/piscine1-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/visite-virtuelle/piscine1-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/visite-virtuelle/piscine1-w1600.webp"
+      }
+    ]
+  },
+  "visite virtuelle/piscine2.jpg": {
+    "source": "visite virtuelle/piscine2.jpg",
+    "fallback": "/images/optimized/visite-virtuelle/piscine2.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/visite-virtuelle/piscine2-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/visite-virtuelle/piscine2-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/visite-virtuelle/piscine2-w1600.webp"
+      }
+    ]
+  },
+  "visite virtuelle/piscine3.jpg": {
+    "source": "visite virtuelle/piscine3.jpg",
+    "fallback": "/images/optimized/visite-virtuelle/piscine3.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/visite-virtuelle/piscine3-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/visite-virtuelle/piscine3-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/visite-virtuelle/piscine3-w1600.webp"
+      }
+    ]
+  },
+  "visite virtuelle/visitevirtuellecasquestablette.webp": {
+    "source": "visite virtuelle/visitevirtuellecasquestablette.webp",
+    "fallback": "/images/optimized/visite-virtuelle/visitevirtuellecasquestablette.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/visite-virtuelle/visitevirtuellecasquestablette-w768.webp"
+      },
+      {
+        "width": 1110,
+        "src": "/images/optimized/visite-virtuelle/visitevirtuellecasquestablette-w1110.webp"
+      }
+    ]
+  },
+  "visite virtuelle/vr1.webp": {
+    "source": "visite virtuelle/vr1.webp",
+    "fallback": "/images/optimized/visite-virtuelle/vr1.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/visite-virtuelle/vr1-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/visite-virtuelle/vr1-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/visite-virtuelle/vr1-w1600.webp"
+      }
+    ]
+  },
+  "vues aériennes/acbim-carrefour_aurillac.webp": {
+    "source": "vues aériennes/acbim-carrefour_aurillac.webp",
+    "fallback": "/images/optimized/vues-aeriennes/acbim-carrefour-aurillac.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/vues-aeriennes/acbim-carrefour-aurillac-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/vues-aeriennes/acbim-carrefour-aurillac-w1280.webp"
+      },
+      {
+        "width": 1498,
+        "src": "/images/optimized/vues-aeriennes/acbim-carrefour-aurillac-w1498.webp"
+      }
+    ]
+  },
+  "vues aériennes/Aerienne_2.webp": {
+    "source": "vues aériennes/Aerienne_2.webp",
+    "fallback": "/images/optimized/vues-aeriennes/aerienne-2.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/vues-aeriennes/aerienne-2-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/vues-aeriennes/aerienne-2-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/vues-aeriennes/aerienne-2-w1600.webp"
+      }
+    ]
+  },
+  "vues aériennes/drone-sedieres.JPG": {
+    "source": "vues aériennes/drone-sedieres.JPG",
+    "fallback": "/images/optimized/vues-aeriennes/drone-sedieres.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/vues-aeriennes/drone-sedieres-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/vues-aeriennes/drone-sedieres-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/vues-aeriennes/drone-sedieres-w1600.webp"
+      }
+    ]
+  },
+  "vues aériennes/Image35.webp": {
+    "source": "vues aériennes/Image35.webp",
+    "fallback": "/images/optimized/vues-aeriennes/image35.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/vues-aeriennes/image35-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/vues-aeriennes/image35-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/vues-aeriennes/image35-w1600.webp"
+      }
+    ]
+  },
+  "vues aériennes/Image38.webp": {
+    "source": "vues aériennes/Image38.webp",
+    "fallback": "/images/optimized/vues-aeriennes/image38.webp",
+    "variants": [
+      {
+        "width": 768,
+        "src": "/images/optimized/vues-aeriennes/image38-w768.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/optimized/vues-aeriennes/image38-w1280.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/optimized/vues-aeriennes/image38-w1600.webp"
+      }
+    ]
+  }
+}

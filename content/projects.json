@@ -1,0 +1,1479 @@
+[
+  {
+    "slug": "espace-public",
+    "isTopProject": true,
+    "imageUrl": "/images/optimized/imges-3d/beffroi-6.webp",
+    "category": "Rendu images et video, espaces publics",
+    "title": "Amenagements rues de Salers",
+    "excerpt": "Rendus 3D (images + video) produits a partir d un jumeau 3D georeference (topographie, scan 3D, drone et photos terrestres) pour presenter et valider, de maniere tres lisible, le projet de refection des rues du Coustil et du Beffroi a Salers.",
+    "description": "Pour accompagner la Mairie de Salers et notre partenaire 2B Maitrise & Concept, nous avons realise des visuels realistes du futur amenagement des rues du Coustil et du Beffroi (coeur historique, Plus Beaux Villages de France). La demarche s appuie sur une capture complete de l existant (topographie, scan 3D couleurs, drone et prises de vues au sol) afin de reconstruire un modele 3D photogrammetrique texture et georeference. Le projet VRD (MNT / AutoCAD + Covadis) a ensuite ete integre dans ce contexte reel, puis mis en scene pour generer des images et une video de presentation.",
+    "client": "Mairie de Salers",
+    "date": "2022",
+    "publishedAt": "2026-02-24",
+    "services": [
+      "image-video-communication-de-projet"
+    ],
+    "tags": [
+      "Rendu 3D",
+      "Video 3D",
+      "Espace public",
+      "Centre-bourg",
+      "Patrimoine",
+      "Salers",
+      "Topographie",
+      "Scan 3D",
+      "Drone",
+      "Photogrammetrie",
+      "Twinmotion",
+      "Collectivite"
+    ],
+    "gallery": [
+      {
+        "src": "/images/optimized/imges-3d/aerienne-1.webp",
+        "alt": "Vue drone de Salers, Cantal",
+        "caption": "Vue 3D aerienne de Salers, Cantal."
+      },
+      {
+        "src": "/images/optimized/imges-3d/beffroi-2.webp",
+        "alt": "Vue pietonne de la rue du Beffroi et ses commerces",
+        "caption": "Vue pietonne de la rue du Beffroi et ses commerces."
+      },
+      {
+        "src": "/images/optimized/imges-3d/beffroi-6.webp",
+        "alt": "Vue pietonne de la rue du Beffroi et ses commerces",
+        "caption": "Vue pietonne vers le Beffroi, Salers (15)."
+      },
+      {
+        "src": "/images/optimized/imges-3d/beffroi-haut-1.webp",
+        "alt": "Vue pietonne sous le Beffroi",
+        "caption": "Vue pietonne sous le Beffroi."
+      },
+      {
+        "src": "/images/optimized/imges-3d/coustil-5.webp",
+        "alt": "Vue pietonne rue du Coustil",
+        "caption": "Vue pietonne rue du Coustil."
+      },
+      {
+        "src": "/images/optimized/imges-3d/coustil-6-000.webp",
+        "alt": "Vue pietonne rue du Coustil",
+        "caption": "Vue pietonne rue du Coustil, vue 2."
+      },
+      {
+        "kind": "video",
+        "src": "https://youtu.be/-Vx3qEeIdCI?si=XkjDtAvnSfVAIxk6",
+        "poster": "/images/optimized/imges-3d/beffroi-6.webp",
+        "alt": "Video de presentation aux decideurs",
+        "caption": "Video de presentation aux decideurs et riverains (autoplay muet)."
+      }
+    ],
+    "context": {
+      "need": "Presenter un projet de refection d espaces publics de facon comprehensible pour tous (elus, financeurs, riverains), et securiser les arbitrages avant la phase financement et travaux.",
+      "response": "Constitution d un jumeau 3D georeference (topo + scan + drone + photos) puis integration du projet Covadis (corps de rues 3D) dans le modele existant, et rendus sous Twinmotion (images + video).",
+      "result": "Un support de decision et de communication puissant, plus lisible qu un plan technique, accelerant la validation et facilitant l adhesion des parties prenantes (y compris patrimoine/ABF)."
+    },
+    "keyFigures": [
+      {
+        "label": "Typologie",
+        "value": "Renovation d espaces publics"
+      },
+      {
+        "label": "Emprise",
+        "value": "Rue du Beffroi et Coustil"
+      },
+      {
+        "label": "Periode",
+        "value": "Sept. 2022 (2j terrain + 2 sem. traitetments)"
+      }
+    ],
+    "deliverables": [
+      "Jumeau 3D georeference du site (mesh photogrammetrique) combinant drone, scan 3D couleurs et photos terrestres",
+      "Integration du projet d amenagement (MNT / AutoCAD + Covadis, corps de rues 3D) dans le contexte 3D existant",
+      "Rendus photorealistes (images) pour supports de reunion, concertation et dossiers de financement",
+      "Video de presentation (parcours/points de vue) pour projection en seance et communication publique",
+      "Exports optimises pour diffusion (images HD + formats video adaptes)"
+    ],
+    "constraints": [
+      "Contexte patrimonial sensible (coeur historique) : besoin d un rendu credible des materiaux, textures et ambiances",
+      "Fusion de jeux de donnees heterogenes (topographie, scan, drone, photos) avec calage et georeferencement coherents",
+      "Integration d un projet VRD issu d outils techniques (AutoCAD/Covadis) dans un environnement photogrammetrique texture",
+      "Production de livrables immediatement utilisables en reunion (lisibilite, choix de points de vue, narration)"
+    ],
+    "outcomes": [
+      "Decider : validation plus rapide des choix d amenagement grace a une visualisation \"comme construit\" du projet.",
+      "Concevoir : confrontation au contexte reel (altimetrie, gabarits, pentes) pour securiser l integration du projet.",
+      "Financer : support clair pour presenter l operation aux financeurs et decideurs.",
+      "Communiquer : outil pedagogique pour la mairie, les riverains et les acteurs du patrimoine (ABF/architecte du patrimoine)."
+    ],
+    "skills": [
+      "Jumeau 3D georeference",
+      "Integration VRD / Covadis",
+      "Rendus Twinmotion"
+    ],
+    "categoryShort": "Rendu 3D / espace public"
+  },
+  {
+    "slug": "patinoire-du-lioran",
+    "isTopProject": true,
+    "imageUrl": "/images/optimized/imges-3d/image2-002.webp",
+    "category": "Equipement loisirs et sportif",
+    "title": "Patinoire du Lioran - \"L Arche des Neiges\"",
+    "excerpt": "Releve exhaustif par scan 3D georeference, maquette BIM LOD 350 et plans 2D pour securiser un audit energetique ACTEE et accelerer un projet de renovation, restructuration et extension de la patinoire du Lioran.",
+    "description": "Dans le cadre de la renovation et restructuration de la patinoire du Lioran (\"L Arche des Neiges\"), ACBIM a realise un releve precis de l existant par laser scanner 3D avec georeferencement, puis la production d une maquette numerique 3D et des plans 2D. La geometrie en arche et la densite de charpente bois/metal ont impose une acquisition detaillee (trepied telescopique) et une modelisation soignee (familles adaptatives, assemblages). Les livrables ont ete structures pour etre directement exploitables par la MOA/MOE et interoperables (IFC 4.3), dans le cadre d une pre-etude en groupement EREAH - ACBIM - AF CONSULTING.",
+    "client": "Conseil departemental du Cantal / Collectivite",
+    "date": "2025",
+    "publishedAt": "2026-02-14",
+    "services": [
+      "releve-scanner-3d-numerisation",
+      "maquette-numerique-3d-bim",
+      "dessin-2d-plans-coupes-elevations"
+    ],
+    "tags": [
+      "Patinoire",
+      "Equipement sportif",
+      "Scan 3D",
+      "Nuage de points couleur",
+      "Georeferencement",
+      "BIM",
+      "Revit 2025",
+      "IFC 4.3",
+      "Plans 2D",
+      "ACTEE",
+      "Audit energetique"
+    ],
+    "gallery": [
+      {
+        "src": "/images/optimized/scan-3d/trepiedcremaillere1.webp",
+        "alt": "Trepied grande hauteur pour scan 3D",
+        "caption": "Mise en oeuvre du trepied grande hauteur pour capter les zones hautes de la charpente."
+      },
+      {
+        "src": "/images/optimized/nuage-de-points/patinoire-pc.webp",
+        "alt": "Nuage de points 3D patinoire du Lioran",
+        "caption": "Nuage de points 3D georeference servant de base fiable pour les etudes et la coordination."
+      },
+      {
+        "src": "/images/optimized/maquette-numerique-3d-bim/patinoire-revit.webp",
+        "alt": "Maquette BIM dans Revit",
+        "caption": "Vue 3D de la maquette BIM de l existant dans Revit pour lecture des volumes et des interfaces."
+      },
+      {
+        "src": "/images/optimized/maquette-numerique-3d-bim/patinoire-ifc-4-eclatee.webp",
+        "alt": "Maquette IFC 4.3 eclatee",
+        "caption": "Vue eclatee de la maquette exportee en IFC 4.3 pour verifier la structure et les sous-ensembles."
+      },
+      {
+        "src": "/images/optimized/maquette-numerique-3d-bim/patinoire-ifc-4.webp",
+        "alt": "Maquette IFC 4.3",
+        "caption": "Maquette classifiee et exportee en IFC 4.3 pour interoperabilite dans la chaine d etudes."
+      },
+      {
+        "kind": "video",
+        "src": "https://youtu.be/QY37FILSkiw?si=VqpSlu__V43aWMCI",
+        "poster": "/images/optimized/imges-3d/video1-instantane1.webp",
+        "alt": "Patinoire du Lioran, Arche des Neiges - video de presentation",
+        "caption": "Video de presentation du processus d elaboration de la maquette et des livrables (autoplay muet)."
+      },
+      {
+        "src": "/images/optimized/imges-3d/image2-002.webp",
+        "alt": "Rendu 3D type maquette platre - vue 1",
+        "caption": "Rendu de maquette numerique pour lecture volumetrique du projet et des intentions de conception."
+      },
+      {
+        "src": "/images/optimized/imges-3d/image2.webp",
+        "alt": "Rendu 3D type maquette platre - vue 2",
+        "caption": "Vue complementaire du modele pour comparer les perceptions et les partis pris."
+      },
+      {
+        "src": "/images/optimized/imges-3d/image2-006.webp",
+        "alt": "Rendu 3D sur modele Revit",
+        "caption": "Rendu 3D directement issu du modele Revit pour supports de presentation et arbitrages."
+      },
+      {
+        "src": "/images/optimized/plans-2d/patinoire1.webp",
+        "alt": "Plan de toiture autocad pdf",
+        "caption": "Plan de toiture 2D issu de la maquette 3D"
+      },
+      {
+        "src": "/images/optimized/plans-2d/patinoire5.webp",
+        "alt": "coupe autocad pdf",
+        "caption": "Coupe issue de la maquette 3D"
+      }
+    ],
+    "context": {
+      "need": "Disposer d un etat des lieux fiable (geometrie + donnees) pour realiser un audit energetique ACTEE et arbitrer un programme de renovation, restructuration et extension.",
+      "response": "Scan 3D exhaustif et georeference (nuage colorise + 360), puis maquette Revit 2025 (LOD 350, tolerance 1 cm) et plans 2D DWG/PDF, avec export IFC 4.3 classifie.",
+      "result": "Une base commune precise et partageable, limitant les hypotheses et accelerant les etudes, la coordination et les validations entre MOA, MOE et BET."
+    },
+    "deliverables": [
+      "Nuage de points laser statique entierement colorise, georeference (RGF93 / IGN69 CC45) avec rapport de calage",
+      "Visite virtuelle 360 issue des stations, optimisee et mise a disposition via ACBIMcloud (acces non public)",
+      "Maquette numerique Revit 2025 de l existant - LOD 350, tolerance 1 cm (charpente bois/metal, assemblages et connexions)",
+      "Export IFC 4.3 classifie + fichier Revit purge",
+      "Plans 2D issus de la maquette : toiture, plans a differentes hauteurs, coupes et elevations",
+      "Exports DWG retravailles sous AutoCAD + PDF"
+    ],
+    "keyFigures": [
+      {
+        "label": "Typologie",
+        "value": "Patinoire / equipement sportif"
+      },
+      {
+        "label": "Surface modelisee",
+        "value": "~3000 m2"
+      },
+      {
+        "label": "Emprise",
+        "value": "~2500 m2"
+      },
+      {
+        "label": "Hauteur",
+        "value": "~17 m"
+      },
+      {
+        "label": "Niveaux",
+        "value": "2"
+      },
+      {
+        "label": "Periode",
+        "value": "Mars 2025 (3j terrain + 5 sem.)"
+      },
+      {
+        "label": "Reference",
+        "value": "RGF93 - IGN69 CC45"
+      }
+    ],
+    "constraints": [
+      "Grand volume avec forme en arche : geometrie complexe a restituer fidelement",
+      "Densite et diversite de charpente bois et metallique : necessite de capter les assemblages et les vues hautes",
+      "Exigence d un releve exhaustif pour alimenter un projet global (renovation, restructuration, extensions)",
+      "Interoperabilite attendue pour la chaine d etude (IFC, DWG, structuration de la maquette)"
+    ],
+    "outcomes": [
+      "Decider : lecture fiable de l existant pour cadrer le programme de travaux et les arbitrages.",
+      "Concevoir : meilleure maitrise des volumes et interfaces sur une enveloppe atypique avec charpente complexe.",
+      "Coordonner : maquette IFC et plans DWG/PDF utilisables par tous pour lancer rapidement les etudes et limiter les reprises."
+    ],
+    "skills": [
+      "Scan 3D georeference",
+      "Maquette BIM LOD 350",
+      "Interoperabilite IFC / DWG"
+    ],
+    "categoryShort": "Equipement sportif"
+  },
+  {
+    "slug": "musee-des-beaux-arts",
+    "imageUrl": "/images/optimized/plans-2d/orthoimage-facade.webp",
+    "category": "Musee / patrimoine",
+    "title": "Musee Bargoin, Clermont-Ferrand",
+    "excerpt": "Releve 3D complet en site occupe (scan + drone) et production d une maquette BIM renseignee (GEM) avec plans et orthophotos, pour doter Clermont Auvergne Metropole d un socle patrimonial exploitable et preparer un projet de renovation a venir.",
+    "description": "Clermont Auvergne Metropole a engage la creation d une maquette numerique du Musee Bargoin pour fiabiliser la gestion patrimoniale (GEM) et disposer d un existant robuste avant futurs travaux. ACBIM a realise un releve exhaustif par scan 3D en site occupe, complete par un releve drone des facades afin de produire des orthophotos haute qualite. La maquette BIM integre des donnees associees (surfaces, volumes, typologies de revetements, surfaces vitrees) et des livrables interoperables (IFC) destines a l integration dans l outil patrimonial de la Metropole et a la preparation d une renovation.",
+    "client": "Clermont Auvergne Metropole",
+    "date": "2023",
+    "publishedAt": "2026-02-24",
+    "services": [
+      "releve-scanner-3d-numerisation",
+      "maquette-numerique-3d-bim",
+      "dessin-2d-plans-coupes-elevations",
+      "releve-et-capture-par-drone"
+    ],
+    "tags": [
+      "Patrimoine",
+      "Musee",
+      "Scan 3D",
+      "Nuage de points couleur",
+      "Nuage de points N&B",
+      "Drone",
+      "Photogrammetrie",
+      "Orthophoto",
+      "Maquette BIM",
+      "Gestion patrimoniale",
+      "GEM",
+      "GMAO",
+      "Carl Source",
+      "IFC"
+    ],
+    "gallery": [
+      {
+        "src": "/images/optimized/plans-2d/orthoimage-facade.webp",
+        "alt": "Orthophoto de facade du Musee Bargoin",
+        "caption": "Orthophoto HD issue du releve drone, calee sur le 3D, pour lecture fine des modenatures et suivi des desordres potentiels."
+      },
+      {
+        "src": "/images/optimized/scan-3d/img-20230808-121047.webp",
+        "alt": "relevé depuis la toiture en porte à faux scan 3d",
+        "caption": "Relevé depuis la toiture en porte-à-faux scan 3d tête inversée"
+      },
+      {
+        "src": "/images/optimized/maquette-numerique-3d-bim/bargoin1.webp",
+        "alt": "Maquette Revit du Musee Bargoin - vue 1",
+        "caption": "Maquette BIM de l existant du musee."
+      },
+      {
+        "src": "/images/optimized/maquette-numerique-3d-bim/barg.webp",
+        "alt": "Maquette Revit du Musee Bargoin, intérieur",
+        "caption": "Maquette Revit du Musee Bargoin, intérieur",
+        "fit": "contain"
+      },
+      {
+        "kind": "video",
+        "src": "https://youtu.be/SOAA2Ud8hU8?si=wWgAsdOHUIBGqC38",
+        "poster": "/images/optimized/bargoin-exi-acbim-tz-tn-m3d2.webp",
+        "alt": "Gaussian splatting exterieur du Musee Bargoin",
+        "caption": "Visualisation exterieure du musee issue du processus gaussian splatting."
+      },
+      {
+        "kind": "video",
+        "src": "https://youtu.be/RBmBzeOMZkM?si=wz37r8Lz4HzFNvep",
+        "poster": "/images/optimized/bargoin-exi-acbim-tz-tn-m3d3.webp",
+        "alt": "Detail architectural du Musee Bargoin en gaussian splatting",
+        "caption": "Sequence video sur un detail remarquable (garde-corps) pour illustrer la finesse de capture et de restitution."
+      }
+    ],
+    "context": {
+      "need": "Disposer d un releve initial fiable et d une maquette BIM renseignee pour la gestion patrimoniale (GEM) et le suivi des facades, tout en preparant un futur projet de renovation.",
+      "response": "Scan 3D complet interieur/exterieur en site occupe, acquisition fine des decors, releve drone des facades pour photogrammetrie et orthophotos, puis production d une maquette BIM structuree et de plans 2D.",
+      "result": "Une reference geometrique et documentaire partagee, interrogeable (quantites, surfaces), exploitable par la MOA/MOE et utilisable pour le suivi facade et le demarrage des etudes de renovation."
+    },
+    "deliverables": [
+      "Nuages de points interieur/exterieur livres en formats ouverts, avec decoupage pertinent pour la fluidite d usage",
+      "Maquettes BIM (format natif + IFC) : maquette facades et maquette reste du batiment, superposables et georeferencees",
+      "Tableau des locaux (quantites) : noms, dimensions, surfaces, volumes, revetements de sol, surfaces vitrees (tableur)",
+      "Carnet de plans issus de la maquette (DWG + PDF) avec organisation et nommage conformes aux prescriptions",
+      "Orthophotos haute definition des facades et acroteres (drone) pour diagnostic et suivi"
+    ],
+    "keyFigures": [
+      {
+        "label": "Typologie",
+        "value": "Patrimoine / musee"
+      },
+      {
+        "label": "Surface modelisee",
+        "value": "~2500 m2"
+      },
+      {
+        "label": "Emprise",
+        "value": "~500 m2"
+      },
+      {
+        "label": "Hauteur",
+        "value": "~17 m"
+      },
+      {
+        "label": "Niveaux",
+        "value": "5"
+      },
+      {
+        "label": "Periode",
+        "value": "Dec. 2023 (3j terrain + 5 sem. taitements)"
+      }
+    ],
+    "constraints": [
+      "Intervention en site occupe (musee) avec vigilance renforcee pour preserver les oeuvres et la continuite d exploitation",
+      "Exigence de precision et de couleur sur les facades pour lecture fine des details patrimoniaux",
+      "Acces et prises de vue en hauteur : securisation, autorisations de survol drone et organisation logistique",
+      "Respect d un cadre BIM exigeant (georeferencement, nommage, classifications IFC, poids de fichiers, decoupage)",
+      "Pilotage et controles AMO BIM avec validation d une maquette echantillon puis controle avant livraison finale"
+    ],
+    "outcomes": [
+      "Decider : base fiable pour cadrer un projet de renovation et prioriser les interventions.",
+      "Exploiter : maquette renseignee et quantites pour la gestion patrimoniale et les contrats de maintenance.",
+      "Surveiller : orthophotos et vues 360 facilitant le suivi de l etat des facades, acroteres et details architecturaux.",
+      "Concevoir : reduction des incertitudes et meilleure coordination MOA/MOE grace a des livrables interoperables (IFC/DWG/PDF)."
+    ],
+    "skills": [
+      "Patrimoine bati",
+      "Orthophoto de facade",
+      "GEM / donnees patrimoniales"
+    ],
+    "categoryShort": "Musee / patrimoine"
+  },
+  {
+    "slug": "centre-de-soins-vic",
+    "imageUrl": "/images/optimized/plans-2d/vic1.webp",
+    "category": "Medical / soins",
+    "title": "Centre de soins medicaux et de readaptation",
+    "excerpt": "Releve 3D complet interieur/exterieur en site occupe et production de plans 2D normalises (plans, coupes, elevations) pour doter l UGECAM d une base fiable, en appui d un projet d amelioration des chambres et d un audit energetique realise par IGECTEC.",
+    "description": "Le groupe UGECAM, gestionnaire du batiment, souhaitait disposer d une base de plans complete et a jour pour preparer des travaux d amelioration du confort et des equipements des chambres de patients, ainsi que pour alimenter un audit energetique mene par IGECTEC. ACBIM est intervenu en site occupe, avec respect strict du protocole sanitaire et d un planning compatible avec l activite de soins et de readaptation. La mission a consiste a scanner l ensemble du batiment (interieur/exterieur) puis a produire un jeu de plans 2D hierarchises (PDF + DWG), incluant mise a jour des reperages, cotations et elements architecturaux structurants.",
+    "client": "Groupe UGECAM",
+    "date": "2025",
+    "publishedAt": "2026-02-24",
+    "services": [
+      "releve-scanner-3d-numerisation",
+      "dessin-2d-plans-coupes-elevations"
+    ],
+    "tags": [
+      "Sante",
+      "Centre de soins",
+      "Readaptation",
+      "Site occupe",
+      "Scan 3D",
+      "Plans 2D",
+      "Coupes",
+      "Elevations",
+      "DWG",
+      "PDF",
+      "Audit energetique"
+    ],
+    "gallery": [
+      {
+        "src": "/images/optimized/plans-2d/vic-plan.webp",
+        "alt": "Vue en plan",
+        "caption": "Fragment du plan, pour garder la confidentialite.",
+        "fit": "contain"
+      },
+      {
+        "src": "/images/optimized/plans-2d/vic1.webp",
+        "alt": "Vue de facade 1",
+        "caption": "Vue d elevation 1",
+        "fit": "contain"
+      },
+      {
+        "src": "/images/optimized/plans-2d/vic2.webp",
+        "alt": "Vue de facade 2",
+        "caption": "Vue d elevation 2",
+        "fit": "contain"
+      },
+      {
+        "src": "/images/optimized/plans-2d/vic3.webp",
+        "alt": "Vue de facade 3",
+        "caption": "Vue d elevation 3",
+        "fit": "contain"
+      },
+      {
+        "src": "/images/optimized/plans-2d/vic10.webp",
+        "alt": "Vue de facade 4",
+        "caption": "Vue d elevation 4",
+        "fit": "contain"
+      },
+      {
+        "src": "/images/optimized/plans-2d/vic11.webp",
+        "alt": "Vue de facade 5",
+        "caption": "Vue d elevation 5",
+        "fit": "contain"
+      }
+    ],
+    "context": {
+      "need": "Obtenir des plans fiables et complets pour preparer des travaux en milieu medical sans perturber l activite, et fournir une base solide aux etudes (dont audit energetique).",
+      "response": "Scan 3D exhaustif interieur/exterieur en site occupe, puis production de plans 2D normalises et structures (niveaux, coupes, elevations) avec reperage des pieces, menuiseries, plafonds et poutres, et cotations 3D.",
+      "result": "Un referentiel etat existant clair, exploitable par la MOA/MOE et les bureaux d etudes, securisant la programmation des travaux et la preparation des interventions."
+    },
+    "keyFigures": [
+      {
+        "label": "Typologie",
+        "value": "Centre de soins medicaux et de readaptation"
+      },
+      {
+        "label": "Surface",
+        "value": "~4500 m2"
+      },
+      {
+        "label": "Hauteur",
+        "value": "~26 m"
+      },
+      {
+        "label": "Niveaux",
+        "value": "7"
+      },
+      {
+        "label": "Periode",
+        "value": "Mars 2025 (3j terrain + 2 sem.)"
+      }
+    ],
+    "deliverables": [
+      "Nuage de points issu du scan 3D complet interieur/exterieur (referentiel de mesure pour les etudes)",
+      "Plans de niveaux de tous les etages (PDF + DWG), normalises et hierarchises",
+      "Coupes et elevations (PDF + DWG) pour lecture globale et preparation des travaux",
+      "Mise a jour des noms et numeros de pieces (reperage), coherente avec l exploitation",
+      "Cotations 3D et annotations utiles aux etudes et aux interventions (gabarits, hauteurs, implantations)",
+      "Representation des menuiseries interieures et exterieures, ainsi que des plafonds, poutres et elements structurants"
+    ],
+    "constraints": [
+      "Intervention en site occupe medical : protocole sanitaire strict et organisation pour ne pas perturber patients et activite de soins",
+      "Planning contraint : creneaux d intervention adaptes aux usages et coordination avec le gestionnaire",
+      "Exigence de lisibilite : plans 2D normes, hierarchises et directement exploitables par differents intervenants",
+      "Necessite d un releve exhaustif interieur/exterieur pour limiter les reprises et securiser la preparation des travaux"
+    ],
+    "outcomes": [
+      "Programmer : base de plans fiable pour definir et phaser les travaux d amelioration des chambres et des equipements.",
+      "Concevoir : supports DWG/PDF complets (niveaux, coupes, elevations) facilitant les etudes et la coordination MOA/MOE.",
+      "Exploiter : reperage des pieces et informations d implantation utiles a la gestion quotidienne et aux interventions.",
+      "Energetique : etat des lieux geometrique robuste pour appuyer l audit energetique (realise par IGECTEC)."
+    ],
+    "categoryShort": "Medical / soins"
+  },
+  {
+    "slug": "chateau-sedieres-correze",
+    "isTopProject": true,
+    "imageUrl": "/images/optimized/drone/sedieres3d.webp",
+    "category": "Chateau / patrimoine / classe",
+    "title": "Le chateau de Sedieres, monument MH, Correze",
+    "excerpt": "Releve 3D du Chateau de Sedieres (batiment classe MH) par scan 3D couleur, complete par une mission drone dediee aux toitures complexes, puis production d un nuage unifie et d une maquette numerique 3D prete pour la gestion patrimoniale. Un socle fiable (3D, IFC, orthophotos, plans, coupes, elevations) pour quantifier, planifier et piloter les travaux d entretien et de renovation.",
+    "description": "Le Conseil departemental de la Correze, aujourd hui proprietaire du Chateau de Sedieres (Monument Historique), souhaitait disposer d un releve 3D complet en couleurs, ainsi que d une maquette numerique 3D permettant d extraire facilement des quantites et de produire un jeu de plans exhaustif, inexistant jusque-la. Pour capter l ensemble des geometries, ACBIM a propose et realise en complement une mission drone dediee aux toitures. La maquette 3D (architecture/structure) a ete enrichie avec le reperage des equipements de securite incendie, puis integree dans le logiciel de gestion patrimoniale bimwiq data (ENERBIM).",
+    "client": "Conseil Departemental de Correze",
+    "date": "2022",
+    "publishedAt": "2026-02-24",
+    "services": [
+      "releve-scanner-3d-numerisation",
+      "maquette-numerique-3d-bim",
+      "dessin-2d-plans-coupes-elevations",
+      "releve-et-capture-par-drone"
+    ],
+    "tags": [
+      "Patrimoine",
+      "Chateau",
+      "Monument Historique",
+      "Correze",
+      "Clergoux",
+      "Scan 3D couleur",
+      "Drone",
+      "Photogrammetrie",
+      "Toitures complexes",
+      "Nuage de points unifie",
+      "Georeferencement",
+      "Orthophotos",
+      "Plans 2D",
+      "Coupes",
+      "Elevations",
+      "Maquette numerique 3D",
+      "Revit",
+      "IFC2x3",
+      "Gestion patrimoniale",
+      "Securite incendie",
+      "ENERBIM",
+      "bimwiq data"
+    ],
+    "gallery": [
+      {
+        "src": "/images/optimized/drone/sedieres3d.webp",
+        "alt": "Photogrammetrie 3D, modelisation texturee par drone",
+        "caption": "Modele 3D texture issu de la capture drone : support visuel immediat pour partager l etat existant."
+      },
+      {
+        "src": "/images/optimized/maquette-numerique-3d-bim/sedieres1.webp",
+        "alt": "Maquette Revit du chateau",
+        "caption": "Maquette numerique 3D (Revit) : volumes et structure modelises pour l exploitation patrimoniale et l extraction de quantites."
+      },
+      {
+        "src": "/images/optimized/maquette-numerique-3d-bim/sedieres2.webp",
+        "alt": "Maquette Revit du chateau 2",
+        "caption": "Details architecturaux et structurels : une maquette adaptee a la gestion patrimoniale."
+      },
+      {
+        "src": "/images/optimized/vues-aeriennes/drone-sedieres.webp",
+        "alt": "Photo aerienne par drone du chateau de Sedieres",
+        "caption": "Photo aerienne par drone du chateau de Sedieres, Clergoux."
+      },
+      {
+        "kind": "video",
+        "src": "https://youtu.be/tUWTFwEXYs8?si=qVgvPCnjWklKegIK",
+        "poster": "/images/optimized/drone/sedieres3d.webp",
+        "alt": "Modele 3D photogrammetrique drone et scan 3D du chateau",
+        "caption": "Modele 3D photogrammetrique drone et scan 3D du chateau (autoplay muet)."
+      },
+      {
+        "src": "/images/optimized/plans-2d/plan-sedieres.webp",
+        "alt": "Plan d etage du batiment classe monument historique",
+        "caption": "Plan d etage du batiment classe monument historique.",
+        "fit": "contain"
+      },
+      {
+        "src": "/images/optimized/plans-2d/sedieres-facade1.webp",
+        "alt": "Facade du batiment classe monument historique",
+        "caption": "Elevation sur ortho-image : reperage precis des desordres et preparation des interventions (menuiseries, appuis, garde-corps).",
+        "fit": "contain"
+      },
+      {
+        "src": "/images/optimized/plans-2d/sedieres-facade2.webp",
+        "alt": "Facade du batiment classe monument historique",
+        "caption": "Facade + ortho-image : lecture fine des details et des profils, utile aux travaux de restauration.",
+        "fit": "contain"
+      }
+    ],
+    "context": {
+      "need": "Obtenir une base etat existant fiable et complete (y compris toitures), une maquette numerique 3D exploitable pour extraire des quantites, et un jeu de plans complet pour accompagner l entretien et la renovation d un chateau classe MH.",
+      "response": "Relever par laser scanner 3D couleur du château, complété par une mission drone sur les toitures pour une couverture exhaustive. Géoréférencées et fusionnées en un nuage 3D unifié, puis exploitées pour produire une maquette numérique 3D + IFC, orthophotos, plan d'intérieur, coupes et élévations.",
+      "result": "Un referentiel patrimonial unique (nuage + maquette + ortho + 2D) servant de base aux etudes, aux quantitatifs et aux travaux : appuis de fenetres, zingueries de toiture, garde-corps, menuiseries, avec une donnee exploitable et partageable."
+    },
+    "keyFigures": [
+      {
+        "label": "Typologie",
+        "value": "Patrimoine classe MH, chateau XVe siecle"
+      },
+      {
+        "label": "Surface",
+        "value": "~1500 m2"
+      },
+      {
+        "label": "Hauteur",
+        "value": "~12 m"
+      },
+      {
+        "label": "Niveaux",
+        "value": "6"
+      },
+      {
+        "label": "Periode",
+        "value": "Juin 2022 (4j terrain + 5 sem.)"
+      }
+    ],
+    "deliverables": [
+      "Releve laser scanner 3D couleur interieur/exterieur : nuage de points complet, structure et optimise pour une utilisation fluide",
+      "Mission drone dediee aux toitures : photos haute resolution et reconstruction photogrammetrique des geometries complexes",
+      "Nuage de points unifie (scan + photogrammetrie drone) : couverture complete du chateau, y compris volumes hauts et zones difficilement accessibles",
+      "Maquette numerique 3D sous Revit : lots architecture/structure + reperage et apposition des equipements de securite incendie (approche gestion patrimoniale)",
+      "Exports IFC 2x3 controles : livrables interoperables prets pour integration dans un outil de gestion patrimoniale",
+      "Orthophotos / ortho-images (toitures et facades selon zones) calees sur la 3D : support de lecture, reperage et diagnostic",
+      "Carnet de plans complet (DWG + PDF) : plans de niveaux, coupes et elevations, homogenes et exploitables",
+      "Donnees structurees et preparees pour l integration dans bimwiq data (ENERBIM) : coherence des reperes, proprietes et rattachements utiles"
+    ],
+    "constraints": [
+      "Batiment classe Monument Historique : exigence elevee de precision, de completude et de respect du site patrimonial",
+      "Toitures complexes et volumes hauts : necessite d un couplage scan + drone pour capter l ensemble des geometries en securite",
+      "Donnees multi-sources a consolider : scan 3D, photogrammetrie drone et collecte technique terrain a fusionner dans un referentiel unique",
+      "Maquette orientee exploitation patrimoniale : structuration, reperages et integration d equipements (securite incendie) pour un usage gestion",
+      "Interoperabilite attendue : livrables exploitables par plusieurs acteurs (MOA/MOE/maintenance/entreprises) via IFC, 2D et supports visuels"
+    ],
+    "outcomes": [
+      "Documenter : premiere base exhaustive et fiable de l existant, indispensable sur un patrimoine ancien et complexe.",
+      "Chiffrer : extraction simplifiee des quantites depuis la maquette pour estimer, comparer et prioriser les interventions.",
+      "Entretenir : support operationnel pour les travaux (zingueries, appuis de fenetres, garde-corps, menuiseries) et le suivi dans le temps.",
+      "Partager : referentiel unique (3D + 2D + orthos) qui aligne les intervenants et reduit les interpretations et re-visites."
+    ],
+    "categoryShort": "Patrimoine MH"
+  },
+  {
+    "slug": "commerce-pisciniste",
+    "isTopProject": true,
+    "imageUrl": "/images/optimized/visite-virtuelle/piscine1.webp",
+    "category": "3D / visite virtuelle / pisciniste / vente / commerce",
+    "title": "Visite virtuelle, Piscine de France",
+    "excerpt": "Realisation d une visite virtuelle 360/3D haute qualite (Matterport) du showroom Piscine de France, sur deux niveaux (RDC + R+1). Un support de communication accessible a distance, pense pour valoriser l espace renove et se demarquer de la concurrence.",
+    "description": "Piscine de France souhaitait mettre en valeur un showroom recemment renove (spa, sauna, hammam et equipements) via une experience immersive haut de gamme. ACBIM a capte l integralite du parcours sur site (RDC + R+1) et mis en place la gestion des zones de floutage et d anonymisation. La visite a ensuite ete mise en ligne pour un partage simple aupres des clients, l integration au site web, et la diffusion sur Google Street View.",
+    "client": "Piscine de France",
+    "date": "2025",
+    "publishedAt": "2026-02-24",
+    "services": [
+      "visite-virtuelle-360-3d"
+    ],
+    "immersiveTourEmbedUrl": "https://my.matterport.com/show/?m=uwtDmNUc6VQ",
+    "tags": [
+      "Visite virtuelle",
+      "360",
+      "3D",
+      "Matterport",
+      "Showroom",
+      "Commerce",
+      "Pisciniste",
+      "Spa",
+      "Sauna",
+      "Hammam",
+      "Communication",
+      "Google Street View",
+      "Experience client",
+      "Anonymisation",
+      "Floutage"
+    ],
+    "gallery": [
+      {
+        "src": "/images/optimized/visite-virtuelle/piscine1.webp",
+        "alt": "Visite virtuelle, extraction d une photo HD depuis la visite",
+        "caption": "Visuel extrait de la visite : support ideal pour web, reseaux et communication commerciale."
+      },
+      {
+        "src": "/images/optimized/visite-virtuelle/piscine2.webp",
+        "alt": "Visite virtuelle, extraction d une photo HD depuis la visite",
+        "caption": "Image HD issue de la visite : un support pret a publier pour presentation et marketing."
+      },
+      {
+        "src": "/images/optimized/visite-virtuelle/piscine3.webp",
+        "alt": "Apercu 3D de la visite virtuelle",
+        "caption": "Support efficace pour presenter le showroom en un coup d oeil, meme a distance."
+      },
+      {
+        "kind": "video",
+        "src": "https://youtu.be/6tEnBUPP5ng",
+        "poster": "/images/optimized/visite-virtuelle/piscine1.webp",
+        "alt": "Video de presentation issue de la visite virtuelle",
+        "caption": "Video courte et impactante, ideale pour site web et reseaux sociaux."
+      }
+    ],
+    "context": {
+      "need": "Proposer une visite a distance qualitative du showroom pour renforcer l impact commercial et la conversion prospect client.",
+      "response": "Capture immersive complete en 360/3D sur deux niveaux, parametrage du floutage/anonymisation, puis mise en ligne prete a partager (site web + Google Street View).",
+      "result": "Un outil rapide, efficace et accessible 24/7, qui valorise l espace, ameliore l experience client et differencie clairement l enseigne."
+    },
+    "keyFigures": [
+      {
+        "label": "Typologie",
+        "value": "Commerce, vente"
+      },
+      {
+        "label": "Surface",
+        "value": "500 m2"
+      },
+      {
+        "label": "Periode",
+        "value": "Mars 2025 (1/2j terrain + 1/2j traitement)"
+      }
+    ],
+    "deliverables": [
+      "Visite virtuelle 360/3D complete du showroom (RDC + R+1), parcours fluide et structure",
+      "Parametrage des zones de floutage / anonymisation (visages, elements sensibles, zones privees)",
+      "Mise en ligne et lien de partage client (diffusion simple par email, QR code, reseaux)",
+      "Version integrable sur le site web (iframe / lien) pour une prise en main immediate",
+      "Publication sur Google Street View pour renforcer la visibilite locale et la decouverte du showroom"
+    ],
+    "constraints": [
+      "Valorisation d un espace neuf/renove : exigence de rendu propre, lumineux et coherent sur l ensemble du parcours",
+      "Parcours sur deux niveaux : necessite d une capture exhaustive et d une navigation intuitive",
+      "Gestion de la confidentialite : floutage/anonymisation des zones et elements sensibles avant diffusion",
+      "Livrable oriente marketing : experience fluide, simple a partager et adaptee au web",
+      "Delais courts : production reactive, mise en ligne rapide pour usage commercial immediat"
+    ],
+    "outcomes": [
+      "Vendre : visite a distance qui rassure et accelere la decision.",
+      "Se demarquer : outil premium qui differencie l enseigne face a la concurrence.",
+      "Gagner du temps : moins de visites decouverte, meilleure pre-qualification des prospects.",
+      "Communiquer : support 24/7 pour site web, partage client et visibilite Google Street View."
+    ],
+    "categoryShort": "Visite virtuelle / commerce"
+  },
+  {
+    "slug": "plan-topo-drone-drugeac",
+    "imageUrl": "/images/optimized/plans-2d/drugeac-topo.webp",
+    "category": "plan / plan topo / plan topographique / coeur de bourg / corps de rue / drone",
+    "title": "Plan topographique Drugeac",
+    "excerpt": "Releve complet de la place Jean Brun et de ses abords a Drugeac, avec plan topographique et ortho-image drone haute definition. Une base fiable pour etudier la refection de la place et l implantation d un nouveau batiment.",
+    "description": "Dans le cadre d une commande de la Mairie de Drugeac, accompagnee par le BET VRD 2B Maitrise & Concept et l architecte Cyril Vidal, ACBIM a realise un releve topographique complet de la place Jean Brun et de ses abords. La mission visait a disposer d une base d etat des lieux precise, lisible et exploitable pour les etudes de reamenagement et les futurs travaux. Nous avons combine un releve drone (avec points de controle) et un leve terrain (station totale + GPS), afin d assurer le calage commun de l ensemble des donnees et la coherence des livrables.",
+    "client": "Mairie de Drugeac",
+    "date": "2025",
+    "publishedAt": "2026-02-24",
+    "services": [
+      "releve-et-capture-par-drone",
+      "dessin-2d-plans-coupes-elevations"
+    ],
+    "tags": [
+      "Drugeac",
+      "Cantal",
+      "Coeur de bourg",
+      "Place Jean Brun",
+      "Plan topographique",
+      "Drone",
+      "Orthophoto",
+      "VRD",
+      "Reamenagement",
+      "Georeferencement",
+      "Points de controle",
+      "Station totale",
+      "GPS RTK",
+      "BET VRD",
+      "Architecte"
+    ],
+    "gallery": [
+      {
+        "src": "/images/optimized/plans-2d/drugeac-topo.webp",
+        "alt": "Plan topographique de la place Jean Brun a Drugeac",
+        "caption": "Base de conception et de chiffrage : un fond precis pour dimensionner les amenagements et phaser les travaux.",
+        "fit": "contain"
+      },
+      {
+        "src": "/images/optimized/plans-2d/drugeac-topo-ortho.webp",
+        "alt": "Ortho-image drone haute definition sur Drugeac, calee sur le plan topographique",
+        "caption": "Ortho HD : reperage rapide des details et des contraintes, utile en reunion et en concertation."
+      }
+    ],
+    "context": {
+      "need": "Disposer d un releve fiable de la place Jean Brun et de ses abords pour concevoir la refection de la place et prevoir l implantation d un nouveau batiment.",
+      "response": "Releve drone haute definition avec points de controle, leve terrain station totale + GPS en pivot mobile, puis production d un plan topographique et d une ortho-image georeferencee.",
+      "result": "Une base de travail claire et coherente pour les etudes VRD et architecturales, les metres et la coordination des intervenants."
+    },
+    "keyFigures": [
+      {
+        "label": "Typologie",
+        "value": "Topographie"
+      },
+      {
+        "label": "Surface",
+        "value": "4500 m2"
+      },
+      {
+        "label": "Periode",
+        "value": "Octobre 2024 (1j terrain + 2j traitement)"
+      }
+    ],
+    "deliverables": [
+      "Plan topographique georeference de la place Jean Brun et de ses abords (PDF + DWG) : emprises, details, altimetries et points cotes selon besoin",
+      "Ortho-image drone haute definition georeferencee, calee sur les points de controle (support visuel precis pour lecture et reperage)"
+    ],
+    "constraints": [
+      "Donnees multi-sources a raccorder : drone + station totale + GPS, cales avec points de controle pour un referentiel commun",
+      "Exigence zero oubli : dessin topo realise directement sur site pour securiser la completude du leve",
+      "Besoin d un support haute definition : ortho-image precise pour faciliter la lecture, le reperage et la concertation"
+    ],
+    "outcomes": [
+      "Concevoir : base fiable pour les etudes de refection de la place et l implantation du futur batiment.",
+      "Chiffrer : donnees coherentes pour metres, quantites et estimation des travaux VRD.",
+      "Coordonner : support commun entre MOA, BET VRD, architecte et entreprises, limitant les interpretations.",
+      "Communiquer : ortho-image haute definition pour lecture immediate et reperages en reunion."
+    ],
+    "categoryShort": "Drone / plan topo / bourg"
+  },
+  {
+    "slug": "plan-topo-eco-musee",
+    "imageUrl": "/images/optimized/plans-2d/eco-musee.webp",
+    "category": "plan topo / plan topographique / implantation",
+    "title": "Plan topographique Eco musee, Ruynes-en-Margeride",
+    "excerpt": "Realisation d un plan topographique de l eco-musee de Ruynes-en-Margeride pour Saint-Flour Communaute. Un fond georeference fiable, complete par l implantation de points de controle destines a une mission drone realisee par un confrere.",
+    "description": "Saint-Flour Communaute a missionne ACBIM pour etablir un releve topographique de l eco-musee et de ses abords, afin de disposer d une base d etat des lieux claire et exploitable pour les etudes. Nous avons realise le leve a la station totale, puis produit le plan topographique en le rattachant au systeme de reference en vigueur. En complement, nous avons implante des points de controle, permettant le calage commun des donnees avec une mission drone realisee par un confrere.",
+    "client": "Saint-Flour Communaute",
+    "date": "2025",
+    "publishedAt": "2026-02-24",
+    "services": [
+      "dessin-2d-plans-coupes-elevations"
+    ],
+    "tags": [
+      "Ruynes-en-Margeride",
+      "Cantal",
+      "Eco-musee",
+      "Saint-Flour Communaute",
+      "Plan topographique",
+      "Georeferencement",
+      "Station totale",
+      "Points de controle",
+      "Drone",
+      "Photogrammetrie",
+      "Etat des lieux",
+      "Etudes",
+      "Implantation"
+    ],
+    "gallery": [
+      {
+        "src": "/images/optimized/plans-2d/eco-musee.webp",
+        "alt": "Plan topographique eco musee de Ruynes-en-Margeride",
+        "caption": "Plan topographique de l eco-musee de Ruynes-en-Margeride, georeference et exploitable pour les etudes.",
+        "fit": "contain"
+      }
+    ],
+    "context": {
+      "need": "Disposer d un plan topographique fiable de l eco-musee et de ses abords, et preparer un calage commun avec une acquisition drone.",
+      "response": "Leve terrain a la station totale, dessin du plan topographique, rattachement au systeme en vigueur et implantation de points de controle.",
+      "result": "Un fond topo clair et georeference, pret pour les etudes et compatible avec l exploitation des donnees drone."
+    },
+    "keyFigures": [
+      {
+        "label": "Typologie",
+        "value": "Topographie"
+      },
+      {
+        "label": "Surface",
+        "value": "1.2 ha"
+      },
+      {
+        "label": "Periode",
+        "value": "Fevrier 2025 (1j terrain + 2j traitement)"
+      }
+    ],
+    "deliverables": [
+      "Plan topographique georeference de l eco-musee et de ses abords (PDF + DWG) : details, altimetries et points cotes selon besoin",
+      "Implantation de points de controle materialises, destines au calage commun avec une mission drone realisee par un confrere",
+      "Fichiers structures et directement exploitables pour les etudes (calques et nomenclatures propres)"
+    ],
+    "constraints": [
+      "Besoin d un fond topo lisible et complet pour les etudes, avec une attention particuliere aux altimetries",
+      "Raccordement au systeme de reference en vigueur pour garantir la compatibilite des donnees",
+      "Coordination avec une acquisition drone externe : implantation de points de controle pour un calage fiable",
+      "Exigence de coherence et d exploitabilite des livrables (DWG/PDF) pour les intervenants"
+    ],
+    "outcomes": [
+      "Concevoir : base fiable pour les etudes et la preparation des amenagements autour de l eco-musee.",
+      "Coordonner : points de controle permettant de raccorder proprement les donnees drone au fond topo.",
+      "Chiffrer : support coherent pour metres, quantites et estimations.",
+      "Securiser : un referentiel georeference qui limite les reprises et les ambiguites."
+    ],
+    "categoryShort": "Plan topo / implantation"
+  },
+  {
+    "slug": "topo-suivi-carriere",
+    "imageUrl": "/images/optimized/nuage-de-points/vebret-nuage-classif.webp",
+    "category": "plan topo / plan topographique / suivi / carriere",
+    "title": "Plan topographique, suivi de carriere",
+    "excerpt": "Suivi annuel de carrieres par drone et photogrammetrie 3D pour des carrieristes du Cantal, avec une surface cumulee d environ 170 ha couverte. Des livrables robustes et complets (topo, cubatures, stocks, fronts de taille, orthophotos) exploitables par l exploitant et conformes aux attentes de la DREAL.",
+    "description": "Des exploitants de carrieres du Cantal nous confient chaque annee le suivi de leurs sites afin de piloter l exploitation et de documenter l avancement. ACBIM met en oeuvre une methode drone + topo orientee precision : vols adaptes aux zones d exploitation et mesures terrain pour securiser le georeferencement. Les donnees sont ensuite traitees et exploitees par notre geometre sous AutoCAD et Covadis pour produire des documents directement utilisables par les equipes techniques et dans les echanges reglementaires (DREAL).",
+    "client": "Prive",
+    "date": "Annuel depuis 2021",
+    "publishedAt": "2026-02-24",
+    "services": [
+      "releve-et-capture-par-drone",
+      "dessin-2d-plans-coupes-elevations"
+    ],
+    "tags": [
+      "Carriere",
+      "Cantal",
+      "Suivi annuel",
+      "Topographie",
+      "Drone",
+      "Photogrammetrie",
+      "Points de controle",
+      "Georeferencement",
+      "Plan topographique",
+      "Cubatures",
+      "Stocks",
+      "Front de taille",
+      "Carreau",
+      "Orthophoto",
+      "Pentes",
+      "DREAL",
+      "AutoCAD",
+      "Covadis",
+      "Geometre"
+    ],
+    "gallery": [
+      {
+        "src": "/images/optimized/nuage-de-points/vebret-nuage-classif.webp",
+        "alt": "Nuage de points avec classification et segmentation d une carriere",
+        "caption": "Base 3D propre et structuree : prete pour MNT, cubatures et exploitation Covadis."
+      },
+      {
+        "src": "/images/optimized/nuage-de-points/vebret-nuage.webp",
+        "alt": "Nuage de points couleur de carriere",
+        "caption": "Referentiel 3D partage : utile aux echanges internes et aux partenaires techniques."
+      },
+      {
+        "src": "/images/optimized/drone/ortho-vebret.webp",
+        "alt": "Ortho-image georeferencee de carriere",
+        "caption": "Ortho HD georeferencee : un fond precis pour reperer fronts, stocks, acces et emprises."
+      },
+      {
+        "src": "/images/optimized/drone/mnt-vebret.webp",
+        "alt": "Modele numerique de terrain exploite sous Covadis",
+        "caption": "MNT exploite sous Covadis : base pour calculs de volumes, pentes et profils.",
+        "fit": "contain"
+      },
+      {
+        "src": "/images/optimized/drone/tableau-cubes-vebret.webp",
+        "alt": "Tableau de synthese des cubatures de stocks de carriere",
+        "caption": "Cubatures de stocks : suivi chiffre et comparable d une campagne a l autre.",
+        "fit": "contain"
+      },
+      {
+        "kind": "video",
+        "src": "https://youtu.be/ZtXjbK510pc",
+        "poster": "/images/optimized/nuage-de-points/vebret-nuage-classif.webp",
+        "alt": "Visualisation et exploitation du nuage de points 3D d une carriere dans le navigateur web",
+        "caption": "Partage web : consultation simple du modele 3D pour les equipes, sans logiciel specifique."
+      },
+      {
+        "kind": "video",
+        "src": "https://youtube.com/shorts/z4mA4sZM-Wg",
+        "poster": "/images/optimized/drone/ortho-vebret.webp",
+        "alt": "Processus de capture par drone sur les carrieres",
+        "caption": "Methode terrain : capture drone adaptee aux contraintes d exploitation et aux zones sensibles."
+      }
+    ],
+    "context": {
+      "need": "Disposer, chaque annee, d un etat des lieux fiable des carrieres (fronts de taille, carreau, stocks) avec des volumes, des plans et des supports visuels pour le suivi d exploitation et les exigences DREAL.",
+      "response": "Acquisition drone couplee a un reseau de points de controle mesures au sol, puis production d un modele 3D exploitable et de livrables topo (plans, cubatures, ortho, pentes et acces), traites par notre geometre sous AutoCAD/Covadis.",
+      "result": "Un suivi regulier et comparable dans le temps, une lecture claire de l avancement et des stocks, et des livrables prets a integrer dans les outils metier et dossiers de suivi."
+    },
+    "keyFigures": [
+      {
+        "label": "Typologie",
+        "value": "Topographie, suivi de carriere"
+      },
+      {
+        "label": "Surface",
+        "value": "170 ha"
+      },
+      {
+        "label": "Frequence",
+        "value": "Annuelle"
+      },
+      {
+        "label": "Periode",
+        "value": "Depuis 2021"
+      }
+    ],
+    "deliverables": [
+      "Orthophotos georeferencees (haute definition) : lecture immediate du site, reperages et suivi",
+      "Nuage de points 3D couleur et/ou classifie : base de production et d exploitation",
+      "Plan topographique (PDF + DWG) : carreau, fronts de taille, talus, acces, zones d exploitation et details utiles",
+      "Cubatures / volumes : tableaux de synthese des stocks et bilans (comparaison de campagnes possible)"
+    ],
+    "constraints": [
+      "Environnement d exploitation evolutif : necessite d une methode repetable pour comparer les campagnes d une annee sur l autre",
+      "Exigence de precision topo : vols systematiquement couples a des points de controle au sol et controles qualite",
+      "Sites etendus (jusqu a plusieurs dizaines d hectares) : planification de vols adaptee aux zones, fronts, stockages et acces",
+      "Livrables multi-usages : production pour l exploitant (pilotage) et pour le reglementaire (DREAL)",
+      "Traitement oriente metier : exploitation par notre geometre sous AutoCAD + Covadis, avec livrables directement utilisables"
+    ],
+    "outcomes": [
+      "Piloter : suivre l avancement du front de taille, du carreau et des stocks avec une base comparable dans le temps.",
+      "Chiffrer : obtenir des volumes fiables (cubatures) pour le suivi en comptabilite, production et gestion des materiaux.",
+      "Securiser : disposer de livrables solides pour les echanges et exigences reglementaires (DREAL)."
+    ],
+    "categoryShort": "Plan topo / carriere / drone"
+  },
+  {
+    "slug": "releve-toiture-drone",
+    "isTopProject": true,
+    "imageUrl": "/images/optimized/drone/toit01.webp",
+    "category": "drone / toiture / photogrammetrie / metrage / copropriete",
+    "title": "Releve drone de toiture, auscultation et metres",
+    "excerpt": "Releve de toiture par drone, securise et georeference, combinant reportage photo complet et photogrammetrie 3D. Une mission tout-en-un pour obtenir rapidement des metres fiables (surfaces, longueurs, elements singuliers) et lancer une consultation d entreprises avec un dossier clair.",
+    "description": "Pour les coproprietes, syndics, particuliers et entreprises, ACBIM realise des releves de toitures par drone afin de documenter l etat existant et produire des metres exploitables. La capture comprend un jeu de photos haute definition servant a la fois de reportage d auscultation et de base photogrammetrique. Les donnees sont georeferencees puis transformees en nuage de points / modele 3D, utilise pour quantifier precisement les surfaces par materiaux et par pans, ainsi que les longueurs (noues, aretiers, rives). Le tout est livre sous forme d un dossier complet, pret a etre transmis aux artisans et entreprises.",
+    "client": "Coproprietes / syndics / particuliers / artisans",
+    "date": "2025",
+    "publishedAt": "2026-02-25",
+    "services": [
+      "releve-et-capture-par-drone"
+    ],
+    "tags": [
+      "Drone",
+      "Toiture",
+      "Photogrammetrie",
+      "Auscultation",
+      "Metrage",
+      "Copropriete",
+      "Syndic",
+      "Artisan",
+      "Zinguerie",
+      "Couverture",
+      "Orthophoto",
+      "Modele 3D",
+      "Nuage de points",
+      "Consultation entreprises",
+      "Securite"
+    ],
+    "gallery": [
+      {
+        "src": "/images/optimized/drone/toit01.webp",
+        "alt": "Surface de toiture par nature et par pan",
+        "caption": "Surface de toiture par nature et par pan.",
+        "fit": "contain"
+      },
+      {
+        "src": "/images/optimized/drone/toit02.webp",
+        "alt": "Support 3D pour mesurer une toiture complexe",
+        "caption": "Un support 3D pour mesurer sans ambiguite, meme sur toitures complexes.",
+        "fit": "contain"
+      },
+      {
+        "src": "/images/optimized/drone/toit03.webp",
+        "alt": "Mesures de surface de toiture sur lucarnes",
+        "caption": "Métré de tous les éléments singuliers.",
+        "fit": "contain"
+      },
+      {
+        "src": "/images/optimized/drone/toit04.webp",
+        "alt": "Mesures de surface de toiture sur lucarnes detail",
+        "caption": "Surface des joues sur les lucarnes.",
+        "fit": "contain"
+      },
+      {
+        "src": "/images/optimized/drone/toit1.webp",
+        "alt": "Altimetrie et surface 3D de toiture",
+        "caption": "Un tout-en-un qui fait gagner du temps aux entreprises et au donneur d ordre.",
+        "fit": "contain"
+      },
+      {
+        "src": "/images/optimized/drone/toit2.webp",
+        "alt": "Longueurs des aretiers, rives et noues mesurees par drone",
+        "caption": "Longueur des aretiers, des rives et des noues, mesuree par drone.",
+        "fit": "contain"
+      }
+    ],
+    "gaussianSplatViewerUrl": "/Moulin.html",
+    "gaussianSplatViewerTitle": "Viewer Gaussian Splat - releve drone de toiture",
+    "gaussianSplatViewerDescription": "Exemple de visualisation interactive type Gaussian Splat (rendu dense et fluide) issue d une capture photogrammetrique drone. Cliquez dans la fenêtre pour prendre la main en temps réel !",
+    "context": {
+      "need": "Mesurer une toiture et documenter son etat, sans nacelle ni interventions risquees, afin de consulter des entreprises avec un metre fiable.",
+      "response": "Mission drone georeferencee avec photos HD, generation d un modele 3D par photogrammetrie, puis extraction des metres (surfaces et lineaires) et constitution d un dossier pret a consulter.",
+      "result": "Une solution rapide, securisee et complete, qui reduit les incertitudes, facilite le chiffrage et accelere la prise de decision."
+    },
+    "keyFigures": [
+      {
+        "label": "Typologie",
+        "value": "Toitures, auscultation, metres"
+      },
+      {
+        "label": "Surface",
+        "value": "Selon site"
+      },
+      {
+        "label": "Periode",
+        "value": "Intervention rapide (terrain + traitement)"
+      }
+    ],
+    "deliverables": [
+      "Reportage photo complet de la toiture (auscultation visuelle, reperages des desordres et des details)",
+      "Modele photogrammetrique 3D (nuage de points et/ou maillage) georeference",
+      "Orthophoto de toiture haute definition (support de lecture et de reperage)",
+      "Metres detailles : surfaces par pans et par materiaux, lineaires (noues, aretiers, rives) et elements singuliers selon besoin",
+      "Dossier pret a consulter : livrables structures pour transmission aux entreprises et artisans, avec une lecture simple et des quantites maitrisees"
+    ],
+    "constraints": [
+      "Intervention en securite : capture sans nacelle, sans acces risque, sans equilibrisme",
+      "Toitures parfois complexes : necessite d une couverture photo complete et d une reconstruction 3D robuste",
+      "Attente de metres directement exploitables : quantites claires, structurees et coherentes pour la consultation",
+      "Delais courts : livraison rapide pour permettre le lancement des demandes de devis"
+    ],
+    "outcomes": [
+      "Securiser : releve sans risque et sans immobiliser un chantier.",
+      "Chiffrer : metres fiables pour comparer les offres et limiter les ecarts.",
+      "Decider : photos + orthophoto pour objectiver l etat et prioriser les travaux.",
+      "Consulter : un dossier complet tout-en-un pour lancer rapidement une consultation d entreprises."
+    ],
+    "categoryShort": "Drone / toiture"
+  },
+  {
+    "slug": "ortho-drone-champagnac",
+    "imageUrl": "/images/optimized/drone/ortho-champagnac1.webp",
+    "category": "drone / ortho / orthoimage / orthophoto",
+    "title": "Orthophoto haute definition, drone",
+    "excerpt": "Creation d ortho-image / orthophoto drone haute definition (environ 3 a 5 cm/pixel) pour disposer d une cartographie recente, a l echelle et immediatement exploitable. Une base rapide a produire, ideale pour mesurer des surfaces, lineaires et preparer des travaux publics avec une vision claire.",
+    "description": "Les communes ont besoin d une cartographie a jour pour decider, chiffrer et planifier. ACBIM realise des missions drone dediees a la production d orthophotos/ortho-images HD, georeferencees et livrees rapidement, utilisables directement en ligne pour les metres (surfaces, lineaires). Cette base devient ensuite un support de travail pour un veritable processus de plan-guide, mene avec le BET VRD 2B Maitrise & Concept et la paysagiste concepteur Elsa GUIVARC'H, afin d accompagner les communes dans une strategie de travaux par tranches, plan guide (pre-etudes, pre-chiffrage, financement), pouvant aller jusqu a la maitrise d oeuvre.",
+    "client": "Commune / Mairie",
+    "date": "2025",
+    "publishedAt": "2026-02-25",
+    "services": [
+      "releve-et-capture-par-drone"
+    ],
+    "tags": [
+      "Orthophoto",
+      "Orthophoto drone",
+      "Ortho-image",
+      "Orthoimage",
+      "Cartographie",
+      "Commune",
+      "Coeur de bourg",
+      "Voirie",
+      "Espaces publics",
+      "VRD",
+      "Plan-guide",
+      "Programmation travaux",
+      "Metres",
+      "Lineaires",
+      "Surfaces",
+      "Georeferencement",
+      "Haute definition",
+      "3 cm pixel",
+      "5 cm pixel"
+    ],
+    "gallery": [
+      {
+        "src": "/images/optimized/drone/ortho-champagnac1.webp",
+        "alt": "Fragment d une orthoimage, precision 3 cm / pixel",
+        "caption": "Ortho-image HD (3 cm/pixel) : lecture fine des details et reperage immediat des zones a traiter.",
+        "fit": "contain"
+      },
+      {
+        "src": "/images/optimized/drone/ortho-champagnac.webp",
+        "alt": "Fragment d une orthoimage, precision 3 cm / pixel",
+        "caption": "Orthophoto drone : une base a jour pour objectiver l existant avant travaux.",
+        "fit": "contain"
+      },
+      {
+        "src": "/images/optimized/drone/plan-guide.webp",
+        "alt": "Rendu 2D photomontage ortho image + texture, plan guide",
+        "caption": "Plan-guide : la base orthoimage sert de support a une vision par tranches et a la priorisation des actions.",
+        "fit": "contain"
+      },
+      {
+        "src": "/images/optimized/drone/champagnac.webp",
+        "alt": "Rendu en ligne du nuage 3D a l echelle communale, en couleurs",
+        "caption": "Consultation en ligne : visualiser et exploiter la donnee sans installer de logiciel.",
+        "fit": "contain"
+      },
+      {
+        "kind": "video",
+        "src": "https://youtu.be/s06kPCuK8nk",
+        "poster": "/images/optimized/drone/ortho-champagnac1.webp",
+        "alt": "Orthoimage en ligne avec outils de mesure (surfaces et lineaires)",
+        "caption": "Outil web securise pour visualiser l orthoimage sans logiciel local, mesurer surfaces et lineaires, et preparer des programmes d entretien ou de reparation."
+      }
+    ],
+    "context": {
+      "need": "Disposer d une orthophoto / ortho-image HD recente, a l echelle, pour mesurer et programmer des travaux avec une vision globale.",
+      "response": "Mission drone rapide, production d une orthophoto/ortho-image georeferencee (3 a 5 cm/pixel) et mise a disposition d un rendu consultable en ligne pour mesurer surfaces et lineaires.",
+      "result": "Une cartographie fiable et immediatement exploitable, utilisee comme socle pour construire un plan-guide et piloter des travaux publics par phases, avec une trajectoire budgetaire et technique maitrisee."
+    },
+    "keyFigures": [
+      {
+        "label": "Typologie",
+        "value": "Cartographie grande surface"
+      },
+      {
+        "label": "Surface",
+        "value": "Selon site"
+      },
+      {
+        "label": "Periode",
+        "value": "Intervention rapide (terrain + traitement)"
+      },
+      {
+        "label": "Aller plus loin",
+        "value": "Une vision claire grace au plan guide des amenagements"
+      }
+    ],
+    "deliverables": [
+      "Ortho-image / orthophoto drone haute definition (environ 3 a 5 cm/pixel), georeferencee et a l echelle",
+      "Mise a disposition d un rendu consultable en ligne (acces simple, sans logiciel) pour mesurer lineaires et surfaces",
+      "Exports adaptes a l usage (image HD, fichiers de calage / georeferencement selon besoin)",
+      "Dossier de livraison clair : supports prets pour etude, reperage, concertation et programmation de travaux",
+      "Base de travail pour demarche plan-guide (pre-etudes, scenarios, phasage, pre-chiffrage, financement), en lien avec BET VRD et paysagiste"
+    ],
+    "constraints": [
+      "Exigence d une orthophoto/ortho-image a l echelle et facilement exploitable (lecture, reperage, metres)",
+      "Delais courts : capture et traitement penses pour une mise a disposition rapide",
+      "Attente terrain reel : cartographie recente, coherente et utilisable pour preparer des decisions",
+      "Besoin d un support federateur : une base commune pour aligner commune, BET VRD, paysagiste et futurs intervenants"
+    ],
+    "outcomes": [
+      "Mesurer : metres simples et rapides (surfaces, lineaires) directement sur une base a jour.",
+      "Programmer : vision globale pour organiser les travaux par tranches et etaler l investissement dans le temps.",
+      "Chiffrer : pre-etudes et pre-chiffrage facilites pour lancer consultations et estimations.",
+      "Financer : support solide pour dossiers et arbitrages, avec une trajectoire de projet plus lisible."
+    ],
+    "categoryShort": "Drone / ortho"
+  },
+  {
+    "slug": "controle-chantier",
+    "imageUrl": "/images/optimized/plans-2d/360-facade.webp",
+    "category": "releve 3D / plan / cotes chantier / controle geometrique 3D / releve de cotes pour prefabrication",
+    "title": "Controle, prise de cote sur chantier",
+    "excerpt": "Releves et controles geometriques 3D en phase EXE pour entreprises du batiment (menuiseries, facades alu, murs rideaux). Une donnee fiable et rapide pour prefabrication, controle des tolerances et securisation des poses, sans ralentir le chantier.",
+    "description": "ACBIM accompagne des entreprises comme Laumond Menuiseries, Gayrel et Socotrap sur des missions de releve et de dessin en phase chantier. L objectif est double : relever l existant pour la prefabrication (jeux de cotes complets) et verifier la conformite geometrique selon les tolerances attendues (aplombs, alignements, planeite), parfois a plusieurs etapes d un meme chantier. Nous intervenons partout en France avec une forte reactivite pour ne pas contraindre la production ni retarder les operations. En complement, nous pouvons livrer un nuage de points 3D avec vues couleur 360 degres a J+2, puis les plans et details de pose a haute precision.",
+    "client": "Clients prives / menuisiers / facadiers",
+    "date": "2025",
+    "publishedAt": "2026-02-25",
+    "services": [
+      "releve-scanner-3d-numerisation",
+      "dessin-2d-plans-coupes-elevations"
+    ],
+    "tags": [
+      "Controle geometrique 3D",
+      "Releve chantier",
+      "EXE",
+      "As-built",
+      "Prise de cotes",
+      "Prefabrication",
+      "Menuiseries",
+      "Facade alu",
+      "Mur rideau",
+      "Aplomb",
+      "Planeite",
+      "Alignement",
+      "Tolerances",
+      "Nuage de points",
+      "Vues 360",
+      "Reactivite",
+      "France"
+    ],
+    "gallery": [
+      {
+        "src": "/images/optimized/plans-2d/360-facade.webp",
+        "alt": "Releve 3D chantier pour facade alu et menuiseries, vue 360 couleur",
+        "caption": "Support terrain immediat : vues 360 degres + 3D pour comprendre l existant sans re-visite.",
+        "fit": "contain"
+      },
+      {
+        "src": "/images/optimized/plans-2d/cahors.webp",
+        "alt": "Ortho image scan 3D couleur pour reperage puis dessin 2D des cotes",
+        "caption": "Extraction de cotes : ouvertures, reservations et lignes de pose au millimetre utile.",
+        "fit": "contain"
+      },
+      {
+        "src": "/images/optimized/plans-2d/ch-avec-nuage.webp",
+        "alt": "Plan EXE et releve de cotes pour menuiseries et mur rideau",
+        "caption": "Pose securisee : details et controles qui reduisent les ajustements sur site.",
+        "fit": "contain"
+      },
+      {
+        "src": "/images/optimized/plans-2d/facade-autocad.webp",
+        "alt": "Plans de facade et coupes exportes dans le format de travail du client",
+        "caption": "Livrables adaptes : vues de facade, coupes et exports dans vos formats de travail (DWG, DXF, PDF).",
+        "fit": "contain"
+      },
+      {
+        "src": "/images/optimized/plans-2d/nuage-facade.webp",
+        "alt": "Nuage 3D de facade en mur rideau, prise de cotes avant renovation",
+        "caption": "Nuage 3D de facade en mur rideau, utilise pour la prise de cotes avant renovation.",
+        "fit": "contain"
+      },
+      {
+        "src": "/images/optimized/plans-2d/facade-a.webp",
+        "alt": "Vue de facade sous Revit avec nuage de points",
+        "caption": "Vue de facade sous Revit avec nuage de points : base de dessin precise pour l execution.",
+        "fit": "contain"
+      },
+      {
+        "src": "/images/optimized/plans-2d/facade-b.webp",
+        "alt": "Vue de facade B sous Revit avec nuage de points",
+        "caption": "Vue de facade B sous Revit avec nuage de points : verification et dessin de detail.",
+        "fit": "contain"
+      },
+      {
+        "kind": "video",
+        "src": "https://youtu.be/72qwQ7b56gY",
+        "poster": "/images/optimized/plans-2d/360-facade.webp",
+        "alt": "Video du processus du releve terrain aux livrables 2D, 3D et nomenclatures",
+        "caption": "Du terrain aux livrables : releve de mesures, production 2D/3D et nomenclatures pour la phase execution."
+      }
+    ],
+    "context": {
+      "need": "Prendre des cotes fiables pour prefabrication (menuiseries, facade alu, mur rideau) et controler les tolerances en phase EXE, sans ralentir le chantier.",
+      "response": "Releve 3D sur site, controles d aplomb/alignement/planeite et extraction de cotes exploitables, avec livraison rapide (nuage 3D + vues 360 degres possible a J+2) puis plans et details.",
+      "result": "Moins d incertitudes, moins de reprises, une pose securisee et des elements prefabriques conformes des la premiere intervention."
+    },
+    "keyFigures": [
+      {
+        "label": "Typologie",
+        "value": "Releves, controles, verifications chantier"
+      },
+      {
+        "label": "Surface",
+        "value": "Selon site"
+      },
+      {
+        "label": "Periode",
+        "value": "Intervention rapide, France"
+      }
+    ],
+    "deliverables": [
+      "Releve de cotes complet pour prefabrication (menuiseries, ensembles alu, murs rideaux) avec reperes et niveaux utiles a l atelier",
+      "Controle geometrique selon tolerances attendues : aplombs, alignements, planeite, equerrage, ecarts par rapport aux axes de reference",
+      "Nuage de points 3D (couleur) et vues 360 degres (option) livrables rapidement (ex: J+2 selon complexite)",
+      "Plans et details EXE a haute precision (PDF + DWG) : ouvertures, reservations, supports, lignes d implantation, reperages",
+      "Compte-rendu de controle (si demande) : constats, ecarts, zones a corriger, recommandations de reprise avant pose"
+    ],
+    "constraints": [
+      "Delais chantier : intervention et livraison rapides pour ne pas bloquer prefabrication et pose",
+      "Environnements varies (beton, maconnerie, metal, alu) : methode adaptable selon supports et acces",
+      "Controles parfois iteratifs : interventions a plusieurs etapes (avant/apres corrections) pour valider la conformite",
+      "Exigence de precision pose : donnees directement exploitables, sans interpretation, pour atelier et equipe chantier",
+      "Conditions de site : coactivite, acces partiels, zones en cours, necessite d etre efficace et discret"
+    ],
+    "outcomes": [
+      "Prefabriquer : jeux de cotes fiables pour fabriquer juste du premier coup.",
+      "Controler : valider les tolerances (aplomb/planeite/alignement) et eviter les mauvaises surprises a la pose.",
+      "Gagner du temps : moins de reprises, moins d allers-retours, chantier mieux tenu.",
+      "Securiser : decisions rapides avec une preuve objective (3D + vues 360 degres + plans EXE)."
+    ],
+    "categoryShort": "Releves chantier / EXE"
+  },
+  {
+    "slug": "industrie",
+    "isTopProject": true,
+    "imageUrl": "/images/optimized/maquette-numerique-3d-bim/laumond-bi.webp",
+    "category": "releve 3D / plan / BIM / gestion / renovation / amenagement",
+    "title": "Industrie, entreprise, atelier",
+    "excerpt": "Interventions sur sites de production en exploitation pour creer un referentiel fiable de l existant (jumeau numerique 2D/3D, plans et maquette), avec des livrables adaptes exploitation/maintenance. Une methode eprouvee, pensee pour la reactivite et la mise a jour multi-campagnes, sans perturber l activite.",
+    "description": "ACBIM accompagne des industriels et entreprises (ateliers, unites de production, sites logistiques) sur des missions de releve 3D et de production de livrables d exploitation. L objectif est de disposer d une donnee terrain fiable pour piloter le site : jumeau numerique 2D/3D de l existant, integration d equipements selon cahier des charges (metier, securite incendie, CVC, surete), et mise a jour des plans d usine. Nous intervenons avec une forte reactivite partout en France pour ne pas retarder les operations, et nous proposons des livrables rapides comme un nuage de points 3D enrichi de vues couleur 360 degres a J+2, puis des plans et exports structures. La demarche est concue pour vivre dans le temps, avec une mise a jour multi-campagnes et une exploitation simple en GEM/GMAO.",
+    "client": "Industrie / entreprises",
+    "date": "2025",
+    "publishedAt": "2026-02-25",
+    "services": [
+      "releve-scanner-3d-numerisation",
+      "maquette-numerique-3d-bim",
+      "dessin-2d-plans-coupes-elevations",
+      "visite-virtuelle-360-3d"
+    ],
+    "tags": [
+      "Industrie",
+      "Site de production",
+      "Atelier",
+      "Jumeau numerique",
+      "Plans d usine",
+      "Exploitation maintenance",
+      "GEM",
+      "GMAO",
+      "Nuage de points",
+      "Vues 360",
+      "Mise a jour",
+      "Multi-campagnes",
+      "Reamenagement",
+      "Implantation d equipements",
+      "Securite incendie",
+      "CVC",
+      "Donnees fiables",
+      "Reactivite",
+      "France"
+    ],
+    "gallery": [
+      {
+        "src": "/images/optimized/maquette-numerique-3d-bim/laumond3.webp",
+        "alt": "Atelier de fabrication, jumeau numerique 3D de l existant",
+        "caption": "Atelier de fabrication : jumeau numerique 3D de l existant pour lecture et coordination.",
+        "fit": "contain"
+      },
+      {
+        "src": "/images/optimized/maquette-numerique-3d-bim/laumond-plan.webp",
+        "alt": "Atelier de fabrication, vue de plan du jumeau numerique de l existant",
+        "caption": "Vue de plan d atelier : support lisible pour exploitation et reamenagement.",
+        "fit": "contain"
+      },
+      {
+        "src": "/images/optimized/maquette-numerique-3d-bim/laumond4.webp",
+        "alt": "Atelier de fabrication, jumeau numerique de l existant, zoom equipements",
+        "caption": "Zoom equipements : integration et reperage des elements metier selon cahier des charges.",
+        "fit": "contain"
+      },
+      {
+        "src": "/images/optimized/maquette-numerique-3d-bim/laumond-bi.webp",
+        "alt": "Lecture BI des surfaces utilisees par pole",
+        "caption": "Lecture de surfaces : piloter l occupation et aider aux arbitrages (zones, poles, usages).",
+        "fit": "contain"
+      },
+      {
+        "src": "/images/optimized/maquette-numerique-3d-bim/laumond1.webp",
+        "alt": "Maquette IFC dans un viewer gratuit pour exploitation autonome par le client",
+        "caption": "Partage simplifie : une maquette interoperable pour equipes internes et prestataires.",
+        "fit": "contain"
+      },
+      {
+        "src": "/images/optimized/maquette-numerique-3d-bim/laumond2.webp",
+        "alt": "Acces aux donnees de quantites IFC",
+        "caption": "Quantites exploitables : surfaces et objets pour chiffrage, achats et decisions d amenagement.",
+        "fit": "contain"
+      }
+    ],
+    "context": {
+      "need": "Disposer d un referentiel fiable et a jour d un site industriel (2D/3D), exploitable par les equipes exploitation/maintenance et compatible avec l evolution permanente d un site en production.",
+      "response": "Releve 3D sur site, structuration des livrables (nuage 3D, vues 360 degres, plans, maquette), integration des equipements selon cahier des charges, puis organisation d une mise a jour multi-campagnes pour conserver une donnee toujours coherente.",
+      "result": "Un jumeau numerique operationnel, des livrables adaptes exploitation/maintenance et un support robuste pour la gestion patrimoniale, la supervision, les reamenagements et les decisions d investissement."
+    },
+    "keyFigures": [
+      {
+        "label": "Typologie",
+        "value": "Jumeau numerique"
+      },
+      {
+        "label": "Surface",
+        "value": "Selon site"
+      }
+    ],
+    "deliverables": [
+      "Nuage de points 3D couleur structure, exploitable en interne et par les partenaires (base de reference du site)",
+      "Vues couleur 360 degres associees au releve (option) pour une lecture terrain rapide et une validation a distance (ex: J+2 selon perimetre)",
+      "Plans 2D et plans d usine (PDF + DWG) : niveaux, circulations, zones, reperes, implantations et details utiles au quotidien",
+      "Maquette numerique 3D structuree : architecture/structure et integration d equipements selon cahier des charges (metier, SSI, CVC, surete...)",
+      "Exports interoperables (ex: IFC) et structuration des donnees pour un usage exploitation/maintenance (GEM / GMAO)",
+      "Mise a jour multi-campagnes : reprise des modifications, versioning des livrables et coherence dans le temps",
+      "Dossier de livraison pret a exploiter : arborescence claire, conventions de nommage, calques/nomenclatures homogenes"
+    ],
+    "constraints": [
+      "Site en production : interventions sur sites en exploitation, avec adaptation aux contraintes de securite et de coactivite",
+      "Reactivite attendue : acquisition et premieres livraisons rapides pour ne pas perturber la production ni retarder les decisions",
+      "Environnements complexes : equipements nombreux, zones techniques, circulations, volumes et obstacles generant des masquages",
+      "Livrables orientes usage : documents adaptes exploitation/maintenance, simples a partager et a consulter",
+      "Donnee vivante : necessite de mises a jour multi-campagnes pour rester aligne avec l evolution du site et des amenagements"
+    ],
+    "outcomes": [
+      "Exploiter : disposer d un referentiel fiable pour maintenance, securite et interventions quotidiennes.",
+      "Piloter : superviser et mettre a jour les plans d usine pour suivre les evolutions et reamenagements.",
+      "Decider : preparer des scenarios d amenagement, pre-etudes et investissements sur une base solide.",
+      "Partager : aligner les equipes internes et partenaires grace a une donnee unique (2D/3D/360) claire et exploitable."
+    ],
+    "categoryShort": "Industrie / GEM / GMAO"
+  }
+]
