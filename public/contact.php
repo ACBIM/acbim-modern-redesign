@@ -13,6 +13,13 @@ $MAX_NAME_LENGTH = 120;
 $MAX_EMAIL_LENGTH = 180;
 $MAX_SUBJECT_LENGTH = 180;
 $MAX_MESSAGE_LENGTH = 5000;
+$ALLOWED_ORIGINS = array(
+    'https://www.aura-bim.fr',
+    'https://aura-bim.fr',
+    'https://acbimcloud.fr',
+    'http://localhost:3000',
+    'http://127.0.0.1:3000',
+);
 
 function acbim_request_header($name) {
     $key = 'HTTP_' . strtoupper(str_replace('-', '_', $name));
@@ -24,6 +31,51 @@ function acbim_wants_json() {
     $requestedWith = acbim_request_header('X-Requested-With');
 
     return stripos($accept, 'application/json') !== false || strcasecmp($requestedWith, 'XMLHttpRequest') === 0;
+}
+
+function acbim_is_allowed_origin($origin, $allowedOrigins) {
+    if ($origin === '') {
+        return false;
+    }
+
+    if (in_array($origin, $allowedOrigins, true)) {
+        return true;
+    }
+
+    return preg_match('/^https:\/\/[a-z0-9-]+\.pages\.dev$/i', $origin) === 1;
+}
+
+function acbim_apply_cors_headers($allowedOrigins) {
+    $origin = trim(acbim_request_header('Origin'));
+
+    if ($origin === '' || !acbim_is_allowed_origin($origin, $allowedOrigins)) {
+        return;
+    }
+
+    header('Access-Control-Allow-Origin: ' . $origin);
+    header('Vary: Origin');
+    header('Access-Control-Allow-Methods: POST, OPTIONS');
+    header('Access-Control-Allow-Headers: Accept, Content-Type, X-Requested-With');
+    header('Access-Control-Max-Age: 86400');
+}
+
+function acbim_handle_preflight($allowedOrigins) {
+    $method = isset($_SERVER['REQUEST_METHOD']) ? strtoupper((string) $_SERVER['REQUEST_METHOD']) : 'GET';
+    if ($method !== 'OPTIONS') {
+        return;
+    }
+
+    $origin = trim(acbim_request_header('Origin'));
+    if (!acbim_is_allowed_origin($origin, $allowedOrigins)) {
+        http_response_code(403);
+        header('Content-Type: text/plain; charset=UTF-8');
+        echo 'Origin non autorisee.';
+        exit;
+    }
+
+    acbim_apply_cors_headers($allowedOrigins);
+    http_response_code(204);
+    exit;
 }
 
 function acbim_json_response($statusCode, $payload) {
@@ -110,6 +162,8 @@ function acbim_assert_post_method() {
     }
 }
 
+acbim_apply_cors_headers($ALLOWED_ORIGINS);
+acbim_handle_preflight($ALLOWED_ORIGINS);
 acbim_assert_post_method();
 
 $honeypot = acbim_get_post('website');
