@@ -225,11 +225,7 @@ $cleanName = acbim_clean_header_value($name);
 $cleanEmail = acbim_clean_header_value($email);
 $cleanSubject = acbim_clean_header_value($subject);
 
-$mailSubjectAscii = trim(preg_replace('/[^\x20-\x7E]/', ' ', $cleanSubject));
-if ($mailSubjectAscii === '') {
-    $mailSubjectAscii = 'Nouveau message';
-}
-$mailSubject = '[' . $SITE_NAME . '] ' . $mailSubjectAscii;
+$mailSubject = '[' . $SITE_NAME . '] Nouveau message #' . $requestId;
 
 $bodyLines = array(
     'Nouveau message recu depuis le formulaire du site ACBIM.',
@@ -256,7 +252,6 @@ $mailBody = implode("\n", $bodyLines);
 
 $headers = array(
     'From: ' . $CONTACT_FROM,
-    'Reply-To: ' . $cleanEmail,
 );
 
 $mailSent = @mail(
