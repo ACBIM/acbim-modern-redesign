@@ -8,6 +8,7 @@
 $CONTACT_TO = 'mopus3d@gmail.com';
 $CONTACT_FROM = 'no-reply@acbimcloud.fr';
 $MAIL_LOG_PATH = __DIR__ . '/contact-mail.log';
+$LEADS_LOG_PATH = __DIR__ . '/contact-leads.ndjson';
 $SITE_NAME = 'ACBIM';
 $MIN_SUBMIT_DELAY_MS = 1500;
 $MAX_NAME_LENGTH = 120;
@@ -173,6 +174,15 @@ function acbim_log_mail_event($logPath, $requestId, $status, $detail) {
     @file_put_contents($logPath, $line, FILE_APPEND);
 }
 
+function acbim_store_lead($filePath, $lead) {
+    $line = json_encode($lead, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+    if ($line === false) {
+        return false;
+    }
+
+    return @file_put_contents($filePath, $line . "\n", FILE_APPEND) !== false;
+}
+
 acbim_apply_cors_headers($ALLOWED_ORIGINS);
 acbim_handle_preflight($ALLOWED_ORIGINS);
 acbim_assert_post_method();
@@ -249,6 +259,22 @@ if ($originUrl !== '') {
 }
 
 $mailBody = implode("\n", $bodyLines);
+
+$leadSaved = acbim_store_lead($LEADS_LOG_PATH, array(
+    'request_id' => $requestId,
+    'created_at' => date('c'),
+    'name' => $name,
+    'email' => $email,
+    'subject' => $subject,
+    'message' => $message,
+    'origin_url' => $originUrl,
+    'ip' => acbim_client_ip(),
+    'user_agent' => isset($_SERVER['HTTP_USER_AGENT']) ? (string) $_SERVER['HTTP_USER_AGENT'] : 'unknown',
+));
+
+if (!$leadSaved) {
+    acbim_log_mail_event($MAIL_LOG_PATH, $requestId, 'warn', 'lead not saved on disk path=' . $LEADS_LOG_PATH);
+}
 
 $headers = array(
     'From: ' . $CONTACT_FROM,
