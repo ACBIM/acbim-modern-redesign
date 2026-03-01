@@ -15,6 +15,10 @@ dist-ssr
 out
 *.local
 *.tsbuildinfo
+public/contact-leads.ndjson
+public/submissions/
+public/submissions-counter.txt
+public/mail-test-chain.php
 
 # Editor directories and files
 .vscode/*

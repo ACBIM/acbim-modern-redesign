@@ -5,10 +5,19 @@
 // - Accepts POST form submissions
 // - Returns JSON for fetch() requests, HTML fallback otherwise
 
-$CONTACT_TO = 'mopus3d@gmail.com';
-$CONTACT_FROM = 'no-reply@acbimcloud.fr';
+$CONTACT_TO_PRIMARY = 'mopus3d@gmail.com';
+$CONTACT_TO_BACKUP = '';
+$CONTACT_FROM_EMAIL = 'no-reply@acbimcloud.fr';
+$CONTACT_FROM_NAME = 'ACBIM';
+$CONTACT_RETURN_PATH = 'no-reply@acbimcloud.fr';
+$CONTACT_REPLY_TO_FIXED = 'no-reply@acbimcloud.fr';
+$FORM_MAIL_SMOKE_TEST_ENABLED = false;
+$FORM_MAIL_SMOKE_TEST_TO = 'mopus3d@gmail.com';
+$FORM_MAIL_SMOKE_TEST_TEMPLATE = 'T1';
 $MAIL_LOG_PATH = __DIR__ . '/contact-mail.log';
 $LEADS_LOG_PATH = __DIR__ . '/contact-leads.ndjson';
+$SUBMISSIONS_DIR_PATH = __DIR__ . '/submissions';
+$SUBMISSIONS_COUNTER_PATH = __DIR__ . '/submissions-counter.txt';
 $SITE_NAME = 'ACBIM';
 $MIN_SUBMIT_DELAY_MS = 1500;
 $MAX_NAME_LENGTH = 120;
@@ -140,6 +149,20 @@ function acbim_clean_header_value($value) {
     return trim($value);
 }
 
+function acbim_build_mailbox_header($displayName, $email) {
+    $safeEmail = acbim_clean_header_value($email);
+    if ($safeEmail === '') {
+        return '';
+    }
+
+    $safeName = acbim_clean_header_value($displayName);
+    if ($safeName === '') {
+        return $safeEmail;
+    }
+
+    return sprintf('"%s" <%s>', str_replace('"', "'", $safeName), $safeEmail);
+}
+
 function acbim_normalize_message($value) {
     $value = str_replace(array("\r\n", "\r"), "\n", (string) $value);
     $value = preg_replace("/\n{3,}/", "\n\n", $value);
@@ -181,6 +204,108 @@ function acbim_store_lead($filePath, $lead) {
     }
 
     return @file_put_contents($filePath, $line . "\n", FILE_APPEND) !== false;
+}
+
+function acbim_ensure_directory($dirPath) {
+    if (is_dir($dirPath)) {
+        return true;
+    }
+
+    return @mkdir($dirPath, 0755, true);
+}
+
+function acbim_protect_directory($dirPath) {
+    $htaccessPath = rtrim($dirPath, '/\\') . DIRECTORY_SEPARATOR . '.htaccess';
+    if (is_file($htaccessPath)) {
+        return true;
+    }
+
+    $rules = array(
+        'Require all denied',
+        '<IfModule !mod_authz_core.c>',
+        'Deny from all',
+        '</IfModule>',
+    );
+
+    return @file_put_contents($htaccessPath, implode("\n", $rules) . "\n") !== false;
+}
+
+function acbim_next_sequence($counterPath) {
+    $handle = @fopen($counterPath, 'c+');
+    if ($handle === false) {
+        return false;
+    }
+
+    if (!@flock($handle, LOCK_EX)) {
+        @fclose($handle);
+        return false;
+    }
+
+    $raw = stream_get_contents($handle);
+    $current = (is_string($raw) && ctype_digit(trim($raw))) ? (int) trim($raw) : 0;
+    $next = $current + 1;
+
+    @ftruncate($handle, 0);
+    @rewind($handle);
+    @fwrite($handle, (string) $next);
+    @fflush($handle);
+    @flock($handle, LOCK_UN);
+    @fclose($handle);
+
+    return $next;
+}
+
+function acbim_archive_submission($dirPath, $counterPath, $requestId, $lead) {
+    if (!acbim_ensure_directory($dirPath)) {
+        return array('ok' => false, 'error' => 'cannot create submissions directory');
+    }
+    if (!acbim_protect_directory($dirPath)) {
+        return array('ok' => false, 'error' => 'cannot protect submissions directory');
+    }
+
+    $sequence = acbim_next_sequence($counterPath);
+    if ($sequence === false) {
+        return array('ok' => false, 'error' => 'cannot increment submissions counter');
+    }
+
+    $sequenceLabel = str_pad((string) $sequence, 6, '0', STR_PAD_LEFT);
+    $stamp = date('Ymd-His');
+    $baseName = $sequenceLabel . '-' . $stamp . '-' . $requestId;
+    $jsonFileName = $baseName . '.json';
+    $txtFileName = $baseName . '.txt';
+    $jsonPath = rtrim($dirPath, '/\\') . DIRECTORY_SEPARATOR . $jsonFileName;
+    $txtPath = rtrim($dirPath, '/\\') . DIRECTORY_SEPARATOR . $txtFileName;
+
+    $jsonData = json_encode($lead, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
+    if ($jsonData === false || @file_put_contents($jsonPath, $jsonData . "\n") === false) {
+        return array('ok' => false, 'error' => 'cannot write submission json');
+    }
+
+    $txtLines = array(
+        'ACBIM - Nouvelle demande formulaire',
+        'sequence=' . $sequenceLabel,
+        'request_id=' . $requestId,
+        'created_at=' . (isset($lead['created_at']) ? (string) $lead['created_at'] : ''),
+        'name=' . (isset($lead['name']) ? (string) $lead['name'] : ''),
+        'email=' . (isset($lead['email']) ? (string) $lead['email'] : ''),
+        'subject=' . (isset($lead['subject']) ? (string) $lead['subject'] : ''),
+        'origin_url=' . (isset($lead['origin_url']) ? (string) $lead['origin_url'] : ''),
+        '',
+        'message:',
+        (isset($lead['message']) ? (string) $lead['message'] : ''),
+    );
+    if (@file_put_contents($txtPath, implode("\n", $txtLines) . "\n") === false) {
+        return array('ok' => false, 'error' => 'cannot write submission txt');
+    }
+
+    return array(
+        'ok' => true,
+        'sequence' => $sequenceLabel,
+        'json_file' => $jsonFileName,
+        'txt_file' => $txtFileName,
+        'json_path' => $jsonPath,
+        'txt_path' => $txtPath,
+    );
 }
 
 acbim_apply_cors_headers($ALLOWED_ORIGINS);
@@ -231,36 +356,32 @@ if ($message === '' || strlen($message) < 10 || strlen($message) > $MAX_MESSAGE_
     acbim_respond(422, false, 'Merci de renseigner un message valide (10 caracteres minimum).');
 }
 
-$cleanName = acbim_clean_header_value($name);
 $cleanEmail = acbim_clean_header_value($email);
 $cleanSubject = acbim_clean_header_value($subject);
 
-$mailSubject = '[' . $SITE_NAME . '] Nouveau message #' . $requestId;
+$mailSubject = '[' . $SITE_NAME . ' CONTACT] ' . $cleanSubject . ' #' . $requestId;
 
 $bodyLines = array(
-    'Nouveau message recu depuis le formulaire du site ACBIM.',
-    'Reference technique : ' . $requestId,
+    'ACBIM contact form',
+    'request_id=' . $requestId,
     '',
-    'Nom : ' . $name,
-    'Email : ' . $email,
-    'Sujet : ' . $subject,
+    'name=' . $name,
+    'email=' . $email,
+    'subject=' . $subject,
     '',
-    'Message :',
+    'message:',
     $message,
     '',
-    '---',
-    'Date serveur : ' . date('c'),
-    'IP : ' . acbim_client_ip(),
-    'User-Agent : ' . (isset($_SERVER['HTTP_USER_AGENT']) ? (string) $_SERVER['HTTP_USER_AGENT'] : 'unknown'),
+    'created_at=' . date('c'),
 );
 
 if ($originUrl !== '') {
-    $bodyLines[] = 'Page d origine : ' . $originUrl;
+    $bodyLines[] = 'origin_url=' . $originUrl;
 }
 
 $mailBody = implode("\n", $bodyLines);
 
-$leadSaved = acbim_store_lead($LEADS_LOG_PATH, array(
+$leadData = array(
     'request_id' => $requestId,
     'created_at' => date('c'),
     'name' => $name,
@@ -270,21 +391,40 @@ $leadSaved = acbim_store_lead($LEADS_LOG_PATH, array(
     'origin_url' => $originUrl,
     'ip' => acbim_client_ip(),
     'user_agent' => isset($_SERVER['HTTP_USER_AGENT']) ? (string) $_SERVER['HTTP_USER_AGENT'] : 'unknown',
-));
+);
+
+$leadSaved = acbim_store_lead($LEADS_LOG_PATH, $leadData);
+$archiveResult = acbim_archive_submission($SUBMISSIONS_DIR_PATH, $SUBMISSIONS_COUNTER_PATH, $requestId, $leadData);
+
+$fromHeaderValue = acbim_build_mailbox_header($CONTACT_FROM_NAME, $CONTACT_FROM_EMAIL);
+$notificationTo = acbim_clean_header_value($CONTACT_TO_PRIMARY);
+if (!filter_var($notificationTo, FILTER_VALIDATE_EMAIL)) {
+    acbim_log_mail_event($MAIL_LOG_PATH, $requestId, 'error', 'invalid notification recipient configured');
+    acbim_respond(500, false, 'Configuration email invalide. Merci de nous contacter directement.');
+}
 
 if (!$leadSaved) {
     acbim_log_mail_event($MAIL_LOG_PATH, $requestId, 'warn', 'lead not saved on disk path=' . $LEADS_LOG_PATH);
 }
+if (!$archiveResult['ok']) {
+    acbim_log_mail_event($MAIL_LOG_PATH, $requestId, 'warn', 'submission archive not saved detail=' . $archiveResult['error']);
+}
 
 $headers = array(
-    'From: ' . $CONTACT_FROM,
+    'From: ' . $fromHeaderValue,
 );
 
+$notificationSubject = '[ACBIM MAIL TEST] ' . $requestId . ' T1-FORM';
+$archiveRef = $archiveResult['ok']
+    ? 'sequence=' . $archiveResult['sequence'] . ' json=' . $archiveResult['json_file'] . ' txt=' . $archiveResult['txt_file']
+    : 'archive=unavailable';
+$notificationBody = "ACBIM test T1\nrequest_id=" . $requestId . "\nmode=form-notify-archive\n" . $archiveRef . "\n";
 $mailSent = @mail(
-    $CONTACT_TO,
-    $mailSubject,
-    $mailBody,
-    implode("\r\n", $headers)
+    $notificationTo,
+    $notificationSubject,
+    $notificationBody,
+    implode("\r\n", $headers),
+    '-f' . $CONTACT_RETURN_PATH
 );
 
 if (!$mailSent) {
@@ -292,7 +432,7 @@ if (!$mailSent) {
         $MAIL_LOG_PATH,
         $requestId,
         'error',
-        'mail() returned false mode=minimal to=' . $CONTACT_TO . ' from=' . $CONTACT_FROM
+        'mail() returned false mode=form-notify-archive to=' . $notificationTo . ' from=' . $CONTACT_FROM_EMAIL . ' client_email=' . $cleanEmail . ' archive_ok=' . ($archiveResult['ok'] ? 'yes' : 'no')
     );
     acbim_respond(500, false, 'Le message n a pas pu etre envoye pour le moment. Reference: ' . $requestId . '. Merci de reessayer ou de nous contacter par email.');
 }
@@ -301,6 +441,6 @@ acbim_log_mail_event(
     $MAIL_LOG_PATH,
     $requestId,
     'ok',
-    'mail() accepted by server mode=minimal to=' . $CONTACT_TO . ' from=' . $CONTACT_FROM
+    'mail() accepted by server mode=form-notify-archive to=' . $notificationTo . ' from=' . $CONTACT_FROM_EMAIL . ' client_email=' . $cleanEmail . ' subject=' . $cleanSubject . ' archive_ok=' . ($archiveResult['ok'] ? 'yes' : 'no') . ($archiveResult['ok'] ? ' sequence=' . $archiveResult['sequence'] : '')
 );
 acbim_respond(200, true, 'Message envoye. Merci, nous revenons vers vous rapidement. Reference: ' . $requestId . '.');
