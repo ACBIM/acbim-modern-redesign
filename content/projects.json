@@ -392,8 +392,8 @@
     "imageUrl": "/images/optimized/plans-2d/vic1.webp",
     "category": "Medical / soins",
     "title": "Centre de soins medicaux et de readaptation",
-    "excerpt": "Releve 3D complet interieur/exterieur en site occupe et production de plans 2D normalises (plans, coupes, elevations) pour doter l UGECAM d une base fiable, en appui d un projet d amelioration des chambres et d un audit energetique realise par IGECTEC.",
-    "description": "Le groupe UGECAM, gestionnaire du batiment, souhaitait disposer d une base de plans complete et a jour pour preparer des travaux d amelioration du confort et des equipements des chambres de patients, ainsi que pour alimenter un audit energetique mene par IGECTEC. ACBIM est intervenu en site occupe, avec respect strict du protocole sanitaire et d un planning compatible avec l activite de soins et de readaptation. La mission a consiste a scanner l ensemble du batiment (interieur/exterieur) puis a produire un jeu de plans 2D hierarchises (PDF + DWG), incluant mise a jour des reperages, cotations et elements architecturaux structurants.",
+    "excerpt": "Releve 3D complet interieur/exterieur en site occupe et production de plans 2D normalises (plans, coupes, elevations) pour doter l UGECAM d une base fiable, en appui d un projet d amelioration des chambres et d un audit energetique realise par IGETEC.",
+    "description": "Le groupe UGECAM, gestionnaire du batiment, souhaitait disposer d une base de plans complete et a jour pour preparer des travaux d amelioration du confort et des equipements des chambres de patients, ainsi que pour alimenter un audit energetique mene par IGETEC. ACBIM est intervenu en site occupe, avec respect strict du protocole sanitaire et d un planning compatible avec l activite de soins et de readaptation. La mission a consiste a scanner l ensemble du batiment (interieur/exterieur) puis a produire un jeu de plans 2D hierarchises (PDF + DWG), incluant mise a jour des reperages, cotations et elements architecturaux structurants.",
     "client": "Groupe UGECAM",
     "date": "2025",
     "publishedAt": "2026-02-24",
@@ -497,7 +497,7 @@
       "Programmer : base de plans fiable pour definir et phaser les travaux d amelioration des chambres et des equipements.",
       "Concevoir : supports DWG/PDF complets (niveaux, coupes, elevations) facilitant les etudes et la coordination MOA/MOE.",
       "Exploiter : reperage des pieces et informations d implantation utiles a la gestion quotidienne et aux interventions.",
-      "Energetique : etat des lieux geometrique robuste pour appuyer l audit energetique (realise par IGECTEC)."
+      "Energetique : etat des lieux geometrique robuste pour appuyer l audit energetique (realise par IGETEC)."
     ],
     "categoryShort": "Medical / soins"
   },

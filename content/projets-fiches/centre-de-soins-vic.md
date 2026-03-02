@@ -9,10 +9,10 @@ Date publication (optionnel, YYYY-MM-DD): 2026-02-24
 Image hero: plans-2d/vic1.webp
 
 ## Extrait (1-2 phrases)
-Relevé 3D complet intérieur/extérieur en site occupé et production de plans 2D normalisés (plans, coupes, élévations) pour doter l’UGECAM d’une base fiable, en appui d’un projet d’amélioration des chambres et d’un audit énergétique réalisé par IGECTEC.
+Relevé 3D complet intérieur/extérieur en site occupé et production de plans 2D normalisés (plans, coupes, élévations) pour doter l’UGECAM d’une base fiable, en appui d’un projet d’amélioration des chambres et d’un audit énergétique réalisé par IGETEC.
 
 ## A propos du projet (4-5 lignes max)
-Le groupe UGECAM, gestionnaire du bâtiment, souhaitait disposer d’une base de plans complète et à jour pour préparer des travaux d’amélioration du confort et des équipements des chambres de patients, ainsi que pour alimenter un audit énergétique mené par **IGECTEC**. ACBIM est intervenu en **site occupé**, avec respect strict du protocole sanitaire et d’un planning compatible avec l’activité de soins et de réadaptation. La mission a consisté à scanner l’ensemble du bâtiment (intérieur/extérieur) puis à produire un jeu de plans 2D hiérarchisés (PDF + DWG), incluant mise à jour des repérages, cotations et éléments architecturaux structurants.
+Le groupe UGECAM, gestionnaire du bâtiment, souhaitait disposer d’une base de plans complète et à jour pour préparer des travaux d’amélioration du confort et des équipements des chambres de patients, ainsi que pour alimenter un audit énergétique mené par **IGETEC**. ACBIM est intervenu en **site occupé**, avec respect strict du protocole sanitaire et d’un planning compatible avec l’activité de soins et de réadaptation. La mission a consisté à scanner l’ensemble du bâtiment (intérieur/extérieur) puis à produire un jeu de plans 2D hiérarchisés (PDF + DWG), incluant mise à jour des repérages, cotations et éléments architecturaux structurants.
 
 ## Le projet en 20 secondes
 Besoin: Obtenir des plans fiables et complets pour préparer des travaux en milieu médical sans perturber l’activité, et fournir une base solide aux études (dont audit énergétique).
@@ -50,7 +50,7 @@ releve-scanner-3d-numerisation, dessin-2d-plans-coupes-elevations
 - Programmer : base de plans fiable pour définir et phaser les travaux d’amélioration des chambres et des équipements.
 - Concevoir : supports DWG/PDF complets (niveaux, coupes, élévations) facilitant les études et la coordination MOA/MOE.
 - Exploiter : repérage des pièces et informations d’implantation utiles à la gestion quotidienne et aux interventions.
-- Énergétique : état des lieux géométrique robuste pour appuyer l’audit énergétique (réalisé par IGECTEC).
+- Énergétique : état des lieux géométrique robuste pour appuyer l’audit énergétique (réalisé par IGETEC).
 
 ## Galerie (une image par bloc)
 
@@ -80,5 +80,5 @@ Legende: Vue d'élévation 5
 
 ## Notes libres (optionnel)
 - Le relevé et la production de plans ont été planifiés pour préserver la continuité d’exploitation du centre (soins/réadaptation) et limiter les nuisances.
-- L’audit énergétique a été réalisé par **IGECTEC** ; ACBIM a fourni la base “état existant” (scan + plans) utilisée pour les études.
+- L’audit énergétique a été réalisé par **IGETEC** ; ACBIM a fourni la base “état existant” (scan + plans) utilisée pour les études.
 
