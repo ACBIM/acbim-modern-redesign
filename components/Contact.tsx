@@ -2,6 +2,7 @@
 
 import type { FormEvent } from 'react'
 import { useEffect, useRef, useState } from 'react'
+import Link from 'next/link'
 import PhoneRevealLink from '@/components/PhoneRevealLink'
 import { trackLeadFormSubmit } from '@/lib/analytics'
 import { BASE_PATH, COMPANY_ADDRESS, COMPANY_EMAIL } from '@/lib/site'
@@ -149,6 +150,7 @@ export default function Contact({ headingTag = 'h2' }: ContactProps) {
           >
             <input type="hidden" name="form_started_at" value={formStartedAt} readOnly />
             <input type="hidden" name="origin_url" value={originUrl} readOnly />
+            <input type="hidden" name="privacy_notice_version" value="2026-04-23" readOnly />
 
             <div className="absolute left-[-9999px] top-auto h-px w-px overflow-hidden" aria-hidden="true">
               <label htmlFor="website">Site web</label>
@@ -241,7 +243,11 @@ export default function Contact({ headingTag = 'h2' }: ContactProps) {
             </div>
 
             <p className="mt-4 text-center text-xs text-slate-400">
-              Formulaire securise ACBIM. Vous pouvez aussi ecrire a {COMPANY_EMAIL}.
+              Formulaire securise ACBIM. Les informations transmises servent a traiter votre demande.{' '}
+              <Link href="/politique-confidentialite/" className="font-semibold text-slate-300 underline-offset-4 hover:text-white hover:underline">
+                Politique de confidentialite
+              </Link>
+              . Vous pouvez aussi ecrire a {COMPANY_EMAIL}.
             </p>
           </form>
         </div>

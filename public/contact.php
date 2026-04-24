@@ -290,6 +290,7 @@ function acbim_archive_submission($dirPath, $counterPath, $requestId, $lead) {
         'email=' . (isset($lead['email']) ? (string) $lead['email'] : ''),
         'subject=' . (isset($lead['subject']) ? (string) $lead['subject'] : ''),
         'origin_url=' . (isset($lead['origin_url']) ? (string) $lead['origin_url'] : ''),
+        'privacy_notice_version=' . (isset($lead['privacy_notice_version']) ? (string) $lead['privacy_notice_version'] : ''),
         '',
         'message:',
         (isset($lead['message']) ? (string) $lead['message'] : ''),
@@ -327,6 +328,7 @@ if ($message === '') {
 }
 $originUrl = acbim_get_post('origin_url');
 $formStartedAt = acbim_get_post('form_started_at');
+$privacyNoticeVersion = acbim_get_post('privacy_notice_version');
 $requestId = bin2hex(random_bytes(4));
 
 if ($formStartedAt !== '' && ctype_digit($formStartedAt)) {
@@ -378,6 +380,9 @@ $bodyLines = array(
 if ($originUrl !== '') {
     $bodyLines[] = 'origin_url=' . $originUrl;
 }
+if ($privacyNoticeVersion !== '') {
+    $bodyLines[] = 'privacy_notice_version=' . $privacyNoticeVersion;
+}
 
 $mailBody = implode("\n", $bodyLines);
 
@@ -389,6 +394,7 @@ $leadData = array(
     'subject' => $subject,
     'message' => $message,
     'origin_url' => $originUrl,
+    'privacy_notice_version' => $privacyNoticeVersion,
     'ip' => acbim_client_ip(),
     'user_agent' => isset($_SERVER['HTTP_USER_AGENT']) ? (string) $_SERVER['HTTP_USER_AGENT'] : 'unknown',
 );

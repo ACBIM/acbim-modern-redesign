@@ -26,6 +26,9 @@ export function initializeAnalytics(measurementId: string) {
   window.gtag?.('config', measurementId, {
     send_page_view: false,
     anonymize_ip: true,
+    cookie_expires: 60 * 60 * 24 * 395,
+    cookie_update: false,
+    cookie_flags: 'SameSite=Lax;Secure',
   })
 }
 

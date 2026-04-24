@@ -2,6 +2,8 @@
 
 import React from 'react';
 import Link from 'next/link';
+import CookiePreferencesButton from '@/components/CookiePreferencesButton';
+import { GA_MEASUREMENT_ID } from '@/lib/site';
 
 const Footer: React.FC = () => {
     const navLinks = [
@@ -12,11 +14,16 @@ const Footer: React.FC = () => {
         { href: '/contact', label: 'Contact' },
         { href: 'https://acbimcloud.fr/', label: 'Acbimcloud', external: true },
     ];
+    const legalLinks = [
+        { href: '/mentions-legales', label: 'Mentions legales' },
+        { href: '/politique-confidentialite', label: 'Confidentialite' },
+        { href: '/cookies', label: 'Cookies' },
+    ];
 
     return (
         <footer className="bg-[#1d1d1b] text-slate-300">
             <div className="container mx-auto px-6 py-12">
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+                <div className="grid grid-cols-1 gap-8 text-center md:grid-cols-4 md:text-left">
                     <div>
                         <h3 className="text-xl font-bold text-white mb-4">AC<span className="text-[#ee7527]">BIM</span></h3>
                         <p className="text-sm text-slate-400">
@@ -42,6 +49,23 @@ const Footer: React.FC = () => {
                                     )}
                                 </li>
                             ))}
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 className="mb-4 font-semibold text-white">Legal</h4>
+                        <ul className="space-y-2 text-sm">
+                            {legalLinks.map(link => (
+                                <li key={link.href}>
+                                    <Link href={link.href} className="text-slate-400 transition-colors hover:text-white">{link.label}</Link>
+                                </li>
+                            ))}
+                            {GA_MEASUREMENT_ID ? (
+                                <li>
+                                    <CookiePreferencesButton className="text-slate-400 transition-colors hover:text-white">
+                                        Gestion des cookies
+                                    </CookiePreferencesButton>
+                                </li>
+                            ) : null}
                         </ul>
                     </div>
                     <div>
