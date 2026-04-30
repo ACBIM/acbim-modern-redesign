@@ -1,5 +1,7 @@
 export type AnalyticsEventParams = Record<string, string | number | boolean | null | undefined>
 
+const GOOGLE_TAG_SCRIPT_ID = 'ga4-script'
+
 declare global {
   interface Window {
     dataLayer?: unknown[]
@@ -18,10 +20,23 @@ function ensureDataLayer() {
   }
 }
 
+function loadGoogleTagScript(measurementId: string) {
+  if (typeof document === 'undefined') return
+  if (document.getElementById(GOOGLE_TAG_SCRIPT_ID)) return
+
+  const script = document.createElement('script')
+  script.id = GOOGLE_TAG_SCRIPT_ID
+  script.async = true
+  script.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(measurementId)}`
+
+  document.head.appendChild(script)
+}
+
 export function initializeAnalytics(measurementId: string) {
   if (typeof window === 'undefined' || !measurementId) return
 
   ensureDataLayer()
+  loadGoogleTagScript(measurementId)
   window.gtag?.('js', new Date())
   window.gtag?.('config', measurementId, {
     send_page_view: false,
