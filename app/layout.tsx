@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import type { ReactNode } from 'react'
 import { Poppins } from 'next/font/google'
 import './globals.css'
+import AnalyticsConsentBanner from '@/components/AnalyticsConsentBanner'
 import BackToTopButton from '@/components/BackToTopButton'
 import { generateOrganizationSchema } from '@/lib/schema'
 import { BASE_URL, COMPANY_NAME, DEFAULT_OG_IMAGE_URL, GA_MEASUREMENT_ID, SITE_LOCALE } from '@/lib/site'
@@ -92,8 +93,14 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                 __html: `
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
+gtag('consent', 'default', {
+  analytics_storage: 'denied',
+  ad_storage: 'denied',
+  ad_user_data: 'denied',
+  ad_personalization: 'denied'
+});
 gtag('js', new Date());
-gtag('config', '${GA_MEASUREMENT_ID}');
+gtag('config', '${GA_MEASUREMENT_ID}', { send_page_view: false });
 `,
               }}
             />
@@ -102,6 +109,7 @@ gtag('config', '${GA_MEASUREMENT_ID}');
       </head>
       <body className={`${poppins.className} bg-slate-50 text-slate-800`}>
         {children}
+        <AnalyticsConsentBanner />
         <BackToTopButton />
       </body>
     </html>
