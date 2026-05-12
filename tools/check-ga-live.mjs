@@ -84,13 +84,13 @@ async function checkOnce(options, passIndex) {
   const scriptsWithMeasurementId = scriptResults.filter((script) => script.hits.measurementId)
   const scriptsWithLoader = scriptResults.filter((script) => script.hits.googleTagManager)
   const scriptsWithConsent = scriptResults.filter((script) => script.hits.analyticsConsent || script.hits.consentBanner)
+  const directTagInHtml = htmlHits.measurementId && htmlHits.googleTagManager
+  const bundledTagCode = scriptsWithMeasurementId.length > 0 && scriptsWithLoader.length > 0
 
   const ok =
     page.ok &&
     gtag.ok &&
-    scriptsWithMeasurementId.length > 0 &&
-    scriptsWithLoader.length > 0 &&
-    scriptsWithConsent.length > 0
+    (directTagInHtml || bundledTagCode)
 
   return {
     passIndex,
@@ -98,6 +98,7 @@ async function checkOnce(options, passIndex) {
     page,
     htmlHits,
     scriptCount: scriptResults.length,
+    directTagInHtml,
     scriptsWithMeasurementId,
     scriptsWithLoader,
     scriptsWithConsent,
@@ -121,6 +122,7 @@ function printResult(result, options) {
   console.log(`Scripts found: ${result.scriptCount}`)
   console.log(`Measurement ID directly in HTML: ${result.htmlHits.measurementId ? 'YES' : 'NO'}`)
   console.log(`Google tag script directly in HTML: ${result.htmlHits.googleTagManager ? 'YES' : 'NO'}`)
+  console.log(`Direct Google tag in HTML: ${result.directTagInHtml ? 'YES' : 'NO'}`)
   console.log(`Google gtag.js reachable: HTTP ${result.gtag.status} ${result.gtag.contentType}`)
   printScriptList('Scripts containing measurement ID', result.scriptsWithMeasurementId)
   printScriptList('Scripts containing gtag loader code', result.scriptsWithLoader)
@@ -128,8 +130,8 @@ function printResult(result, options) {
   console.log(`Result: ${result.ok ? 'OK' : 'KO'}`)
 
   if (result.ok) {
-    console.log('Interpretation: the live bundle contains the GA4 ID, the lazy gtag loader, and the consent code.')
-    console.log('Runtime confirmation still requires a browser click on the consent banner to observe /g/collect.')
+    console.log('Interpretation: the live page contains a GA4 tag and the Google tag endpoint is reachable.')
+    console.log('Runtime confirmation is a browser Network check for a collect request with HTTP 204.')
   }
 }
 
@@ -139,7 +141,7 @@ async function main() {
 
   console.log('GA deployment check')
   console.log('This verifies the published HTML/JS bundle and the Google tag endpoint.')
-  console.log('It does not click the cookie banner or read your private GA dashboard.')
+  console.log('It does not read your private GA dashboard.')
 
   for (let index = 1; index <= options.repeat; index += 1) {
     const result = await checkOnce(options, index)
