@@ -99,6 +99,7 @@ export function trackPageView(pagePath: string) {
   if (typeof window === 'undefined') return
 
   const pageViewParams = withDebugMode({
+    send_page_view: true,
     page_title: document.title,
     page_location: window.location.href,
     page_path: pagePath,
