@@ -183,10 +183,10 @@ export default function Hero() {
           BET <span className="text-[#ee7527]">ACBIM</span>
         </h1>
         <h2 className="mb-4 text-4xl font-bold leading-tight md:text-6xl">
-          Votre patrimoine <span className="text-[#ee7527]">numerique</span>
+          Votre patrimoine <span className="text-[#ee7527]">numérique</span>
         </h2>
         <p className="mx-auto mb-8 max-w-3xl text-lg text-slate-200 md:text-xl">
-          Du releve sur site au livrable: ACBIM propose des solutions de releves 3D, maquette numerique 3D, orthophotos, imagerie 3D, plans 2D et plans topographiques au service de vos projets de renovation et de gestion de patrimoine.
+          Du relevé sur site au livrable: ACBIM propose des solutions de relevés 3D, maquette numérique 3D, orthophotos, imagerie 3D, plans 2D et plans topographiques au service de vos projets de rénovation et de gestion de patrimoine.
         </p>
 
         <div className="flex flex-wrap items-center justify-center gap-3">

@@ -14,7 +14,7 @@ const poppins = Poppins({
 })
 
 const defaultDescription =
-  "ACBIM, expert BIM à Aurillac: relevé scanner 3D, modélisation BIM, drone, visite virtuelle, plans 2D et plans topographiques pour vos projets de rénovation et de gestion patrimoniale."
+  "ACBIM, géomètre-topographe et expert BIM à Aurillac : relevé scanner 3D, drone, plans 2D et topographiques, maquette numérique pour rénovation et patrimoine."
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),

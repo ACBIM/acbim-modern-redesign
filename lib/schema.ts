@@ -1,23 +1,70 @@
 import { PROJECTS_DATA, SERVICES_DATA } from '@/constants'
-import { BASE_URL, COMPANY_ADDRESS, COMPANY_EMAIL, COMPANY_NAME, COMPANY_PHONE_E164 } from '@/lib/site'
+import {
+  BASE_URL,
+  COMPANY_ADDRESS,
+  COMPANY_EMAIL,
+  COMPANY_LEGAL_NAME,
+  COMPANY_NAME,
+  COMPANY_PHONE_E164,
+  DEFAULT_OG_IMAGE_URL,
+} from '@/lib/site'
+
+const SOCIAL_PROFILE_URLS = [
+  'https://www.linkedin.com/company/acbim-mopus/',
+  'https://www.facebook.com/acbimmopus3d',
+  'https://www.youtube.com/@acbimmopus631',
+]
+
+// Cantal + départements limitrophes (couverture SEO local — AuditOpus #2)
+const AREA_SERVED = [
+  { '@type': 'City', name: 'Aurillac' },
+  { '@type': 'AdministrativeArea', name: 'Cantal' },
+  { '@type': 'AdministrativeArea', name: 'Corrèze' },
+  { '@type': 'AdministrativeArea', name: 'Lot' },
+  { '@type': 'AdministrativeArea', name: 'Aveyron' },
+  { '@type': 'AdministrativeArea', name: 'Lozère' },
+  { '@type': 'AdministrativeArea', name: 'Puy-de-Dôme' },
+  { '@type': 'AdministrativeArea', name: 'Haute-Loire' },
+  { '@type': 'AdministrativeArea', name: 'Auvergne-Rhône-Alpes' },
+]
 
 export function generateOrganizationSchema() {
   return {
     '@context': 'https://schema.org',
-    '@type': 'ProfessionalService',
+    '@type': ['LocalBusiness', 'ProfessionalService'],
     '@id': `${BASE_URL}#organization`,
     name: COMPANY_NAME,
-    description: 'Expert en modélisation des données du bâtiment',
+    legalName: COMPANY_LEGAL_NAME,
+    description:
+      "Bureau d'études et géomètre-topographe à Aurillac (Cantal) : relevé scanner 3D, maquette numérique BIM, plans 2D et topographiques, drone, visite virtuelle et rénovation énergétique.",
+    slogan: 'Votre patrimoine numérique',
     url: BASE_URL,
     logo: `${BASE_URL}/logo.svg`,
+    image: DEFAULT_OG_IMAGE_URL,
     email: COMPANY_EMAIL,
     telephone: COMPANY_PHONE_E164,
-    areaServed: ['Cantal', 'Auvergne-Rhône-Alpes', 'Régions limitrophes'],
+    priceRange: '€€',
+    award: ["BIM d'Argent", 'PTNB'],
+    areaServed: AREA_SERVED,
     address: {
       '@type': 'PostalAddress',
       ...COMPANY_ADDRESS,
     },
-    sameAs: ['https://www.linkedin.com/company/acbim-mopus/?viewAsMember=true'],
+    openingHoursSpecification: [
+      {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+        opens: '08:00',
+        closes: '12:00',
+      },
+      {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+        opens: '14:00',
+        closes: '18:00',
+      },
+    ],
+    sameAs: SOCIAL_PROFILE_URLS,
   }
 }
 
@@ -37,7 +84,7 @@ export function generateServiceSchema(slug: string) {
       name: COMPANY_NAME,
       url: BASE_URL,
     },
-    areaServed: ['Cantal', 'Auvergne-Rhône-Alpes', 'Régions limitrophes'],
+    areaServed: AREA_SERVED,
     offers: {
       '@type': 'Offer',
       availability: 'https://schema.org/InStock',

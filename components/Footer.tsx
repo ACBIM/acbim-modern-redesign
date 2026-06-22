@@ -9,14 +9,15 @@ const Footer: React.FC = () => {
     const navLinks = [
         { href: '/', label: 'Accueil' },
         { href: '/services', label: 'Services' },
+        { href: '/zones-intervention', label: "Zones d'intervention" },
         { href: '/projets', label: 'Réalisations' },
         { href: '/a-propos', label: 'À Propos' },
         { href: '/contact', label: 'Contact' },
         { href: 'https://acbimcloud.fr/', label: 'Acbimcloud', external: true },
     ];
     const legalLinks = [
-        { href: '/mentions-legales', label: 'Mentions legales' },
-        { href: '/politique-confidentialite', label: 'Confidentialite' },
+        { href: '/mentions-legales', label: 'Mentions légales' },
+        { href: '/politique-confidentialite', label: 'Confidentialité' },
         { href: '/cookies', label: 'Cookies' },
     ];
 
@@ -27,11 +28,11 @@ const Footer: React.FC = () => {
                     <div>
                         <h3 className="text-xl font-bold text-white mb-4">AC<span className="text-[#ee7527]">BIM</span></h3>
                         <p className="text-sm text-slate-400">
-                            Bureau d&apos;etudes Releve 3D - Plans - BIM - Topographie - Drone
+                            Bureau d&apos;études Relevé 3D - Plans - BIM - Topographie - Drone
                             <br />
-                            Nous realisons vos livrables conformes et exploitables pour vous fournir une base fiable, afin de renover, vous projeter, diagnostiquer et gerer votre patrimoine.
+                            Nous réalisons vos livrables conformes et exploitables pour vous fournir une base fiable, afin de rénover, vous projeter, diagnostiquer et gérer votre patrimoine.
                             <br />
-                            Concretisez vos projets avec rigueur et reactivite.
+                            Concrétisez vos projets avec rigueur et réactivité.
                         </p>
                         <address className="text-sm text-slate-400 mt-4 not-italic">
                             52 Av Jean Baptiste Veyre,<br/>15000 Aurillac

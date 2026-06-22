@@ -474,34 +474,34 @@
   {
     "slug": "programme-renovation-energetique-batiments",
     "iconKey": "reno-energetique",
-    "title": "Programme de renovation energetique de batiments",
-    "subtitle": "De la capture du bati aux scenarios de rénovations thermiques",
+    "title": "Programme de rénovation énergétique de bâtiments",
+    "subtitle": "De la capture du bâti aux scénarios de rénovations thermiques",
     "imageUrl": "/images/services/renovation-energetique.webp",
     "cardImageRotationUrls": [
       "/images/optimized/maquette-numerique-3d-bim/thermique-vert.webp"
     ],
-    "description": "Nous deployons une chaine complete scan 3D -> maquette numerique -> audit energetique sur maquette -> livrables. Cette methode a deja ete appliquee sur pres de 160 batiments, avec des recommandations techniques et des scenarios d'amelioration directement exploitables.",
+    "description": "Nous déployons une chaîne complète scan 3D -> maquette numérique -> audit énergétique sur maquette -> livrables. Cette méthode a déjà été appliquée sur près de 160 bâtiments, avec des recommandations techniques et des scénarios d'amélioration directement exploitables.",
     "detailedDescription": "",
     "benefits": [
-      "Processus eprouve sur pres de 160 batiments",
-      "Vision globale et fiable de l'etat existant",
-      "Scenarios d'amelioration energetique bases sur la maquette",
+      "Processus éprouvé sur près de 160 bâtiments",
+      "Vision globale et fiable de l'état existant",
+      "Scénarios d'amélioration énergétique basés sur la maquette",
       "Livrables complets: 3D, plans 2D et audit"
     ],
     "process": [
       {
-        "title": "1. Releve scan 3D de l'existant",
-        "description": "Acquisition rapide et precise du bati pour fiabiliser les donnees d'entree.",
+        "title": "1. Relevé scan 3D de l'existant",
+        "description": "Acquisition rapide et précise du bâti pour fiabiliser les données d'entrée.",
         "iconKey": "scan"
       },
       {
-        "title": "2. Maquette numerique du batiment",
+        "title": "2. Maquette numérique du bâtiment",
         "description": "Structuration BIM de l'existant pour analyser et simuler les performances.",
         "iconKey": "cube"
       },
       {
-        "title": "3. Audit energetique sur maquette",
-        "description": "Evaluation des performances et comparaison de scenarios d'amelioration.",
+        "title": "3. Audit énergétique sur maquette",
+        "description": "Évaluation des performances et comparaison de scénarios d'amélioration.",
         "iconKey": "cog"
       },
       {

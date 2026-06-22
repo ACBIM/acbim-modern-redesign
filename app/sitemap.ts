@@ -19,6 +19,12 @@ const staticPages: MetadataRoute.Sitemap = [
     priority: 0.9,
   },
   {
+    url: `${BASE_URL}/zones-intervention/`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly',
+    priority: 0.8,
+  },
+  {
     url: `${BASE_URL}/projets/`,
     lastModified: new Date(),
     changeFrequency: 'weekly',

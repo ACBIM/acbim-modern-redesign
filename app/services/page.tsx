@@ -12,7 +12,7 @@ import { BASE_URL, COMPANY_NAME, DEFAULT_OG_IMAGE_URL } from '@/lib/site'
 export const metadata: Metadata = {
   title: "Services BIM, relevé 3D, drone, plans 2D et topographiques",
   description:
-    "Découvrez les services ACBIM: relevé scanner 3D, modélisation BIM, dessin 2D, plans topographiques, drone, rendus visuels et visites virtuelles pour vos projets dans le Cantal et l'Auvergne-Rhône-Alpes.",
+    "Services ACBIM à Aurillac : relevé scanner 3D, modélisation BIM, plans 2D et topographiques, drone, rendus 3D et visites virtuelles dans le Cantal et alentours.",
   keywords: [
     'services BIM',
     'relevé 3D',
@@ -23,9 +23,9 @@ export const metadata: Metadata = {
     'Cantal',
   ],
   openGraph: {
-    title: `Services BIM, releve 3D, drone, plans 2D et topographiques | ${COMPANY_NAME}`,
+    title: `Services BIM, relevé 3D, drone, plans 2D et topographiques | ${COMPANY_NAME}`,
     description:
-      "Decouvrez les services ACBIM: releve scanner 3D, modelisation BIM, dessin 2D, plans topographiques, drone, rendus visuels et visites virtuelles pour vos projets dans le Cantal et l'Auvergne-Rhone-Alpes.",
+      "Services ACBIM à Aurillac : relevé scanner 3D, modélisation BIM, plans 2D et topographiques, drone, rendus 3D et visites virtuelles dans le Cantal et alentours.",
     type: 'website',
     url: `${BASE_URL}/services/`,
     images: [
@@ -33,15 +33,15 @@ export const metadata: Metadata = {
         url: DEFAULT_OG_IMAGE_URL,
         width: 1200,
         height: 630,
-        alt: `${COMPANY_NAME} - Services BIM et numerisation`,
+        alt: `${COMPANY_NAME} - Services BIM et numérisation`,
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: `Services BIM, releve 3D, drone, plans 2D et topographiques | ${COMPANY_NAME}`,
+    title: `Services BIM, relevé 3D, drone, plans 2D et topographiques | ${COMPANY_NAME}`,
     description:
-      "Decouvrez les services ACBIM: releve scanner 3D, modelisation BIM, dessin 2D, plans topographiques, drone, rendus visuels et visites virtuelles pour vos projets dans le Cantal et l'Auvergne-Rhone-Alpes.",
+      "Services ACBIM à Aurillac : relevé scanner 3D, modélisation BIM, plans 2D et topographiques, drone, rendus 3D et visites virtuelles dans le Cantal et alentours.",
     images: [DEFAULT_OG_IMAGE_URL],
   },
   alternates: {
