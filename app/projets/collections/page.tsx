@@ -10,14 +10,14 @@ import { getCollectionsSummary } from '@/lib/projectCollections'
 export const metadata: Metadata = {
   title: 'Thematiques de projets | Par objectifs',
   description:
-    'Explorez les realisations ACBIM par objectifs de mission : rehabilitation, renovation energetique, controle/conformite, communication et concertation.',
+    'Explorez les réalisations ACBIM par objectifs de mission : rehabilitation, rénovation énergétique, controle/conformite, communication et concertation.',
   alternates: {
     canonical: '/projets/collections/',
   },
   openGraph: {
     title: `Thematiques de projets | ${COMPANY_NAME}`,
     description:
-      'References ACBIM organisees par objectifs : rehabilitation/patrimoine, renovation energetique, controle/conformite, communication et concertation.',
+      'Références ACBIM organisees par objectifs : rehabilitation/patrimoine, rénovation énergétique, controle/conformite, communication et concertation.',
     type: 'website',
     url: `${BASE_URL}/projets/collections/`,
     images: [
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: `Thematiques de projets | ${COMPANY_NAME}`,
     description:
-      'References ACBIM organisees par objectifs de mission pour faciliter la lecture des savoir-faire et cas d usage.',
+      'Références ACBIM organisees par objectifs de mission pour faciliter la lecture des savoir-faire et cas d usage.',
     images: [DEFAULT_OG_IMAGE_URL],
   },
 }
@@ -56,7 +56,7 @@ export default function ProjectCollectionsIndexPage() {
             <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[#ee7527]">Par objectifs</p>
             <h1 className="mt-3 text-4xl font-bold text-slate-900 md:text-5xl">Thematiques de projets</h1>
             <p className="mx-auto mt-4 max-w-4xl text-lg leading-relaxed text-slate-600">
-              Une lecture editoriale de nos realisations pour aller plus vite vers les references pertinentes selon votre objectif :
+              Une lecture editoriale de nos réalisations pour aller plus vite vers les références pertinentes selon votre objectif :
               rehabiliter, structurer un programme, verifier la faisabilite ou communiquer un projet.
             </p>
             <div className="mx-auto mt-5 h-1 w-24 rounded bg-[#ee7527]" />
@@ -110,7 +110,7 @@ export default function ProjectCollectionsIndexPage() {
 
             <div className="mt-8 text-center">
               <Link href="/projets" className="inline-flex items-center rounded-full border border-slate-300 bg-white px-4 py-2 text-sm font-semibold text-slate-700 transition hover:border-[#ee7527] hover:text-[#ee7527]">
-                Retour a toutes les realisations
+                Retour a toutes les réalisations
               </Link>
             </div>
           </div>

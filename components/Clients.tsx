@@ -45,7 +45,7 @@ export default function Clients({ variant = 'section' }: ClientsProps) {
               href="/a-propos"
               className="inline-block rounded-md bg-[#ee7527] px-6 py-3 font-bold text-white shadow-lg transition duration-300 hover:-translate-y-1 hover:bg-[#d9661f] hover:shadow-xl"
             >
-              Decouvrir nos references et projets
+              Découvrir nos références et projets
             </Link>
           </div>
         )}

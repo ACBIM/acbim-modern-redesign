@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 
 const cookieRows = [
   {
-    name: 'Preference de consentement ACBIM',
+    name: 'Préférence de consentement ACBIM',
     provider: COMPANY_LEGAL_NAME,
     purpose: 'Memoriser votre choix concernant les cookies de mesure d audience.',
     required: 'Oui',
@@ -29,16 +29,16 @@ const cookieRows = [
   {
     name: 'Google Analytics (_ga, _ga_*)',
     provider: 'Google LLC',
-    purpose: 'Mesurer l audience du site et comprendre les pages consultees, uniquement apres acceptation.',
+    purpose: 'Mesurer l audience du site et comprendre les pages consultees, uniquement après acceptation.',
     required: 'Non',
     retention: '13 mois maximum',
   },
   {
     name: 'Traceurs tiers YouTube / youtube-nocookie.com',
     provider: 'Google LLC',
-    purpose: 'Afficher certaines videos integrees et le hero video. Le chargement du lecteur peut entrainer la lecture ou le depot de traceurs Google.',
+    purpose: 'Afficher certaines videos integrees et le hero video. Le chargement du lecteur peut entrainer la lecture ou le dépôt de traceurs Google.',
     required: 'Non',
-    retention: 'Variable selon Google et l etat de connexion a votre compte',
+    retention: 'Variable selon Google et l état de connexion a votre compte',
   },
   {
     name: 'Traceurs tiers Google Maps',
@@ -94,7 +94,7 @@ export default function CookiesPage() {
           <h2 className="text-2xl font-bold text-slate-950">Principe</h2>
           <p className="mt-4">
             Le site ACBIM fonctionne sans cookie publicitaire. Les cookies et traceurs de mesure d audience Google
-            Analytics ne sont charges qu apres votre acceptation. Le refus est conserve avec la meme duree que
+            Analytics ne sont charges qu après votre acceptation. Le refus est conserve avec la meme durée que
             l acceptation afin de ne pas vous redemander un choix a chaque page.
           </p>
           <p className="mt-4">
@@ -105,7 +105,7 @@ export default function CookiesPage() {
           {GA_MEASUREMENT_ID ? (
             <div className="mt-6">
               <CookiePreferencesButton className="rounded-md border border-slate-900 bg-slate-900 px-5 py-3 text-sm font-semibold text-white transition hover:bg-slate-700">
-                Modifier mes preferences
+                Modifier mes préférences
               </CookiePreferencesButton>
             </div>
           ) : (
@@ -161,7 +161,7 @@ export default function CookiesPage() {
             <li>Certaines pages services et projets integrent des visites immersives Matterport.</li>
           </ul>
           <p className="mt-4">
-            Ces services ne sont pas des cookies strictement necessaires au fonctionnement general du site. Ils sont
+            Ces services ne sont pas des cookies strictement nécessaires au fonctionnement général du site. Ils sont
             utilises pour enrichir certaines pages et restent soumis a la politique du fournisseur tiers.
           </p>
         </section>
@@ -197,7 +197,7 @@ export default function CookiesPage() {
           <h2 className="text-2xl font-bold text-slate-950">Parametrage du navigateur</h2>
           <p className="mt-4">
             Vous pouvez aussi supprimer les cookies depuis les reglages de votre navigateur. Ce reglage est distinct du
-            choix exprime sur le site et peut supprimer la preference memorisee localement.
+            choix exprime sur le site et peut supprimer la préférence memorisee localement.
           </p>
         </section>
       </LegalPageShell>

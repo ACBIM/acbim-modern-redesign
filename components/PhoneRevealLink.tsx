@@ -13,7 +13,7 @@ type PhoneRevealLinkProps = {
 
 export default function PhoneRevealLink({
   phoneDisplay = '06 43 20 04 76',
-  buttonLabel = 'Afficher le numero',
+  buttonLabel = 'Afficher le numéro',
   linkClassName = '',
   buttonClassName = '',
 }: PhoneRevealLinkProps) {

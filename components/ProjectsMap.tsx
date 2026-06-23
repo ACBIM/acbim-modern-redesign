@@ -26,7 +26,7 @@ export default function ProjectsMap({ className = '', variant = 'full' }: Projec
         <div className="mx-auto mb-10 max-w-3xl text-center">
           <h2 className="text-3xl font-bold md:text-4xl">Des projets partout en France</h2>
           <p className="mt-4 text-slate-300">
-            Nous avons eu la chance d&apos;intervenir sur des projets varies, en Auvergne-Rhone-Alpes et bien au-dela.
+            Nous avons eu la chance d&apos;intervenir sur des projets varies, en Auvergne-Rhône-Alpes et bien au-dela.
           </p>
           <div className="mx-auto mt-4 h-1 w-24 rounded bg-[#ee7527]" />
         </div>

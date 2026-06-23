@@ -39,9 +39,9 @@ const Projects: React.FC = () => {
     <section id="projects" className="bg-white py-20">
         <div className="container mx-auto px-6">
             <div className="mb-12 text-center">
-                <h2 className="text-3xl font-bold text-slate-800 md:text-4xl">Nos realisations</h2>
+                <h2 className="text-3xl font-bold text-slate-800 md:text-4xl">Nos réalisations</h2>
                 <p className="mx-auto mt-4 max-w-2xl text-lg text-slate-600">
-                    Decouvrez une selection de projets vitrines representatifs de notre savoir-faire.
+                    Découvrez une selection de projets vitrines representatifs de notre savoir-faire.
                 </p>
                 <div className="mx-auto mt-4 h-1 w-24 rounded bg-[#ee7527]"></div>
             </div>
@@ -55,7 +55,7 @@ const Projects: React.FC = () => {
                     href="/projets"
                     className="inline-flex items-center rounded-md border border-slate-300 px-5 py-3 text-sm font-semibold text-slate-700 transition hover:border-[#ee7527] hover:text-[#ee7527]"
                 >
-                    Voir toutes les realisations
+                    Voir toutes les réalisations
                 </Link>
             </div>
         </div>

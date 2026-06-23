@@ -8,10 +8,10 @@ import { BASE_URL, COMPANY_NAME, DEFAULT_OG_IMAGE_URL } from '@/lib/site'
 export const metadata: Metadata = {
   title: 'Contact | Devis et informations',
   description:
-    "Contactez notre bureau d'etudes ACBIM a Aurillac pour toute question ou demande de devis concernant nos services de releve 3D, modelisation BIM et topographie.",
+    "Contactez notre bureau d'études ACBIM a Aurillac pour toute question ou demande de devis concernant nos services de relevé 3D, modélisation BIM et topographie.",
   openGraph: {
     title: `Contact | Devis et informations | ${COMPANY_NAME}`,
-    description: "Contactez notre bureau d'etudes pour vos projets de numerisation 3D.",
+    description: "Contactez notre bureau d'études pour vos projets de numérisation 3D.",
     type: 'website',
     url: `${BASE_URL}/contact/`,
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: `Contact | Devis et informations | ${COMPANY_NAME}`,
-    description: "Contactez notre bureau d'etudes pour vos projets de numerisation 3D.",
+    description: "Contactez notre bureau d'études pour vos projets de numérisation 3D.",
     images: [DEFAULT_OG_IMAGE_URL],
   },
   alternates: {

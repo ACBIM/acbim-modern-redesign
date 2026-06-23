@@ -6,32 +6,32 @@ type ProcessCardProps = {
 }
 
 const mesuresItems = [
-  'Laser scanner -> releve nuage 3D',
-  'Station -> releve de points',
-  'GPS -> releve georeference',
-  'Drone -> releve aerien',
-  'Camera + app photo -> releve images',
+  'Laser scanner -> relevé nuage 3D',
+  'Station -> relevé de points',
+  'GPS -> relevé géoréférencé',
+  'Drone -> relevé aerien',
+  'Camera + app photo -> relevé images',
 ] as const
 
-const donneesItems = ['Tablette', 'Video', 'Photo', 'Recolte de donnee in situ'] as const
+const donneesItems = ['Tablette', 'Video', 'Photo', 'Recolte de donnée in situ'] as const
 
 const consolidationItems = [
   'Calage / nettoyage : nuage de points 3D',
-  'Recuperation des donnees appareils',
+  'Recuperation des données appareils',
   'Referencement dans le systeme projet',
 ] as const
 
-const dessin3DItems = ['Maquette numerique', 'Plan topo (MNT)', 'Objet maille'] as const
-const dessin2DItems = ['Plan', 'Coupe', 'Elevations'] as const
+const dessin3DItems = ['Maquette numérique', 'Plan topo (MNT)', 'Objet maille'] as const
+const dessin2DItems = ['Plan', 'Coupe', 'Élévations'] as const
 
 const exportItems = [
   'Points de georeferencement',
-  'Tableau de donnees',
+  'Tableau de données',
   'Points topographiques',
-  'Nuage de points 3D (lidar ou photogrammetrie)',
+  'Nuage de points 3D (lidar ou photogrammétrie)',
 ] as const
 
-const controleItems = ['Controle de fichier', 'Corrections'] as const
+const controleItems = ['Contrôle de fichier', 'Corrections'] as const
 
 function OrangePill({ label, large = false }: { label: string; large?: boolean }) {
   return (
@@ -85,7 +85,7 @@ export default function IndustryProcessSynoptique() {
         <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#ee7527]">Processus de production</p>
         <h2 className="mt-2 text-2xl font-bold text-slate-800 md:text-3xl">Synoptique des livrables</h2>
         <p className="mx-auto mt-3 max-w-4xl text-slate-600 xl:mx-0">
-          De la capture terrain au livrable final, visualisez en un coup d oeil comment ACBIM transforme les releves en plans, maquettes et
+          De la capture terrain au livrable final, visualisez en un coup d oeil comment ACBIM transforme les relevés en plans, maquettes et
           exports prets a exploiter pour la maintenance, la GMAO et les reamenagements de sites industriels.
         </p>
       </div>
@@ -102,7 +102,7 @@ export default function IndustryProcessSynoptique() {
               </div>
               <div className="rounded-lg border border-white/10 bg-black/35 p-3">
                 <div className="mb-3">
-                  <OrangePill label="Donnees" />
+                  <OrangePill label="Données" />
                 </div>
                 <BulletList items={donneesItems} />
               </div>
@@ -112,7 +112,7 @@ export default function IndustryProcessSynoptique() {
           <ProcessCard step="2" title="Consolidation">
             <div className="rounded-lg border border-white/10 bg-black/35 p-3">
               <div className="mb-3">
-                <OrangePill label="Consolidation des donnees terrain" />
+                <OrangePill label="Consolidation des données terrain" />
               </div>
               <BulletList items={consolidationItems} />
             </div>
@@ -146,20 +146,20 @@ export default function IndustryProcessSynoptique() {
             </div>
           </ProcessCard>
 
-          <ProcessCard step="5" title="Controle de fichier et corrections">
+          <ProcessCard step="5" title="Contrôle de fichier et corrections">
             <div className="grid gap-3 sm:grid-cols-2">
               {controleItems.map((item) => (
                 <div key={item} className="rounded-lg border border-white/10 bg-black/35 p-3">
                   <div className="mb-2">
                     <OrangePill label={item} />
                   </div>
-                  {item === 'Controle de fichier' ? (
+                  {item === 'Contrôle de fichier' ? (
                     <p className="text-sm leading-relaxed text-slate-300">
-                      Controle de conformite des livrables : formats, structure des fichiers, calques, nomenclatures et lisibilite avant diffusion.
+                      Contrôle de conformite des livrables : formats, structure des fichiers, calques, nomenclatures et lisibilite avant diffusion.
                     </p>
                   ) : (
                     <p className="text-sm leading-relaxed text-slate-300">
-                      Reprises ciblees apres retour terrain / client : ajustements des plans, maquette ou exports puis re-emission d une version validee.
+                      Reprises ciblees après retour terrain / client : ajustements des plans, maquette ou exports puis re-emission d une version validee.
                     </p>
                   )}
                 </div>
@@ -173,12 +173,12 @@ export default function IndustryProcessSynoptique() {
                 <OrangePill label="Livrable" large />
               </div>
               <p className="text-sm leading-relaxed text-slate-100">
-                Livrables 2D / 3D structures, controles et directement exploitables pour l exploitation, la maintenance, les projets de
+                Livrables 2D / 3D structures, contrôles et directement exploitables pour l exploitation, la maintenance, les projets de
                 reamenagement et les decisions d investissement.
               </p>
               <div className="mt-4 grid gap-2 sm:grid-cols-2">
-                <div className="rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-sm text-slate-200">Plans / coupes / elevations</div>
-                <div className="rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-sm text-slate-200">Maquette numerique / IFC</div>
+                <div className="rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-sm text-slate-200">Plans / coupes / élévations</div>
+                <div className="rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-sm text-slate-200">Maquette numérique / IFC</div>
                 <div className="rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-sm text-slate-200">Nuage de points / exports</div>
                 <div className="rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-sm text-slate-200">Base fiable pour GEM / GMAO</div>
               </div>

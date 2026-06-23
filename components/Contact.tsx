@@ -58,7 +58,7 @@ export default function Contact({ headingTag = 'h2' }: ContactProps) {
       const contentType = response.headers.get('content-type') ?? ''
       if (!contentType.toLowerCase().includes('application/json')) {
         if (typeof window !== 'undefined' && window.location.hostname === 'localhost') {
-          throw new Error("Le script PHP n'est pas execute en local avec Next.js. Le formulaire sera operationnel sur l'hebergement OVH.")
+          throw new Error("Le script PHP n'est pas execute en local avec Next.js. Le formulaire sera operationnel sur l'hébergement OVH.")
         }
         throw new Error('Reponse serveur invalide. Merci de reessayer ou de nous contacter par email.')
       }
@@ -108,7 +108,7 @@ export default function Contact({ headingTag = 'h2' }: ContactProps) {
                   </a>
                 </div>
                 <div>
-                  <p className="text-xs font-semibold uppercase tracking-[0.14em] text-slate-400">Telephone</p>
+                  <p className="text-xs font-semibold uppercase tracking-[0.14em] text-slate-400">Téléphone</p>
                   <div className="mt-1">
                     <PhoneRevealLink
                       linkClassName="inline-block text-lg font-semibold tracking-wider text-slate-200 hover:text-white"
@@ -126,7 +126,7 @@ export default function Contact({ headingTag = 'h2' }: ContactProps) {
                 <p>
                   {COMPANY_ADDRESS.postalCode} {COMPANY_ADDRESS.addressLocality}
                 </p>
-                <p className="mt-2 text-slate-400">Auvergne-Rhone-Alpes</p>
+                <p className="mt-2 text-slate-400">Auvergne-Rhône-Alpes</p>
               </div>
             </article>
 
@@ -134,8 +134,8 @@ export default function Contact({ headingTag = 'h2' }: ContactProps) {
               <h3 className="mb-3 text-lg font-bold text-[#ee7527]">Horaires</h3>
               <div className="space-y-1 text-sm text-slate-300">
                 <p className="font-medium text-white">Du lundi au vendredi</p>
-                <p>8h a 12h</p>
-                <p>14h a 18h</p>
+                <p>8h à 12h</p>
+                <p>14h à 18h</p>
               </div>
             </article>
           </div>

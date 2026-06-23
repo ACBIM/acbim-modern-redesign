@@ -8,13 +8,13 @@ import { getCollectionsSummary } from '@/lib/projectCollections'
 import { BASE_URL, COMPANY_NAME, DEFAULT_OG_IMAGE_URL } from '@/lib/site'
 
 export const metadata: Metadata = {
-  title: 'Nos realisations',
+  title: 'Nos réalisations',
   description:
-    'Decouvrez les projets de releve 3D, modelisation BIM et topographie realises par ACBIM dans le Cantal, en Auvergne-Rhone-Alpes et regions limitrophes.',
+    'Découvrez les projets de relevé 3D, modélisation BIM et topographie réalisés par ACBIM dans le Cantal, en Auvergne-Rhône-Alpes et regions limitrophes.',
   openGraph: {
-    title: `Nos realisations | ${COMPANY_NAME}`,
+    title: `Nos réalisations | ${COMPANY_NAME}`,
     description:
-      'Decouvrez les projets de releve 3D, modelisation BIM et topographie realises par ACBIM dans le Cantal, en Auvergne-Rhone-Alpes et regions limitrophes.',
+      'Découvrez les projets de relevé 3D, modélisation BIM et topographie réalisés par ACBIM dans le Cantal, en Auvergne-Rhône-Alpes et regions limitrophes.',
     type: 'website',
     url: `${BASE_URL}/projets/`,
     images: [
@@ -22,15 +22,15 @@ export const metadata: Metadata = {
         url: DEFAULT_OG_IMAGE_URL,
         width: 1200,
         height: 630,
-        alt: `${COMPANY_NAME} - Projets et realisations`,
+        alt: `${COMPANY_NAME} - Projets et réalisations`,
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: `Nos realisations | ${COMPANY_NAME}`,
+    title: `Nos réalisations | ${COMPANY_NAME}`,
     description:
-      'Decouvrez les projets de releve 3D, modelisation BIM et topographie realises par ACBIM dans le Cantal, en Auvergne-Rhone-Alpes et regions limitrophes.',
+      'Découvrez les projets de relevé 3D, modélisation BIM et topographie réalisés par ACBIM dans le Cantal, en Auvergne-Rhône-Alpes et regions limitrophes.',
     images: [DEFAULT_OG_IMAGE_URL],
   },
   alternates: {
@@ -47,7 +47,7 @@ export default function ProjectsPage() {
       <main className="bg-slate-50">
         <div className="bg-white pb-20 pt-32 text-center">
           <div className="container mx-auto px-6">
-            <h1 className="text-4xl font-bold text-slate-800 md:text-5xl">Nos realisations</h1>
+            <h1 className="text-4xl font-bold text-slate-800 md:text-5xl">Nos réalisations</h1>
             <p className="mx-auto mt-4 max-w-3xl text-lg text-slate-600">
               Découvrez une sélection de projet réalisés pour le patrimoine, les bâtiments publics, l'industrie : relevés 3D, plans, BIM, imagerie drone/360° et infographie pour la conception et la communication, partout en France.
             </p>
@@ -68,7 +68,7 @@ export default function ProjectsPage() {
                 <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#ee7527]">Listing par objectifs</p>
                 <h2 className="mt-2 text-3xl font-bold text-slate-900 md:text-4xl">Les missions</h2>
                 <p className="mt-3 max-w-3xl text-sm leading-relaxed text-slate-600">
-                  Une lecture métier et par objectifs de nos references.
+                  Une lecture métier et par objectifs de nos références.
                 </p>
               </div>
               <Link

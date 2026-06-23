@@ -4,57 +4,57 @@ import AppIcon from '@/components/AppIcon'
 import type { Service } from '@/types'
 
 const PREB_PARAGRAPHS = [
-  "De la capture du bati aux scenarios de renovation : une chaine fiable, pilotee par la maquette numerique.",
-  "Pour reussir une renovation energetique, tout commence par une base 'etat existant' fiable. Trop souvent, les audits et etudes partent de plans incomplets, de surfaces approximatives ou d'hypotheses de composition qui generent ensuite des ecarts, des reprises d'etudes et des couts.",
-  "Chez ACBIM, nous deployons une methode eprouvee : Scan 3D -> maquette numerique BIM de l'existant -> collecte technique (thermique et systemes) -> simulations et audit energetique via notre partenaire BET thermique -> livrables et plan d'action.",
-  "Nous ne realisons pas l'audit thermique en interne : nous auscultons le bati, collectons et structurons les donnees techniques (enveloppe, menuiseries, parois, systemes, locaux techniques, incoherences, pathologies visibles) et les integrons dans une maquette numerique exploitable.",
-  "Les simulations thermiques reglementaires et le rapport d'audit energetique sont realises avec notre partenaire EREAH (L'Union - Toulouse), dans un cadre aligne avec les exigences attendues (ADEME, OPQIBI, methodologies de calcul et livrables conformes selon la mission).",
-  "Cette approche a deja ete utilisee a grande echelle sur des programmes de renovation couvrant environ 160 batiments, avec un retour d'experience concret sur l'organisation de la collecte terrain et la production de livrables utiles aux decideurs comme aux maitres d'oeuvre.",
-  "Une demarche eco-responsable par la donnee : mieux mesurer, mieux decider, eviter les erreurs de conception, limiter les interventions inutiles et prioriser les investissements la ou ils ont le plus d'impact.",
+  "De la capture du bâti aux scenarios de rénovation : une chaine fiable, pilotee par la maquette numérique.",
+  "Pour reussir une rénovation énergétique, tout commence par une base 'état existant' fiable. Trop souvent, les audits et études partent de plans incomplets, de surfaces approximatives ou d'hypotheses de composition qui generent ensuite des ecarts, des reprises d'études et des couts.",
+  "Chez ACBIM, nous deployons une methode eprouvee : Scan 3D -> maquette numérique BIM de l'existant -> collecte technique (thermique et systemes) -> simulations et audit énergétique via notre partenaire BET thermique -> livrables et plan d'action.",
+  "Nous ne realisons pas l'audit thermique en interne : nous auscultons le bâti, collectons et structurons les données techniques (enveloppe, menuiseries, parois, systemes, locaux techniques, incoherences, pathologies visibles) et les integrons dans une maquette numérique exploitable.",
+  "Les simulations thermiques reglementaires et le rapport d'audit énergétique sont réalisés avec notre partenaire EREAH (L'Union - Toulouse), dans un cadre aligne avec les exigences attendues (ADEME, OPQIBI, methodologies de calcul et livrables conformes selon la mission).",
+  "Cette approche a déjà ete utilisee a grande echelle sur des programmes de rénovation couvrant environ 160 bâtiments, avec un retour d'experience concret sur l'organisation de la collecte terrain et la production de livrables utiles aux decideurs comme aux maitres d'oeuvre.",
+  "Une demarche eco-responsable par la donnée : mieux mesurer, mieux decider, eviter les erreurs de conception, limiter les interventions inutiles et prioriser les investissements la ou ils ont le plus d'impact.",
 ]
 
 const PREB_BENEFITS = [
-  'Methode eprouvee sur 160 batiments : organisation robuste, livrables directement exploitables.',
-  "Etat existant fiable (scan 3D + controles) : moins d'hypotheses, moins d'aleas en phase etude / travaux.",
+  'Methode eprouvee sur 160 bâtiments : organisation robuste, livrables directement exploitables.',
+  "État existant fiable (scan 3D + contrôles) : moins d'hypotheses, moins d'aleas en phase étude / travaux.",
   'Maquette 3D support de decision : scenarios comparables et tracables, base commune MOA / MOE / BET.',
-  'Donnees techniques structurees : enveloppe, systemes, locaux techniques, points singuliers integres a la maquette.',
-  "Audit energetique realise avec BET thermique partenaire : simulations + rapport conformes aux attendus de mission.",
+  'Données techniques structurees : enveloppe, systemes, locaux techniques, points singuliers integres a la maquette.',
+  "Audit énergétique réalise avec BET thermique partenaire : simulations + rapport conformes aux attendus de mission.",
   "Livrables complets : nuage de points/3D, plans 2D, maquette BIM, exports, rapport d'audit et plan d'actions.",
 ]
 
 const PREB_PROCESS = [
   {
-    title: "1. Releve scan 3D de l'existant",
+    title: "1. Relevé scan 3D de l'existant",
     iconKey: 'scan' as const,
     description:
-      "Acquisition rapide et precise de l'enveloppe et des volumes (interieur / exterieur) pour fiabiliser surfaces, hauteurs, epaisseurs et singularites. Selon configuration : scanner 3D, prises de hauteur, et si besoin releves complementaires (topo / drone / 360).",
+      "Acquisition rapide et précise de l'enveloppe et des volumes (intérieur / extérieur) pour fiabiliser surfaces, hauteurs, epaisseurs et singularites. Selon configuration : scanner 3D, prises de hauteur, et si besoin relevés complémentaires (topo / drone / 360).",
   },
   {
-    title: '2. Maquette numerique du batiment (BIM)',
+    title: '2. Maquette numérique du bâtiment (BIM)',
     iconKey: 'cube' as const,
     description:
-      "Production d'une maquette Scan-to-BIM structuree, prete a recevoir les informations techniques : typologies de parois, menuiseries, zonages, locaux, equipements reperes. Base partagee pour etudes, arbitrages et consultation des entreprises.",
+      "Production d'une maquette Scan-to-BIM structuree, prete a recevoir les informations techniques : typologies de parois, menuiseries, zonages, locaux, equipements reperes. Base partagee pour études, arbitrages et consultation des entreprises.",
   },
   {
     title: '3. Collecte technique & audit sur maquette (avec BET thermique)',
     iconKey: 'cog' as const,
     description:
-      "ACBIM realise l'auscultation et la collecte des donnees techniques puis les structure dans la maquette. Notre partenaire EREAH prend ensuite le relais pour les simulations, la comparaison de scenarios et le rapport d'audit energetique.",
+      "ACBIM réalise l'auscultation et la collecte des données techniques puis les structure dans la maquette. Notre partenaire EREAH prend ensuite le relais pour les simulations, la comparaison de scenarios et le rapport d'audit énergétique.",
   },
   {
     title: "4. Livrables et plan d'action",
     iconKey: 'document-download' as const,
     description:
-      "Remise d'un dossier complet : maquette numerique, plans 2D, exports, et rapport d'audit avec scenarios d'amelioration (priorisation, gains, phasage). La maquette devient un socle durable pour consultation, travaux et exploitation.",
+      "Remise d'un dossier complet : maquette numérique, plans 2D, exports, et rapport d'audit avec scenarios d'amelioration (priorisation, gains, phasage). La maquette devient un socle durable pour consultation, travaux et exploitation.",
   },
 ]
 
 const PREB_DELIVERABLES = [
   "Nuage de points (visualisation + formats d'echange)",
-  'Plans 2D : plans, coupes, elevations, plans de masse (si demande)',
-  "Maquette numerique BIM de l'existant (LOD selon besoin projet)",
-  'Donnees techniques structurees dans la maquette (reperages, attributs, nomenclatures)',
-  "Dossier audit energetique et scenarios (realises par BET thermique partenaire)",
+  'Plans 2D : plans, coupes, élévations, plans de masse (si demande)',
+  "Maquette numérique BIM de l'existant (LOD selon besoin projet)",
+  'Données techniques structurees dans la maquette (reperages, attributs, nomenclatures)',
+  "Dossier audit énergétique et scenarios (réalisés par BET thermique partenaire)",
   'Exports IFC / DWG / PDF et convention de nommage / arborescence',
 ]
 
@@ -63,17 +63,17 @@ const PREB_FUNDING = [
     title: 'ACTEE / Fonds CHENE',
     phases: ['ingenierie amont', 'travaux', 'maintenance post-travaux'],
     points: [
-      "Les cadres ACTEE/Fonds Chene integrent des postes d'ingenierie amont (dont etudes energetiques, SDIE, audits) selon les appels et lots eligibles.",
+      "Les cadres ACTEE/Fonds Chene integrent des postes d'ingenierie amont (dont études énergétiques, SDIE, audits) selon les appels et lots eligibles.",
       "Les missions d'AMO/MOE et d'accompagnement au pilotage peuvent etre mobilisables selon le perimetre retenu.",
       "Les fonctions de suivi (economes de flux, outillage de suivi, instrumentation) peuvent aussi s'inscrire dans une logique programme.",
     ],
-    footnote: "Lecture fondee sur des documents institutionnels de reference et sur le cadre du programme ACTEE (FNCCR).",
+    footnote: "Lecture fondée sur des documents institutionnels de référence et sur le cadre du programme ACTEE (FNCCR).",
   },
   {
     title: 'Fonds Vert',
     phases: ['ingenierie amont', 'travaux'],
     points: [
-      "Le Fonds Vert peut articuler ingenierie amont et travaux dans une meme trajectoire de renovation, selon les axes et criteres applicables.",
+      "Le Fonds Vert peut articuler ingenierie amont et travaux dans une meme trajectoire de rénovation, selon les axes et criteres applicables.",
       "La logique programme permet de prioriser des actions rapides puis des operations plus structurelles (enveloppe, systemes, rehabilitation).",
     ],
   },
@@ -81,8 +81,8 @@ const PREB_FUNDING = [
     title: 'Banque des Territoires / EduRenov',
     phases: ['ingenierie amont', 'travaux'],
     points: [
-      "Les dispositifs Banque des Territoires / EduRenov structurent des parcours de financement sur les phases amont et travaux, notamment pour le bati scolaire.",
-      "L'intracting introduit une logique de financement adossee aux economies d'energie, utile dans une strategie de programmation.",
+      "Les dispositifs Banque des Territoires / EduRenov structurent des parcours de financement sur les phases amont et travaux, notamment pour le bâti scolaire.",
+      "L'intracting introduit une logique de financement adossee aux economies d'énergie, utile dans une strategie de programmation.",
     ],
   },
   {
@@ -90,7 +90,7 @@ const PREB_FUNDING = [
     phases: ['ingenierie amont', 'travaux'],
     points: [
       "L'ADEME propose, selon dispositifs et territoires, des aides mobilisables sur l'ingenierie amont et certaines phases d'accompagnement/travaux.",
-      'Exemples de references courantes : CEP, SDIE, AMO CPE (conditions, plafonds et eligibilites a verifier au cas par cas).',
+      'Exemples de références courantes : CEP, SDIE, AMO CPE (conditions, plafonds et eligibilites a verifier au cas par cas).',
     ],
     footnote: "Toujours verifier les conditions et plafonds en vigueur au moment du montage (eligibilite, calendrier, territoire).",
   },
@@ -108,16 +108,16 @@ const PREB_EPCI_PARK = [
 
 const PREB_FAQ = [
   {
-    q: "ACBIM realise-t-elle l'audit energetique ?",
-    a: "Non. ACBIM realise la collecte terrain, la structuration des donnees et la maquette BIM. Les simulations et le rapport d'audit energetique sont realises par notre BET thermique partenaire EREAH.",
+    q: "ACBIM réalise-t-elle l'audit énergétique ?",
+    a: "Non. ACBIM réalise la collecte terrain, la structuration des données et la maquette BIM. Les simulations et le rapport d'audit énergétique sont réalisés par notre BET thermique partenaire EREAH.",
   },
   {
     q: 'Pourquoi commencer par un scan 3D ?',
-    a: "Parce que la renovation energetique se joue sur la precision : surfaces, hauteurs, epaisseurs, singularites, locaux techniques. Une base fiable limite les hypotheses et les erreurs.",
+    a: "Parce que la rénovation énergétique se joue sur la précision : surfaces, hauteurs, epaisseurs, singularites, locaux techniques. Une base fiable limite les hypotheses et les erreurs.",
   },
   {
     q: "A qui s'adresse ce programme ?",
-    a: 'Collectivites, EPCI, bailleurs, industriels, gestionnaires de patrimoine, AMO/MOE : des qu il faut decider, prioriser et phaser des travaux sur un parc de batiments.',
+    a: 'Collectivités, EPCI, bailleurs, industriels, gestionnaires de patrimoine, AMO/MOE : des qu il faut decider, prioriser et phaser des travaux sur un parc de bâtiments.',
   },
 ]
 
@@ -211,8 +211,8 @@ export default function PrebProgramServiceContent({ service }: { service: Servic
                   <p className="text-xs font-semibold uppercase tracking-[0.18em] text-emerald-700">Chiffres cles</p>
                   <div className="mt-4 grid grid-cols-1 gap-3">
                     {[
-                      { value: '~160', label: 'batiments traites via la methode PREB' },
-                      { value: `${totalSubventionnes}`, label: 'batiments renoves et subventionnes grace au programme PREB' },
+                      { value: '~160', label: 'bâtiments traites via la methode PREB' },
+                      { value: `${totalSubventionnes}`, label: 'bâtiments renoves et subventionnes grace au programme PREB' },
                       {
                         value: PREB_MOBILIZED_SUBSIDIES_TOTAL,
                         label: 'Programmes facilitant la mobilisation des subventions (montant total identifie)',
@@ -228,7 +228,7 @@ export default function PrebProgramServiceContent({ service }: { service: Servic
                 <div className="rounded-2xl border border-lime-200 bg-lime-50 p-5 shadow-sm">
                   <p className="text-xs font-semibold uppercase tracking-[0.18em] text-lime-800">Partenariat</p>
                   <p className="mt-2 text-sm leading-relaxed text-slate-700">
-                    ACBIM structure la base, la collecte terrain et la maquette. Les simulations et le rapport d'audit energetique sont realises
+                    ACBIM structure la base, la collecte terrain et la maquette. Les simulations et le rapport d'audit énergétique sont réalisés
                     avec le BET thermique partenaire EREAH (L'Union - Toulouse).
                   </p>
                 </div>
@@ -236,7 +236,7 @@ export default function PrebProgramServiceContent({ service }: { service: Servic
                   <p className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-500">Les moyens mis en oeuvre</p>
                   <ul className="mt-3 space-y-2 text-sm text-slate-700">
                     {[
-                      'Scanner laser 3D, drone et captures complementaires selon site',
+                      'Scanner laser 3D, drone et captures complémentaires selon site',
                       'Production Scan-to-BIM + plans 2D + exports',
                       'Organisation possible en site occupe',
                       'Livrables exploitables pour MOA / MOE / BET',
@@ -260,8 +260,8 @@ export default function PrebProgramServiceContent({ service }: { service: Servic
             <div>
               <SectionTitle
                 eyebrow="Pourquoi la maquette change tout"
-                title="Une renovation energetique n'est pas qu'une question d'isolation"
-                intro="C'est aussi un projet de patrimoine, de systemes, d'usage et de contraintes. La maquette numerique permet de centraliser une information fiable, reduire les approximations, tester des scenarios sans repartir de zero et conserver une base utile pour la suite."
+                title="Une rénovation énergétique n'est pas qu'une question d'isolation"
+                intro="C'est aussi un projet de patrimoine, de systemes, d'usage et de contraintes. La maquette numérique permet de centraliser une information fiable, reduire les approximations, tester des scenarios sans repartir de zero et conserver une base utile pour la suite."
               />
             </div>
             <VisualSlot
@@ -278,7 +278,7 @@ export default function PrebProgramServiceContent({ service }: { service: Servic
           <SectionTitle
             eyebrow="Chaine operationnelle"
             title="Une methode PREB lisible de la capture au plan d'action"
-            intro="Une chaine de production claire pour comprendre les dependances entre releve, maquette, collecte technique, simulations et arbitrages."
+            intro="Une chaine de production claire pour comprendre les dependances entre relevé, maquette, collecte technique, simulations et arbitrages."
           />
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4">
             {PREB_PROCESS.map((step, index) => (
@@ -315,7 +315,7 @@ export default function PrebProgramServiceContent({ service }: { service: Servic
             <div className="space-y-6 xl:col-span-2">
               <VisualSlot
                 title="Superposition nuage de points et maquette BIM"
-                caption="Fiabilisation de l'etat existant avant arbitrages et simulations."
+                caption="Fiabilisation de l'état existant avant arbitrages et simulations."
                 src="/images/optimized/maquette-numerique-3d-bim/maquetteetnuage.webp"
               />
 
@@ -337,8 +337,8 @@ export default function PrebProgramServiceContent({ service }: { service: Servic
               <div className="rounded-2xl border border-emerald-300 bg-gradient-to-br from-emerald-700 to-green-700 p-6 text-white shadow-lg">
                 <p className="text-xs font-semibold uppercase tracking-[0.16em] text-emerald-100">Nos moyens</p>
                 <p className="mt-2 text-sm leading-relaxed text-emerald-50">
-                  ACBIM mobilise des moyens de releve et de production adaptes : scanner laser 3D, drone, solutions de capture, stations de
-                  travail et logiciels metiers, pour produire des livrables precis et exploitables. Nous savons organiser la capture en site occupe.
+                  ACBIM mobilise des moyens de relevé et de production adaptes : scanner laser 3D, drone, solutions de capture, stations de
+                  travail et logiciels metiers, pour produire des livrables précis et exploitables. Nous savons organiser la capture en site occupe.
                 </p>
               </div>
             </div>
@@ -352,8 +352,8 @@ export default function PrebProgramServiceContent({ service }: { service: Servic
         <div className="container relative mx-auto px-6">
           <SectionTitle
             eyebrow="Financements & ingenierie"
-            title="Les phases d'etudes et d'ingenierie sont aussi strategiques... et souvent subventionnables"
-            intro="Notre approche PREB integre la lecture des cadres de financement publics et des documentations institutionnelles de reference (ACTEE/FNCCR, Fonds Vert, Banque des Territoires, ADEME). Cela permet de positionner l'ingenierie amont comme une phase strategique du programme, et de preparer des dossiers plus solides."
+            title="Les phases d'études et d'ingenierie sont aussi strategiques... et souvent subventionnables"
+            intro="Notre approche PREB integre la lecture des cadres de financement publics et des documentations institutionnelles de référence (ACTEE/FNCCR, Fonds Vert, Banque des Territoires, ADEME). Cela permet de positionner l'ingenierie amont comme une phase strategique du programme, et de preparer des dossiers plus solides."
             light
           />
 
@@ -385,7 +385,7 @@ export default function PrebProgramServiceContent({ service }: { service: Servic
             <p className="text-xs font-semibold uppercase tracking-[0.16em] text-amber-100">A retenir</p>
             <p className="mt-2 text-sm leading-relaxed text-amber-50/95">
               Les dispositifs, taux, plafonds et calendriers evoluent. Les points ci-dessus s'appuient sur des documents institutionnels et des
-              cadres publics de reference. Le niveau de mobilisation des aides depend ensuite du montage, de l'eligibilite du porteur, du
+              cadres publics de référence. Le niveau de mobilisation des aides depend ensuite du montage, de l'eligibilite du porteur, du
               territoire et du calendrier. La qualite du cadrage amont reste determinante pour securiser les arbitrages et les dossiers.
             </p>
             <div className="mt-4">
@@ -422,8 +422,8 @@ export default function PrebProgramServiceContent({ service }: { service: Servic
                   </p>
                 </div>
                 <p className="mt-4 text-xs leading-relaxed text-slate-600">
-                  Les dispositifs et calendriers evoluent selon les periodes et les territoires. Le point cle reste la qualite du cadrage
-                  amont et des donnees pour accelerer les decisions et la mobilisation des aides.
+                  Les dispositifs et calendriers evoluent selon les périodes et les territoires. Le point cle reste la qualite du cadrage
+                  amont et des données pour accelerer les decisions et la mobilisation des aides.
                 </p>
               </div>
 
@@ -436,13 +436,13 @@ export default function PrebProgramServiceContent({ service }: { service: Servic
             </div>
 
             <div className="rounded-2xl border border-emerald-200 bg-emerald-50/60 p-5 shadow-sm">
-              <h3 className="text-lg font-bold text-slate-900">Liste des EPCI et nombre de batiments</h3>
+              <h3 className="text-lg font-bold text-slate-900">Liste des EPCI et nombre de bâtiments</h3>
               <div className="mt-4 overflow-x-auto">
                 <table className="min-w-full text-sm">
                   <thead>
                     <tr className="border-b border-emerald-200 text-left text-xs uppercase tracking-wide text-emerald-800">
                       <th className="pb-2 pr-4">EPCI</th>
-                      <th className="pb-2 pr-4">Batiments</th>
+                      <th className="pb-2 pr-4">Bâtiments</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -481,10 +481,10 @@ export default function PrebProgramServiceContent({ service }: { service: Servic
 
             <div className="rounded-2xl border border-emerald-300 bg-gradient-to-br from-emerald-700 to-green-700 p-6 text-white shadow-xl">
               <p className="text-xs font-semibold uppercase tracking-[0.16em] text-emerald-100">CTA</p>
-              <h2 className="mt-2 text-2xl font-bold md:text-3xl">Vous avez un programme pluriannuel de renovation ?</h2>
+              <h2 className="mt-2 text-2xl font-bold md:text-3xl">Vous avez un programme pluriannuel de rénovation ?</h2>
               <p className="mt-4 text-sm leading-relaxed text-emerald-50">
-                Parlons d'abord de la base de donnees : vos plans sont-ils fiables, complets, a jour ? ACBIM peut securiser l'etat existant
-                (scan + maquette), structurer les donnees techniques et permettre le lancement d'un audit energetique sur une base robuste.
+                Parlons d'abord de la base de données : vos plans sont-ils fiables, complets, a jour ? ACBIM peut securiser l'état existant
+                (scan + maquette), structurer les données techniques et permettre le lancement d'un audit énergétique sur une base robuste.
               </p>
               <div className="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-2">
                 <Link href="/contact" className="inline-flex items-center justify-center rounded-xl bg-white px-4 py-3 text-sm font-bold text-emerald-800 transition hover:bg-emerald-50">

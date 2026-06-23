@@ -118,7 +118,7 @@ export default async function ProjectCollectionPage({
                   <div>
                     <h2 className="text-3xl font-bold text-slate-900">Projets representatifs</h2>
                     <p className="mt-2 text-sm text-slate-600">
-                      Selection de references lisibles pour illustrer cette logique de mission.
+                      Selection de références lisibles pour illustrer cette logique de mission.
                     </p>
                   </div>
                 </div>
@@ -167,14 +167,14 @@ export default async function ProjectCollectionPage({
                     <p className="text-lg font-bold text-slate-900">Selection en cours</p>
                     <p className="mt-3 text-sm leading-relaxed text-slate-600">
                       {collection.emptyStateMessage ??
-                        'Cette thematique sera enrichie avec de nouvelles references publiees prochainement. Contactez-nous si vous souhaitez une reference proche de votre cas d usage.'}
+                        'Cette thematique sera enrichie avec de nouvelles références publiees prochainement. Contactez-nous si vous souhaitez une référence proche de votre cas d usage.'}
                     </p>
                     <div className="mt-5">
                       <Link
                         href="/contact"
                         className="inline-flex items-center rounded-xl bg-[#ee7527] px-4 py-3 text-sm font-bold text-white transition hover:bg-[#d9661f]"
                       >
-                        Demander une reference proche de mon projet
+                        Demander une référence proche de mon projet
                       </Link>
                     </div>
                   </div>
@@ -216,8 +216,8 @@ export default async function ProjectCollectionPage({
                   <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#ee7527]">Besoin similaire ?</p>
                   <h2 className="mt-2 text-xl font-bold text-slate-900">Parlons de votre objectif</h2>
                   <p className="mt-3 text-sm leading-relaxed text-slate-600">
-                    Donnez-nous votre contexte (type de site, objectif, delai, livrables attendus). Nous vous orientons vers la bonne combinaison
-                    de services et de references.
+                    Donnez-nous votre contexte (type de site, objectif, délai, livrables attendus). Nous vous orientons vers la bonne combinaison
+                    de services et de références.
                   </p>
                   <div className="mt-5 space-y-3">
                     <Link
@@ -230,7 +230,7 @@ export default async function ProjectCollectionPage({
                       href="/projets"
                       className="flex items-center justify-center rounded-xl border border-slate-300 bg-white px-4 py-3 text-sm font-semibold text-slate-700 transition hover:border-[#ee7527] hover:text-[#ee7527]"
                     >
-                      Voir toutes les realisations
+                      Voir toutes les réalisations
                     </Link>
                   </div>
                 </div>

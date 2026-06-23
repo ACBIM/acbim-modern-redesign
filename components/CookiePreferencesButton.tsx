@@ -9,7 +9,7 @@ interface CookiePreferencesButtonProps {
 }
 
 export default function CookiePreferencesButton({
-  children = 'Gerer mes preferences cookies',
+  children = 'Gerer mes préférences cookies',
   className = '',
 }: CookiePreferencesButtonProps) {
   if (!GA_MEASUREMENT_ID) return null

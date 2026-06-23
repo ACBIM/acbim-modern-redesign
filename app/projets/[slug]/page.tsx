@@ -316,7 +316,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
             <div className="grid grid-cols-1 gap-8 xl:grid-cols-12 xl:gap-8">
               <div className="space-y-8 xl:col-span-8">
                 <div>
-                  <h2 className="mb-4 text-3xl font-bold text-slate-800">A propos du projet</h2>
+                  <h2 className="mb-4 text-3xl font-bold text-slate-800">À propos du projet</h2>
                   <div className="prose prose-lg max-w-none leading-relaxed text-slate-600">
                     <p>{project.description}</p>
                   </div>
@@ -447,7 +447,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
 
               <aside className="space-y-5 xl:col-span-4">
                 <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6 shadow-md">
-                  <h3 className="mb-4 text-xl font-bold text-slate-800">Details rapides</h3>
+                  <h3 className="mb-4 text-xl font-bold text-slate-800">Détails rapides</h3>
                   <ul className="space-y-3 text-sm text-slate-700">
                     {project.client ? (
                       <li className="flex items-start gap-3">
@@ -469,7 +469,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
 
                   {keyFigures.length > 0 ? (
                     <div className="mt-6">
-                      <h4 className="mb-3 text-sm font-bold uppercase tracking-[0.16em] text-slate-500">Details techniques</h4>
+                      <h4 className="mb-3 text-sm font-bold uppercase tracking-[0.16em] text-slate-500">Détails techniques</h4>
                       <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 xl:grid-cols-1">
                         {keyFigures.map((figure) => (
                           <div key={`${figure.label}-${figure.value}`} className="rounded-xl border border-slate-200 bg-white p-3">
@@ -661,7 +661,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                 <div>
                   <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#ee7527]">Projet similaire ?</p>
                   <h2 className="mt-2 text-2xl font-bold text-slate-900 md:text-3xl">
-                    Vous avez un batiment ou un amenagement comparable ?
+                    Vous avez un bâtiment ou un amenagement comparable ?
                   </h2>
                   <p className="mt-3 max-w-3xl text-sm leading-relaxed text-slate-600">
                     Dites-nous simplement la surface, la ville et l objectif du projet. Nous revenons vers vous avec une premiere orientation
