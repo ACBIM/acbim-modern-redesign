@@ -2,10 +2,10 @@ import type { Metadata } from 'next'
 import type { ReactNode } from 'react'
 import { Poppins } from 'next/font/google'
 import './globals.css'
+import AnalyticsConsentBanner from '@/components/AnalyticsConsentBanner'
 import BackToTopButton from '@/components/BackToTopButton'
-import AnalyticsManager from '@/components/AnalyticsManager'
 import { generateOrganizationSchema } from '@/lib/schema'
-import { BASE_URL, COMPANY_NAME, DEFAULT_OG_IMAGE_URL, SITE_LOCALE } from '@/lib/site'
+import { BASE_URL, COMPANY_NAME, DEFAULT_OG_IMAGE_URL, GA_MEASUREMENT_ID, SITE_LOCALE } from '@/lib/site'
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -85,10 +85,31 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
         />
+        {GA_MEASUREMENT_ID ? (
+          <>
+            <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`} />
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('consent', 'default', {
+  analytics_storage: 'denied',
+  ad_storage: 'denied',
+  ad_user_data: 'denied',
+  ad_personalization: 'denied'
+});
+gtag('js', new Date());
+gtag('config', '${GA_MEASUREMENT_ID}', { send_page_view: false });
+`,
+              }}
+            />
+          </>
+        ) : null}
       </head>
       <body className={`${poppins.className} bg-slate-50 text-slate-800`}>
         {children}
-        <AnalyticsManager />
+        <AnalyticsConsentBanner />
         <BackToTopButton />
       </body>
     </html>

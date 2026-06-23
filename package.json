@@ -11,6 +11,7 @@
     "start": "npm run preview",
     "export": "npm run build",
     "lint": "next lint",
+    "diagnose:ga": "node tools/check-ga-live.mjs --url=https://www.aura-bim.fr/ --id=G-5X4N22V2B0",
     "images:build": "node tools/optimize-images.mjs",
     "images:hero": "node tools/optimize-images.mjs --source \"RESSOURCES/images/hero\" --target \"public/images/optimized/hero\" --widths 768,1280,1600 --quality 78"
   },

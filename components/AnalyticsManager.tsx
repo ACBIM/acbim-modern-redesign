@@ -1,6 +1,5 @@
 'use client'
 
-import Script from 'next/script'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { useEffect, useMemo, useRef, useState } from 'react'
@@ -229,18 +228,10 @@ export default function AnalyticsManager() {
 
   return (
     <>
-      {consent === 'granted' ? (
-        <Script
-          id="ga4-script"
-          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
-          strategy="afterInteractive"
-        />
-      ) : null}
-
       {shouldShowBanner ? (
         <div className="fixed inset-x-4 bottom-4 z-[70] mx-auto max-w-4xl rounded-lg border border-slate-300 bg-white p-4 shadow-2xl md:flex md:items-center md:justify-between md:gap-5">
           <div className="text-sm leading-6 text-slate-700">
-            <p className="font-semibold text-slate-950">Cookies de mesure d’audience</p>
+            <p className="font-semibold text-slate-950">Cookies de mesure d'audience</p>
             <p>
               ACBIM utilise Google Analytics uniquement avec votre accord pour mesurer l’audience du site. Vous pouvez
               accepter, refuser ou modifier votre choix à tout moment.
@@ -310,7 +301,7 @@ export default function AnalyticsManager() {
             <div className="mt-5 rounded-lg border border-slate-200 p-4">
               <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
                 <div>
-                  <h3 className="font-semibold text-slate-950">Mesure d’audience</h3>
+                  <h3 className="font-semibold text-slate-950">Mesure d'audience</h3>
                   <p className="mt-1 text-sm leading-6 text-slate-600">
                     Autoriser Google Analytics à produire des statistiques de consultation du site ACBIM.
                   </p>
