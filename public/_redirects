@@ -11,3 +11,15 @@
 /formation-modeleur-revit.u.htm https://www.aura-bim.fr/contact/ 301
 /EQUIPE.b.htm https://www.aura-bim.fr/a-propos/ 301
 /CONTACT.c.htm https://www.aura-bim.fr/contact/ 301
+
+# Anciennes URLs SiteW au format Majuscule_Underscore (vues en 404 / non indexees dans GSC)
+/La_Maquette_Numerique.p.htm https://www.aura-bim.fr/services/maquette-numerique-3d-bim/ 301
+/LE_BIM_au_service_de_l_exploitation.r.htm https://www.aura-bim.fr/services/maquette-numerique-3d-bim/ 301
+/Numerisation_et_Leve_Scan_3D.m.htm https://www.aura-bim.fr/services/releve-scanner-3d-numerisation/ 301
+/Plan_2D.w.htm https://www.aura-bim.fr/services/dessin-2d-plans-coupes-elevations/ 301
+/Drone.t.htm https://www.aura-bim.fr/services/releve-et-capture-par-drone/ 301
+/Visite_virtuelle_3D.v.htm https://www.aura-bim.fr/services/visite-virtuelle-360-3d/ 301
+/Visite_virtuelle.v.htm https://www.aura-bim.fr/services/visite-virtuelle-360-3d/ 301
+/FORMATIONS.u.htm https://www.aura-bim.fr/contact/ 301
+/REFERENCES.k.htm https://www.aura-bim.fr/a-propos/ 301
+/PRESTATIONS.d.htm https://www.aura-bim.fr/services/ 301
