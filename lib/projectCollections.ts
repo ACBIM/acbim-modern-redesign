@@ -132,7 +132,11 @@ export const PROJECT_COLLECTIONS: ProjectCollectionDefinition[] = [
 ]
 
 function normalize(value: string) {
-  return value.trim().toLowerCase()
+  return value
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
+    .trim()
+    .toLowerCase()
 }
 
 function projectTimestamp(project: Project) {
