@@ -8,13 +8,13 @@ import { getCollectionsSummary } from '@/lib/projectCollections'
 import { BASE_URL, COMPANY_NAME, DEFAULT_OG_IMAGE_URL } from '@/lib/site'
 
 export const metadata: Metadata = {
-  title: 'Nos réalisations',
+  title: 'Réalisations : relevé 3D et BIM dans le Cantal',
   description:
-    'Découvrez les projets de relevé 3D, modélisation BIM et topographie réalisés par ACBIM dans le Cantal, en Auvergne-Rhône-Alpes et regions limitrophes.',
+    'Découvrez les projets de relevé 3D, modélisation BIM et topographie réalisés par ACBIM dans le Cantal, en Auvergne-Rhône-Alpes et régions limitrophes.',
   openGraph: {
-    title: `Nos réalisations | ${COMPANY_NAME}`,
+    title: `Réalisations : relevé 3D et BIM dans le Cantal | ${COMPANY_NAME}`,
     description:
-      'Découvrez les projets de relevé 3D, modélisation BIM et topographie réalisés par ACBIM dans le Cantal, en Auvergne-Rhône-Alpes et regions limitrophes.',
+      'Découvrez les projets de relevé 3D, modélisation BIM et topographie réalisés par ACBIM dans le Cantal, en Auvergne-Rhône-Alpes et régions limitrophes.',
     type: 'website',
     url: `${BASE_URL}/projets/`,
     images: [
@@ -28,9 +28,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: `Nos réalisations | ${COMPANY_NAME}`,
+    title: `Réalisations : relevé 3D et BIM dans le Cantal | ${COMPANY_NAME}`,
     description:
-      'Découvrez les projets de relevé 3D, modélisation BIM et topographie réalisés par ACBIM dans le Cantal, en Auvergne-Rhône-Alpes et regions limitrophes.',
+      'Découvrez les projets de relevé 3D, modélisation BIM et topographie réalisés par ACBIM dans le Cantal, en Auvergne-Rhône-Alpes et régions limitrophes.',
     images: [DEFAULT_OG_IMAGE_URL],
   },
   alternates: {

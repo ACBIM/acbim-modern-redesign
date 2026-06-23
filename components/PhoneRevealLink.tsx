@@ -1,7 +1,3 @@
-'use client'
-
-import { useState } from 'react'
-import { trackEvent } from '@/lib/analytics'
 import { COMPANY_PHONE_E164 } from '@/lib/site'
 
 type PhoneRevealLinkProps = {
@@ -11,32 +7,16 @@ type PhoneRevealLinkProps = {
   buttonClassName?: string
 }
 
+// Numéro de téléphone affiché en clair et directement cliquable (clic-pour-appeler).
+// Le clic sur un lien tel: est suivi par le handler global d'AnalyticsManager
+// (événement contact_phone_click), inutile de le tracker ici (évite le double comptage).
 export default function PhoneRevealLink({
   phoneDisplay = '06 43 20 04 76',
-  buttonLabel = 'Afficher le numéro',
   linkClassName = '',
-  buttonClassName = '',
 }: PhoneRevealLinkProps) {
-  const [showPhone, setShowPhone] = useState(false)
-
-  if (showPhone) {
-    return (
-      <a href={`tel:${COMPANY_PHONE_E164}`} className={linkClassName}>
-        {phoneDisplay}
-      </a>
-    )
-  }
-
   return (
-    <button
-      type="button"
-      onClick={() => {
-        trackEvent('contact_phone_reveal')
-        setShowPhone(true)
-      }}
-      className={buttonClassName}
-    >
-      {buttonLabel}
-    </button>
+    <a href={`tel:${COMPANY_PHONE_E164}`} className={linkClassName}>
+      {phoneDisplay}
+    </a>
   )
 }
