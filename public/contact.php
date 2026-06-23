@@ -309,6 +309,62 @@ function acbim_archive_submission($dirPath, $counterPath, $requestId, $lead) {
     );
 }
 
+// --- Cloudflare Turnstile (anti-robot) ---
+// La Secret Key est lue d'un fichier non versionne (contact-secret.php a cote de
+// ce fichier sur OVH) ou d'une variable d'environnement. Si elle n'est pas
+// configuree, la verification est ignoree (le formulaire continue de fonctionner).
+function acbim_turnstile_secret() {
+    $configFile = __DIR__ . '/contact-secret.php';
+    if (is_readable($configFile)) {
+        $cfg = include $configFile;
+        if (is_array($cfg) && !empty($cfg['turnstile_secret'])) {
+            return (string) $cfg['turnstile_secret'];
+        }
+    }
+    $env = getenv('TURNSTILE_SECRET_KEY');
+    if ($env !== false && $env !== '') {
+        return (string) $env;
+    }
+    if (!empty($_SERVER['TURNSTILE_SECRET_KEY'])) {
+        return (string) $_SERVER['TURNSTILE_SECRET_KEY'];
+    }
+    return '';
+}
+
+function acbim_turnstile_verify($secret, $token, $remoteIp) {
+    $endpoint = 'https://challenges.cloudflare.com/turnstile/v0/siteverify';
+    $fields = array('secret' => $secret, 'response' => $token);
+    if ($remoteIp !== '') {
+        $fields['remoteip'] = $remoteIp;
+    }
+    $payload = http_build_query($fields);
+
+    $body = false;
+    if (function_exists('curl_init')) {
+        $ch = curl_init($endpoint);
+        curl_setopt($ch, CURLOPT_POST, true);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $payload);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_TIMEOUT, 10);
+        $body = curl_exec($ch);
+        curl_close($ch);
+    }
+    if ($body === false || $body === '') {
+        $context = stream_context_create(array('http' => array(
+            'method' => 'POST',
+            'header' => 'Content-Type: application/x-www-form-urlencoded',
+            'content' => $payload,
+            'timeout' => 10,
+        )));
+        $body = @file_get_contents($endpoint, false, $context);
+    }
+    if ($body === false || $body === '') {
+        return false;
+    }
+    $data = json_decode($body, true);
+    return is_array($data) && !empty($data['success']);
+}
+
 acbim_apply_cors_headers($ALLOWED_ORIGINS);
 acbim_handle_preflight($ALLOWED_ORIGINS);
 acbim_assert_post_method();
@@ -317,6 +373,19 @@ $honeypot = acbim_get_post('website');
 if ($honeypot !== '') {
     // Silent success for bots
     acbim_respond(200, true, 'Message envoye. Merci, nous revenons vers vous rapidement.');
+}
+
+// Verification Turnstile (si la Secret Key est configuree cote serveur)
+$turnstileSecret = acbim_turnstile_secret();
+if ($turnstileSecret !== '') {
+    $turnstileToken = acbim_get_post('cf-turnstile-response');
+    if ($turnstileToken === '') {
+        acbim_respond(400, false, 'Verification anti-robot manquante. Merci de valider la case puis de reessayer.');
+    }
+    $remoteIp = isset($_SERVER['REMOTE_ADDR']) ? (string) $_SERVER['REMOTE_ADDR'] : '';
+    if (!acbim_turnstile_verify($turnstileSecret, $turnstileToken, $remoteIp)) {
+        acbim_respond(403, false, 'Verification anti-robot echouee. Merci de reessayer.');
+    }
 }
 
 $name = acbim_get_post('name');

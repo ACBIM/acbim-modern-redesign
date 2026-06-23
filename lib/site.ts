@@ -19,6 +19,7 @@ export const COMPANY_PHONE_E164 = '+33643200476'
 export const COMPANY_PHONE_DISPLAY = '+33 6 43 20 04 76'
 export const COMPANY_EMAIL = 'contact@acbim.fr'
 export const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || ''
+export const TURNSTILE_SITE_KEY = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY || '0x4AAAAAADps95TNABwksdqi'
 export const DEFAULT_OG_IMAGE_URL = `${BASE_URL}/images/optimized/seo/og-default.webp`
 export const COMPANY_ADDRESS = {
   streetAddress: '52 avenue Jean Baptiste Veyre',

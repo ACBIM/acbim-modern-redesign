@@ -2,10 +2,17 @@
 
 import type { FormEvent } from 'react'
 import { useEffect, useRef, useState } from 'react'
+import Script from 'next/script'
 import Link from 'next/link'
 import PhoneRevealLink from '@/components/PhoneRevealLink'
 import { trackLeadFormSubmit } from '@/lib/analytics'
-import { BASE_PATH, COMPANY_ADDRESS, COMPANY_EMAIL } from '@/lib/site'
+import { BASE_PATH, COMPANY_ADDRESS, COMPANY_EMAIL, TURNSTILE_SITE_KEY } from '@/lib/site'
+
+declare global {
+  interface Window {
+    turnstile?: { reset: (widget?: string | HTMLElement) => void }
+  }
+}
 
 interface ContactProps {
   headingTag?: 'h1' | 'h2'
@@ -43,6 +50,12 @@ export default function Contact({ headingTag = 'h2' }: ContactProps) {
       formData.set('origin_url', originUrl)
     }
 
+    if (TURNSTILE_SITE_KEY && !formData.get('cf-turnstile-response')) {
+      setStatus('error')
+      setFeedbackMessage('Merci de valider la verification anti-robot avant d’envoyer.')
+      return
+    }
+
     setStatus('submitting')
     setFeedbackMessage('Envoi en cours...')
 
@@ -73,6 +86,7 @@ export default function Contact({ headingTag = 'h2' }: ContactProps) {
       setFeedbackMessage(payload.message || 'Message envoye. Nous revenons vers vous rapidement.')
       trackLeadFormSubmit()
       form.reset()
+      window.turnstile?.reset()
       setFormStartedAt(String(Date.now()))
       if (typeof window !== 'undefined') {
         setOriginUrl(window.location.href)
@@ -230,6 +244,11 @@ export default function Contact({ headingTag = 'h2' }: ContactProps) {
                 {feedbackMessage}
               </div>
             ) : null}
+
+            <div className="mt-6 flex justify-center">
+              <div className="cf-turnstile" data-sitekey={TURNSTILE_SITE_KEY} data-theme="dark" />
+            </div>
+            <Script src="https://challenges.cloudflare.com/turnstile/v0/api.js" strategy="afterInteractive" />
 
             <div className="mt-8 text-center">
               <button
