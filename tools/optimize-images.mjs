@@ -10,6 +10,7 @@ const DEFAULTS = {
   target: 'public/images/optimized',
   widths: [768, 1280, 1600],
   quality: 78,
+  avifQuality: 52,
   clean: false,
 }
 
@@ -144,6 +145,9 @@ async function run() {
 
   const qualityValue = Number.parseInt(String(cliOptions.quality ?? DEFAULTS.quality), 10)
   const quality = Number.isInteger(qualityValue) && qualityValue > 0 && qualityValue <= 100 ? qualityValue : DEFAULTS.quality
+  const avifQualityValue = Number.parseInt(String(cliOptions['avif-quality'] ?? DEFAULTS.avifQuality), 10)
+  const avifQuality =
+    Number.isInteger(avifQualityValue) && avifQualityValue > 0 && avifQualityValue <= 100 ? avifQualityValue : DEFAULTS.avifQuality
 
   const clean = cliOptions.clean === true || cliOptions.clean === 'true'
 
@@ -201,45 +205,82 @@ async function run() {
     const uniqueBaseName = resolveUniqueBaseName(rawBaseName, outputDirectory, sourceRelativePosix, usedBaseNames)
 
     const effectiveWidths = Array.from(new Set(widths.map((width) => Math.min(width, metadata.width)))).sort((left, right) => left - right)
-    const variants = []
 
-    for (const width of effectiveWidths) {
-      const outputFile = path.join(outputDirectory, `${uniqueBaseName}-w${width}.webp`)
-      const generateFile = await shouldGenerate(sourceFile, outputFile)
+    const buildVariants = async (format) => {
+      const variants = []
 
-      if (generateFile) {
-        await sharp(sourceFile)
-          .rotate()
-          .resize({ width, withoutEnlargement: true })
-          .webp({ quality, effort: 4 })
-          .toFile(outputFile)
+      for (const width of effectiveWidths) {
+        const outputFile = path.join(outputDirectory, `${uniqueBaseName}-w${width}.${format}`)
+        const generateFile = await shouldGenerate(sourceFile, outputFile)
+        const height = metadata.height ? Math.round(metadata.height * (width / metadata.width)) : undefined
+
+        if (generateFile) {
+          const pipeline = sharp(sourceFile).rotate().resize({ width, withoutEnlargement: true })
+
+          if (format === 'avif') {
+            await pipeline.avif({ quality: avifQuality, effort: 4 }).toFile(outputFile)
+          } else {
+            await pipeline.webp({ quality, effort: 4 }).toFile(outputFile)
+          }
+
+          generatedCount += 1
+        } else {
+          reusedCount += 1
+        }
+
+        variants.push({
+          width,
+          ...(height ? { height } : {}),
+          src: toPublicUrl(outputFile),
+        })
+      }
+
+      return variants
+    }
+
+    const buildFallback = async (format, variants) => {
+      const fallbackVariant = variants[variants.length - 1]
+      const fallbackFile = path.join(outputDirectory, `${uniqueBaseName}.${format}`)
+      const fallbackNeedsUpdate = fallbackVariant ? await shouldGenerate(sourceFile, fallbackFile) : false
+
+      if (fallbackVariant && fallbackNeedsUpdate) {
+        await fs.copyFile(path.join(PUBLIC_DIR, fallbackVariant.src.replace(/^\//, '').replace(/\//g, path.sep)), fallbackFile)
         generatedCount += 1
-      } else {
+      } else if (fallbackVariant) {
         reusedCount += 1
       }
 
-      variants.push({
-        width,
-        src: toPublicUrl(outputFile),
-      })
+      return fallbackVariant ? toPublicUrl(fallbackFile) : null
     }
 
-    const fallbackVariant = variants[variants.length - 1]
-    const fallbackFile = path.join(outputDirectory, `${uniqueBaseName}.webp`)
-    const fallbackNeedsUpdate = fallbackVariant ? await shouldGenerate(sourceFile, fallbackFile) : false
-
-    if (fallbackVariant && fallbackNeedsUpdate) {
-      await fs.copyFile(path.join(PUBLIC_DIR, fallbackVariant.src.replace(/^\//, '').replace(/\//g, path.sep)), fallbackFile)
-      generatedCount += 1
-    } else if (fallbackVariant) {
-      reusedCount += 1
-    }
-
-    manifest[sourceRelativePosix] = {
+    const webpVariants = await buildVariants('webp')
+    const avifVariants = await buildVariants('avif')
+    const webpFallback = await buildFallback('webp', webpVariants)
+    const avifFallback = await buildFallback('avif', avifVariants)
+    const manifestEntry = {
       source: sourceRelativePosix,
-      fallback: fallbackVariant ? toPublicUrl(fallbackFile) : null,
-      variants,
+      width: metadata.width,
+      ...(metadata.height ? { height: metadata.height, aspectRatio: Number((metadata.width / metadata.height).toFixed(6)) } : {}),
+      fallback: webpFallback,
+      variants: webpVariants,
+      formats: {
+        webp: {
+          fallback: webpFallback,
+          variants: webpVariants,
+        },
+        avif: {
+          fallback: avifFallback,
+          variants: avifVariants,
+        },
+      },
     }
+
+    if (avifFallback) {
+      manifestEntry.avifFallback = avifFallback
+      manifestEntry.avifVariants = avifVariants
+    }
+
+    manifest[sourceRelativePosix] = manifestEntry
   }
 
   const manifestPath = path.join(targetPath, 'manifest.json')

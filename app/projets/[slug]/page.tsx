@@ -7,6 +7,7 @@ import Footer from '@/components/Footer'
 import DeferredIframeEmbed from '@/components/DeferredIframeEmbed'
 import IndustryProcessSynoptique from '@/components/IndustryProcessSynoptique'
 import { PROJECTS_DATA, SERVICES_DATA } from '@/constants'
+import { getAvifSrcSet } from '@/lib/imageDimensions'
 import { pickMetaDescription } from '@/lib/seo'
 import type { Project, ProjectKeyFigure } from '@/types'
 import { getCollectionsForProject } from '@/lib/projectCollections'
@@ -362,13 +363,18 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                                 />
                               )
                             ) : (
-                              <Image
-                                src={image.src}
-                                alt={image.alt}
-                                width={800}
-                                height={600}
-                                className={`h-full w-full ${image.fit === 'contain' ? 'object-contain p-2' : 'object-cover'}`}
-                              />
+                              <picture className="block h-full w-full">
+                                {getAvifSrcSet(image.src) ? (
+                                  <source type="image/avif" srcSet={getAvifSrcSet(image.src)} />
+                                ) : null}
+                                <Image
+                                  src={image.src}
+                                  alt={image.alt}
+                                  width={800}
+                                  height={600}
+                                  className={`h-full w-full ${image.fit === 'contain' ? 'object-contain p-2' : 'object-cover'}`}
+                                />
+                              </picture>
                             )}
                           </div>
                           {image.caption ? (
@@ -594,13 +600,18 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                         className="group grid grid-cols-[96px_1fr] gap-4 rounded-xl border border-slate-200 bg-slate-50 p-3 transition hover:border-[#ee7527] hover:bg-white"
                       >
                         <div className="overflow-hidden rounded-lg">
-                          <Image
-                            src={candidate.imageUrl}
-                            alt={candidate.title}
-                            width={192}
-                            height={128}
-                            className="h-24 w-full object-cover transition-transform duration-300 group-hover:scale-105"
-                          />
+                          <picture className="block">
+                            {getAvifSrcSet(candidate.imageUrl) ? (
+                              <source type="image/avif" srcSet={getAvifSrcSet(candidate.imageUrl)} />
+                            ) : null}
+                            <Image
+                              src={candidate.imageUrl}
+                              alt={candidate.title}
+                              width={192}
+                              height={128}
+                              className="h-24 w-full object-cover transition-transform duration-300 group-hover:scale-105"
+                            />
+                          </picture>
                         </div>
                         <div>
                           <p className="text-xs font-semibold uppercase tracking-[0.12em] text-slate-500">

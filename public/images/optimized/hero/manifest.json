@@ -1,253 +1,1177 @@
 {
   "20200121_DGFIP_AURILLAC_04.webp": {
     "source": "20200121_DGFIP_AURILLAC_04.webp",
+    "width": 4048,
+    "height": 2297,
+    "aspectRatio": 1.762299,
     "fallback": "/images/optimized/hero/20200121-dgfip-aurillac-04.webp",
     "variants": [
       {
         "width": 768,
+        "height": 436,
         "src": "/images/optimized/hero/20200121-dgfip-aurillac-04-w768.webp"
       },
       {
         "width": 1280,
+        "height": 726,
         "src": "/images/optimized/hero/20200121-dgfip-aurillac-04-w1280.webp"
       },
       {
         "width": 1600,
+        "height": 908,
         "src": "/images/optimized/hero/20200121-dgfip-aurillac-04-w1600.webp"
+      }
+    ],
+    "formats": {
+      "webp": {
+        "fallback": "/images/optimized/hero/20200121-dgfip-aurillac-04.webp",
+        "variants": [
+          {
+            "width": 768,
+            "height": 436,
+            "src": "/images/optimized/hero/20200121-dgfip-aurillac-04-w768.webp"
+          },
+          {
+            "width": 1280,
+            "height": 726,
+            "src": "/images/optimized/hero/20200121-dgfip-aurillac-04-w1280.webp"
+          },
+          {
+            "width": 1600,
+            "height": 908,
+            "src": "/images/optimized/hero/20200121-dgfip-aurillac-04-w1600.webp"
+          }
+        ]
+      },
+      "avif": {
+        "fallback": "/images/optimized/hero/20200121-dgfip-aurillac-04.avif",
+        "variants": [
+          {
+            "width": 768,
+            "height": 436,
+            "src": "/images/optimized/hero/20200121-dgfip-aurillac-04-w768.avif"
+          },
+          {
+            "width": 1280,
+            "height": 726,
+            "src": "/images/optimized/hero/20200121-dgfip-aurillac-04-w1280.avif"
+          },
+          {
+            "width": 1600,
+            "height": 908,
+            "src": "/images/optimized/hero/20200121-dgfip-aurillac-04-w1600.avif"
+          }
+        ]
+      }
+    },
+    "avifFallback": "/images/optimized/hero/20200121-dgfip-aurillac-04.avif",
+    "avifVariants": [
+      {
+        "width": 768,
+        "height": 436,
+        "src": "/images/optimized/hero/20200121-dgfip-aurillac-04-w768.avif"
+      },
+      {
+        "width": 1280,
+        "height": 726,
+        "src": "/images/optimized/hero/20200121-dgfip-aurillac-04-w1280.avif"
+      },
+      {
+        "width": 1600,
+        "height": 908,
+        "src": "/images/optimized/hero/20200121-dgfip-aurillac-04-w1600.avif"
       }
     ]
   },
   "Aerienne_2.webp": {
     "source": "Aerienne_2.webp",
+    "width": 3840,
+    "height": 2160,
+    "aspectRatio": 1.777778,
     "fallback": "/images/optimized/hero/aerienne-2.webp",
     "variants": [
       {
         "width": 768,
+        "height": 432,
         "src": "/images/optimized/hero/aerienne-2-w768.webp"
       },
       {
         "width": 1280,
+        "height": 720,
         "src": "/images/optimized/hero/aerienne-2-w1280.webp"
       },
       {
         "width": 1600,
+        "height": 900,
         "src": "/images/optimized/hero/aerienne-2-w1600.webp"
+      }
+    ],
+    "formats": {
+      "webp": {
+        "fallback": "/images/optimized/hero/aerienne-2.webp",
+        "variants": [
+          {
+            "width": 768,
+            "height": 432,
+            "src": "/images/optimized/hero/aerienne-2-w768.webp"
+          },
+          {
+            "width": 1280,
+            "height": 720,
+            "src": "/images/optimized/hero/aerienne-2-w1280.webp"
+          },
+          {
+            "width": 1600,
+            "height": 900,
+            "src": "/images/optimized/hero/aerienne-2-w1600.webp"
+          }
+        ]
+      },
+      "avif": {
+        "fallback": "/images/optimized/hero/aerienne-2.avif",
+        "variants": [
+          {
+            "width": 768,
+            "height": 432,
+            "src": "/images/optimized/hero/aerienne-2-w768.avif"
+          },
+          {
+            "width": 1280,
+            "height": 720,
+            "src": "/images/optimized/hero/aerienne-2-w1280.avif"
+          },
+          {
+            "width": 1600,
+            "height": 900,
+            "src": "/images/optimized/hero/aerienne-2-w1600.avif"
+          }
+        ]
+      }
+    },
+    "avifFallback": "/images/optimized/hero/aerienne-2.avif",
+    "avifVariants": [
+      {
+        "width": 768,
+        "height": 432,
+        "src": "/images/optimized/hero/aerienne-2-w768.avif"
+      },
+      {
+        "width": 1280,
+        "height": 720,
+        "src": "/images/optimized/hero/aerienne-2-w1280.avif"
+      },
+      {
+        "width": 1600,
+        "height": 900,
+        "src": "/images/optimized/hero/aerienne-2-w1600.avif"
       }
     ]
   },
   "BARGOIN_EXI_ACBIM_TZ_TN_M3D.png": {
     "source": "BARGOIN_EXI_ACBIM_TZ_TN_M3D.png",
+    "width": 2048,
+    "height": 1489,
+    "aspectRatio": 1.37542,
     "fallback": "/images/optimized/hero/bargoin-exi-acbim-tz-tn-m3d.webp",
     "variants": [
       {
         "width": 768,
+        "height": 558,
         "src": "/images/optimized/hero/bargoin-exi-acbim-tz-tn-m3d-w768.webp"
       },
       {
         "width": 1280,
+        "height": 931,
         "src": "/images/optimized/hero/bargoin-exi-acbim-tz-tn-m3d-w1280.webp"
       },
       {
         "width": 1600,
+        "height": 1163,
         "src": "/images/optimized/hero/bargoin-exi-acbim-tz-tn-m3d-w1600.webp"
+      }
+    ],
+    "formats": {
+      "webp": {
+        "fallback": "/images/optimized/hero/bargoin-exi-acbim-tz-tn-m3d.webp",
+        "variants": [
+          {
+            "width": 768,
+            "height": 558,
+            "src": "/images/optimized/hero/bargoin-exi-acbim-tz-tn-m3d-w768.webp"
+          },
+          {
+            "width": 1280,
+            "height": 931,
+            "src": "/images/optimized/hero/bargoin-exi-acbim-tz-tn-m3d-w1280.webp"
+          },
+          {
+            "width": 1600,
+            "height": 1163,
+            "src": "/images/optimized/hero/bargoin-exi-acbim-tz-tn-m3d-w1600.webp"
+          }
+        ]
+      },
+      "avif": {
+        "fallback": "/images/optimized/hero/bargoin-exi-acbim-tz-tn-m3d.avif",
+        "variants": [
+          {
+            "width": 768,
+            "height": 558,
+            "src": "/images/optimized/hero/bargoin-exi-acbim-tz-tn-m3d-w768.avif"
+          },
+          {
+            "width": 1280,
+            "height": 931,
+            "src": "/images/optimized/hero/bargoin-exi-acbim-tz-tn-m3d-w1280.avif"
+          },
+          {
+            "width": 1600,
+            "height": 1163,
+            "src": "/images/optimized/hero/bargoin-exi-acbim-tz-tn-m3d-w1600.avif"
+          }
+        ]
+      }
+    },
+    "avifFallback": "/images/optimized/hero/bargoin-exi-acbim-tz-tn-m3d.avif",
+    "avifVariants": [
+      {
+        "width": 768,
+        "height": 558,
+        "src": "/images/optimized/hero/bargoin-exi-acbim-tz-tn-m3d-w768.avif"
+      },
+      {
+        "width": 1280,
+        "height": 931,
+        "src": "/images/optimized/hero/bargoin-exi-acbim-tz-tn-m3d-w1280.avif"
+      },
+      {
+        "width": 1600,
+        "height": 1163,
+        "src": "/images/optimized/hero/bargoin-exi-acbim-tz-tn-m3d-w1600.avif"
       }
     ]
   },
   "BEFFROI_6.webp": {
     "source": "BEFFROI_6.webp",
+    "width": 3840,
+    "height": 2160,
+    "aspectRatio": 1.777778,
     "fallback": "/images/optimized/hero/beffroi-6.webp",
     "variants": [
       {
         "width": 768,
+        "height": 432,
         "src": "/images/optimized/hero/beffroi-6-w768.webp"
       },
       {
         "width": 1280,
+        "height": 720,
         "src": "/images/optimized/hero/beffroi-6-w1280.webp"
       },
       {
         "width": 1600,
+        "height": 900,
         "src": "/images/optimized/hero/beffroi-6-w1600.webp"
+      }
+    ],
+    "formats": {
+      "webp": {
+        "fallback": "/images/optimized/hero/beffroi-6.webp",
+        "variants": [
+          {
+            "width": 768,
+            "height": 432,
+            "src": "/images/optimized/hero/beffroi-6-w768.webp"
+          },
+          {
+            "width": 1280,
+            "height": 720,
+            "src": "/images/optimized/hero/beffroi-6-w1280.webp"
+          },
+          {
+            "width": 1600,
+            "height": 900,
+            "src": "/images/optimized/hero/beffroi-6-w1600.webp"
+          }
+        ]
+      },
+      "avif": {
+        "fallback": "/images/optimized/hero/beffroi-6.avif",
+        "variants": [
+          {
+            "width": 768,
+            "height": 432,
+            "src": "/images/optimized/hero/beffroi-6-w768.avif"
+          },
+          {
+            "width": 1280,
+            "height": 720,
+            "src": "/images/optimized/hero/beffroi-6-w1280.avif"
+          },
+          {
+            "width": 1600,
+            "height": 900,
+            "src": "/images/optimized/hero/beffroi-6-w1600.avif"
+          }
+        ]
+      }
+    },
+    "avifFallback": "/images/optimized/hero/beffroi-6.avif",
+    "avifVariants": [
+      {
+        "width": 768,
+        "height": 432,
+        "src": "/images/optimized/hero/beffroi-6-w768.avif"
+      },
+      {
+        "width": 1280,
+        "height": 720,
+        "src": "/images/optimized/hero/beffroi-6-w1280.avif"
+      },
+      {
+        "width": 1600,
+        "height": 900,
+        "src": "/images/optimized/hero/beffroi-6-w1600.avif"
       }
     ]
   },
   "bgClient.jpg": {
     "source": "bgClient.jpg",
+    "width": 1300,
+    "height": 825,
+    "aspectRatio": 1.575758,
     "fallback": "/images/optimized/hero/bgclient.webp",
     "variants": [
       {
         "width": 768,
+        "height": 487,
         "src": "/images/optimized/hero/bgclient-w768.webp"
       },
       {
         "width": 1280,
+        "height": 812,
         "src": "/images/optimized/hero/bgclient-w1280.webp"
       },
       {
         "width": 1300,
+        "height": 825,
         "src": "/images/optimized/hero/bgclient-w1300.webp"
+      }
+    ],
+    "formats": {
+      "webp": {
+        "fallback": "/images/optimized/hero/bgclient.webp",
+        "variants": [
+          {
+            "width": 768,
+            "height": 487,
+            "src": "/images/optimized/hero/bgclient-w768.webp"
+          },
+          {
+            "width": 1280,
+            "height": 812,
+            "src": "/images/optimized/hero/bgclient-w1280.webp"
+          },
+          {
+            "width": 1300,
+            "height": 825,
+            "src": "/images/optimized/hero/bgclient-w1300.webp"
+          }
+        ]
+      },
+      "avif": {
+        "fallback": "/images/optimized/hero/bgclient.avif",
+        "variants": [
+          {
+            "width": 768,
+            "height": 487,
+            "src": "/images/optimized/hero/bgclient-w768.avif"
+          },
+          {
+            "width": 1280,
+            "height": 812,
+            "src": "/images/optimized/hero/bgclient-w1280.avif"
+          },
+          {
+            "width": 1300,
+            "height": 825,
+            "src": "/images/optimized/hero/bgclient-w1300.avif"
+          }
+        ]
+      }
+    },
+    "avifFallback": "/images/optimized/hero/bgclient.avif",
+    "avifVariants": [
+      {
+        "width": 768,
+        "height": 487,
+        "src": "/images/optimized/hero/bgclient-w768.avif"
+      },
+      {
+        "width": 1280,
+        "height": 812,
+        "src": "/images/optimized/hero/bgclient-w1280.avif"
+      },
+      {
+        "width": 1300,
+        "height": 825,
+        "src": "/images/optimized/hero/bgclient-w1300.avif"
       }
     ]
   },
   "Chateau de Sedieres 20220616 DEF.png": {
     "source": "Chateau de Sedieres 20220616 DEF.png",
+    "width": 2048,
+    "height": 1079,
+    "aspectRatio": 1.898054,
     "fallback": "/images/optimized/hero/chateau-de-sedieres-20220616-def.webp",
     "variants": [
       {
         "width": 768,
+        "height": 405,
         "src": "/images/optimized/hero/chateau-de-sedieres-20220616-def-w768.webp"
       },
       {
         "width": 1280,
+        "height": 674,
         "src": "/images/optimized/hero/chateau-de-sedieres-20220616-def-w1280.webp"
       },
       {
         "width": 1600,
+        "height": 843,
         "src": "/images/optimized/hero/chateau-de-sedieres-20220616-def-w1600.webp"
+      }
+    ],
+    "formats": {
+      "webp": {
+        "fallback": "/images/optimized/hero/chateau-de-sedieres-20220616-def.webp",
+        "variants": [
+          {
+            "width": 768,
+            "height": 405,
+            "src": "/images/optimized/hero/chateau-de-sedieres-20220616-def-w768.webp"
+          },
+          {
+            "width": 1280,
+            "height": 674,
+            "src": "/images/optimized/hero/chateau-de-sedieres-20220616-def-w1280.webp"
+          },
+          {
+            "width": 1600,
+            "height": 843,
+            "src": "/images/optimized/hero/chateau-de-sedieres-20220616-def-w1600.webp"
+          }
+        ]
+      },
+      "avif": {
+        "fallback": "/images/optimized/hero/chateau-de-sedieres-20220616-def.avif",
+        "variants": [
+          {
+            "width": 768,
+            "height": 405,
+            "src": "/images/optimized/hero/chateau-de-sedieres-20220616-def-w768.avif"
+          },
+          {
+            "width": 1280,
+            "height": 674,
+            "src": "/images/optimized/hero/chateau-de-sedieres-20220616-def-w1280.avif"
+          },
+          {
+            "width": 1600,
+            "height": 843,
+            "src": "/images/optimized/hero/chateau-de-sedieres-20220616-def-w1600.avif"
+          }
+        ]
+      }
+    },
+    "avifFallback": "/images/optimized/hero/chateau-de-sedieres-20220616-def.avif",
+    "avifVariants": [
+      {
+        "width": 768,
+        "height": 405,
+        "src": "/images/optimized/hero/chateau-de-sedieres-20220616-def-w768.avif"
+      },
+      {
+        "width": 1280,
+        "height": 674,
+        "src": "/images/optimized/hero/chateau-de-sedieres-20220616-def-w1280.avif"
+      },
+      {
+        "width": 1600,
+        "height": 843,
+        "src": "/images/optimized/hero/chateau-de-sedieres-20220616-def-w1600.avif"
       }
     ]
   },
   "Chateau de Sedieres 20220616 DEF2.png": {
     "source": "Chateau de Sedieres 20220616 DEF2.png",
+    "width": 2048,
+    "height": 1309,
+    "aspectRatio": 1.564553,
     "fallback": "/images/optimized/hero/chateau-de-sedieres-20220616-def2.webp",
     "variants": [
       {
         "width": 768,
+        "height": 491,
         "src": "/images/optimized/hero/chateau-de-sedieres-20220616-def2-w768.webp"
       },
       {
         "width": 1280,
+        "height": 818,
         "src": "/images/optimized/hero/chateau-de-sedieres-20220616-def2-w1280.webp"
       },
       {
         "width": 1600,
+        "height": 1023,
         "src": "/images/optimized/hero/chateau-de-sedieres-20220616-def2-w1600.webp"
+      }
+    ],
+    "formats": {
+      "webp": {
+        "fallback": "/images/optimized/hero/chateau-de-sedieres-20220616-def2.webp",
+        "variants": [
+          {
+            "width": 768,
+            "height": 491,
+            "src": "/images/optimized/hero/chateau-de-sedieres-20220616-def2-w768.webp"
+          },
+          {
+            "width": 1280,
+            "height": 818,
+            "src": "/images/optimized/hero/chateau-de-sedieres-20220616-def2-w1280.webp"
+          },
+          {
+            "width": 1600,
+            "height": 1023,
+            "src": "/images/optimized/hero/chateau-de-sedieres-20220616-def2-w1600.webp"
+          }
+        ]
+      },
+      "avif": {
+        "fallback": "/images/optimized/hero/chateau-de-sedieres-20220616-def2.avif",
+        "variants": [
+          {
+            "width": 768,
+            "height": 491,
+            "src": "/images/optimized/hero/chateau-de-sedieres-20220616-def2-w768.avif"
+          },
+          {
+            "width": 1280,
+            "height": 818,
+            "src": "/images/optimized/hero/chateau-de-sedieres-20220616-def2-w1280.avif"
+          },
+          {
+            "width": 1600,
+            "height": 1023,
+            "src": "/images/optimized/hero/chateau-de-sedieres-20220616-def2-w1600.avif"
+          }
+        ]
+      }
+    },
+    "avifFallback": "/images/optimized/hero/chateau-de-sedieres-20220616-def2.avif",
+    "avifVariants": [
+      {
+        "width": 768,
+        "height": 491,
+        "src": "/images/optimized/hero/chateau-de-sedieres-20220616-def2-w768.avif"
+      },
+      {
+        "width": 1280,
+        "height": 818,
+        "src": "/images/optimized/hero/chateau-de-sedieres-20220616-def2-w1280.avif"
+      },
+      {
+        "width": 1600,
+        "height": 1023,
+        "src": "/images/optimized/hero/chateau-de-sedieres-20220616-def2-w1600.avif"
       }
     ]
   },
   "ChateauA0.png": {
     "source": "ChateauA0.png",
+    "width": 8970,
+    "height": 7917,
+    "aspectRatio": 1.133005,
     "fallback": "/images/optimized/hero/chateaua0.webp",
     "variants": [
       {
         "width": 768,
+        "height": 678,
         "src": "/images/optimized/hero/chateaua0-w768.webp"
       },
       {
         "width": 1280,
+        "height": 1130,
         "src": "/images/optimized/hero/chateaua0-w1280.webp"
       },
       {
         "width": 1600,
+        "height": 1412,
         "src": "/images/optimized/hero/chateaua0-w1600.webp"
+      }
+    ],
+    "formats": {
+      "webp": {
+        "fallback": "/images/optimized/hero/chateaua0.webp",
+        "variants": [
+          {
+            "width": 768,
+            "height": 678,
+            "src": "/images/optimized/hero/chateaua0-w768.webp"
+          },
+          {
+            "width": 1280,
+            "height": 1130,
+            "src": "/images/optimized/hero/chateaua0-w1280.webp"
+          },
+          {
+            "width": 1600,
+            "height": 1412,
+            "src": "/images/optimized/hero/chateaua0-w1600.webp"
+          }
+        ]
+      },
+      "avif": {
+        "fallback": "/images/optimized/hero/chateaua0.avif",
+        "variants": [
+          {
+            "width": 768,
+            "height": 678,
+            "src": "/images/optimized/hero/chateaua0-w768.avif"
+          },
+          {
+            "width": 1280,
+            "height": 1130,
+            "src": "/images/optimized/hero/chateaua0-w1280.avif"
+          },
+          {
+            "width": 1600,
+            "height": 1412,
+            "src": "/images/optimized/hero/chateaua0-w1600.avif"
+          }
+        ]
+      }
+    },
+    "avifFallback": "/images/optimized/hero/chateaua0.avif",
+    "avifVariants": [
+      {
+        "width": 768,
+        "height": 678,
+        "src": "/images/optimized/hero/chateaua0-w768.avif"
+      },
+      {
+        "width": 1280,
+        "height": 1130,
+        "src": "/images/optimized/hero/chateaua0-w1280.avif"
+      },
+      {
+        "width": 1600,
+        "height": 1412,
+        "src": "/images/optimized/hero/chateaua0-w1600.avif"
       }
     ]
   },
   "contour-de-carte-topo.jpg": {
     "source": "contour-de-carte-topo.jpg",
+    "width": 1300,
+    "height": 825,
+    "aspectRatio": 1.575758,
     "fallback": "/images/optimized/hero/contour-de-carte-topo.webp",
     "variants": [
       {
         "width": 768,
+        "height": 487,
         "src": "/images/optimized/hero/contour-de-carte-topo-w768.webp"
       },
       {
         "width": 1280,
+        "height": 812,
         "src": "/images/optimized/hero/contour-de-carte-topo-w1280.webp"
       },
       {
         "width": 1300,
+        "height": 825,
         "src": "/images/optimized/hero/contour-de-carte-topo-w1300.webp"
+      }
+    ],
+    "formats": {
+      "webp": {
+        "fallback": "/images/optimized/hero/contour-de-carte-topo.webp",
+        "variants": [
+          {
+            "width": 768,
+            "height": 487,
+            "src": "/images/optimized/hero/contour-de-carte-topo-w768.webp"
+          },
+          {
+            "width": 1280,
+            "height": 812,
+            "src": "/images/optimized/hero/contour-de-carte-topo-w1280.webp"
+          },
+          {
+            "width": 1300,
+            "height": 825,
+            "src": "/images/optimized/hero/contour-de-carte-topo-w1300.webp"
+          }
+        ]
+      },
+      "avif": {
+        "fallback": "/images/optimized/hero/contour-de-carte-topo.avif",
+        "variants": [
+          {
+            "width": 768,
+            "height": 487,
+            "src": "/images/optimized/hero/contour-de-carte-topo-w768.avif"
+          },
+          {
+            "width": 1280,
+            "height": 812,
+            "src": "/images/optimized/hero/contour-de-carte-topo-w1280.avif"
+          },
+          {
+            "width": 1300,
+            "height": 825,
+            "src": "/images/optimized/hero/contour-de-carte-topo-w1300.avif"
+          }
+        ]
+      }
+    },
+    "avifFallback": "/images/optimized/hero/contour-de-carte-topo.avif",
+    "avifVariants": [
+      {
+        "width": 768,
+        "height": 487,
+        "src": "/images/optimized/hero/contour-de-carte-topo-w768.avif"
+      },
+      {
+        "width": 1280,
+        "height": 812,
+        "src": "/images/optimized/hero/contour-de-carte-topo-w1280.avif"
+      },
+      {
+        "width": 1300,
+        "height": 825,
+        "src": "/images/optimized/hero/contour-de-carte-topo-w1300.avif"
       }
     ]
   },
   "Image2_002.webp": {
     "source": "Image2_002.webp",
+    "width": 1920,
+    "height": 1080,
+    "aspectRatio": 1.777778,
     "fallback": "/images/optimized/hero/image2-002.webp",
     "variants": [
       {
         "width": 768,
+        "height": 432,
         "src": "/images/optimized/hero/image2-002-w768.webp"
       },
       {
         "width": 1280,
+        "height": 720,
         "src": "/images/optimized/hero/image2-002-w1280.webp"
       },
       {
         "width": 1600,
+        "height": 900,
         "src": "/images/optimized/hero/image2-002-w1600.webp"
+      }
+    ],
+    "formats": {
+      "webp": {
+        "fallback": "/images/optimized/hero/image2-002.webp",
+        "variants": [
+          {
+            "width": 768,
+            "height": 432,
+            "src": "/images/optimized/hero/image2-002-w768.webp"
+          },
+          {
+            "width": 1280,
+            "height": 720,
+            "src": "/images/optimized/hero/image2-002-w1280.webp"
+          },
+          {
+            "width": 1600,
+            "height": 900,
+            "src": "/images/optimized/hero/image2-002-w1600.webp"
+          }
+        ]
+      },
+      "avif": {
+        "fallback": "/images/optimized/hero/image2-002.avif",
+        "variants": [
+          {
+            "width": 768,
+            "height": 432,
+            "src": "/images/optimized/hero/image2-002-w768.avif"
+          },
+          {
+            "width": 1280,
+            "height": 720,
+            "src": "/images/optimized/hero/image2-002-w1280.avif"
+          },
+          {
+            "width": 1600,
+            "height": 900,
+            "src": "/images/optimized/hero/image2-002-w1600.avif"
+          }
+        ]
+      }
+    },
+    "avifFallback": "/images/optimized/hero/image2-002.avif",
+    "avifVariants": [
+      {
+        "width": 768,
+        "height": 432,
+        "src": "/images/optimized/hero/image2-002-w768.avif"
+      },
+      {
+        "width": 1280,
+        "height": 720,
+        "src": "/images/optimized/hero/image2-002-w1280.avif"
+      },
+      {
+        "width": 1600,
+        "height": 900,
+        "src": "/images/optimized/hero/image2-002-w1600.avif"
       }
     ]
   },
   "Image33.webp": {
     "source": "Image33.webp",
+    "width": 3840,
+    "height": 1588,
+    "aspectRatio": 2.418136,
     "fallback": "/images/optimized/hero/image33.webp",
     "variants": [
       {
         "width": 768,
+        "height": 318,
         "src": "/images/optimized/hero/image33-w768.webp"
       },
       {
         "width": 1280,
+        "height": 529,
         "src": "/images/optimized/hero/image33-w1280.webp"
       },
       {
         "width": 1600,
+        "height": 662,
         "src": "/images/optimized/hero/image33-w1600.webp"
+      }
+    ],
+    "formats": {
+      "webp": {
+        "fallback": "/images/optimized/hero/image33.webp",
+        "variants": [
+          {
+            "width": 768,
+            "height": 318,
+            "src": "/images/optimized/hero/image33-w768.webp"
+          },
+          {
+            "width": 1280,
+            "height": 529,
+            "src": "/images/optimized/hero/image33-w1280.webp"
+          },
+          {
+            "width": 1600,
+            "height": 662,
+            "src": "/images/optimized/hero/image33-w1600.webp"
+          }
+        ]
+      },
+      "avif": {
+        "fallback": "/images/optimized/hero/image33.avif",
+        "variants": [
+          {
+            "width": 768,
+            "height": 318,
+            "src": "/images/optimized/hero/image33-w768.avif"
+          },
+          {
+            "width": 1280,
+            "height": 529,
+            "src": "/images/optimized/hero/image33-w1280.avif"
+          },
+          {
+            "width": 1600,
+            "height": 662,
+            "src": "/images/optimized/hero/image33-w1600.avif"
+          }
+        ]
+      }
+    },
+    "avifFallback": "/images/optimized/hero/image33.avif",
+    "avifVariants": [
+      {
+        "width": 768,
+        "height": 318,
+        "src": "/images/optimized/hero/image33-w768.avif"
+      },
+      {
+        "width": 1280,
+        "height": 529,
+        "src": "/images/optimized/hero/image33-w1280.avif"
+      },
+      {
+        "width": 1600,
+        "height": 662,
+        "src": "/images/optimized/hero/image33-w1600.avif"
       }
     ]
   },
   "M4E.png": {
     "source": "M4E.png",
+    "width": 3168,
+    "height": 1344,
+    "aspectRatio": 2.357143,
     "fallback": "/images/optimized/hero/m4e.webp",
     "variants": [
       {
         "width": 768,
+        "height": 326,
         "src": "/images/optimized/hero/m4e-w768.webp"
       },
       {
         "width": 1280,
+        "height": 543,
         "src": "/images/optimized/hero/m4e-w1280.webp"
       },
       {
         "width": 1600,
+        "height": 679,
         "src": "/images/optimized/hero/m4e-w1600.webp"
+      }
+    ],
+    "formats": {
+      "webp": {
+        "fallback": "/images/optimized/hero/m4e.webp",
+        "variants": [
+          {
+            "width": 768,
+            "height": 326,
+            "src": "/images/optimized/hero/m4e-w768.webp"
+          },
+          {
+            "width": 1280,
+            "height": 543,
+            "src": "/images/optimized/hero/m4e-w1280.webp"
+          },
+          {
+            "width": 1600,
+            "height": 679,
+            "src": "/images/optimized/hero/m4e-w1600.webp"
+          }
+        ]
+      },
+      "avif": {
+        "fallback": "/images/optimized/hero/m4e.avif",
+        "variants": [
+          {
+            "width": 768,
+            "height": 326,
+            "src": "/images/optimized/hero/m4e-w768.avif"
+          },
+          {
+            "width": 1280,
+            "height": 543,
+            "src": "/images/optimized/hero/m4e-w1280.avif"
+          },
+          {
+            "width": 1600,
+            "height": 679,
+            "src": "/images/optimized/hero/m4e-w1600.avif"
+          }
+        ]
+      }
+    },
+    "avifFallback": "/images/optimized/hero/m4e.avif",
+    "avifVariants": [
+      {
+        "width": 768,
+        "height": 326,
+        "src": "/images/optimized/hero/m4e-w768.avif"
+      },
+      {
+        "width": 1280,
+        "height": 543,
+        "src": "/images/optimized/hero/m4e-w1280.avif"
+      },
+      {
+        "width": 1600,
+        "height": 679,
+        "src": "/images/optimized/hero/m4e-w1600.avif"
       }
     ]
   },
   "MP_RealEstate-dollhouse.webp": {
     "source": "MP_RealEstate-dollhouse.webp",
+    "width": 1512,
+    "height": 1080,
+    "aspectRatio": 1.4,
     "fallback": "/images/optimized/hero/mp-realestate-dollhouse.webp",
     "variants": [
       {
         "width": 768,
+        "height": 549,
         "src": "/images/optimized/hero/mp-realestate-dollhouse-w768.webp"
       },
       {
         "width": 1280,
+        "height": 914,
         "src": "/images/optimized/hero/mp-realestate-dollhouse-w1280.webp"
       },
       {
         "width": 1512,
+        "height": 1080,
         "src": "/images/optimized/hero/mp-realestate-dollhouse-w1512.webp"
+      }
+    ],
+    "formats": {
+      "webp": {
+        "fallback": "/images/optimized/hero/mp-realestate-dollhouse.webp",
+        "variants": [
+          {
+            "width": 768,
+            "height": 549,
+            "src": "/images/optimized/hero/mp-realestate-dollhouse-w768.webp"
+          },
+          {
+            "width": 1280,
+            "height": 914,
+            "src": "/images/optimized/hero/mp-realestate-dollhouse-w1280.webp"
+          },
+          {
+            "width": 1512,
+            "height": 1080,
+            "src": "/images/optimized/hero/mp-realestate-dollhouse-w1512.webp"
+          }
+        ]
+      },
+      "avif": {
+        "fallback": "/images/optimized/hero/mp-realestate-dollhouse.avif",
+        "variants": [
+          {
+            "width": 768,
+            "height": 549,
+            "src": "/images/optimized/hero/mp-realestate-dollhouse-w768.avif"
+          },
+          {
+            "width": 1280,
+            "height": 914,
+            "src": "/images/optimized/hero/mp-realestate-dollhouse-w1280.avif"
+          },
+          {
+            "width": 1512,
+            "height": 1080,
+            "src": "/images/optimized/hero/mp-realestate-dollhouse-w1512.avif"
+          }
+        ]
+      }
+    },
+    "avifFallback": "/images/optimized/hero/mp-realestate-dollhouse.avif",
+    "avifVariants": [
+      {
+        "width": 768,
+        "height": 549,
+        "src": "/images/optimized/hero/mp-realestate-dollhouse-w768.avif"
+      },
+      {
+        "width": 1280,
+        "height": 914,
+        "src": "/images/optimized/hero/mp-realestate-dollhouse-w1280.avif"
+      },
+      {
+        "width": 1512,
+        "height": 1080,
+        "src": "/images/optimized/hero/mp-realestate-dollhouse-w1512.avif"
       }
     ]
   },
   "ortho image de facade.webp": {
     "source": "ortho image de facade.webp",
+    "width": 1908,
+    "height": 923,
+    "aspectRatio": 2.067172,
     "fallback": "/images/optimized/hero/ortho-image-de-facade.webp",
     "variants": [
       {
         "width": 768,
+        "height": 372,
         "src": "/images/optimized/hero/ortho-image-de-facade-w768.webp"
       },
       {
         "width": 1280,
+        "height": 619,
         "src": "/images/optimized/hero/ortho-image-de-facade-w1280.webp"
       },
       {
         "width": 1600,
+        "height": 774,
         "src": "/images/optimized/hero/ortho-image-de-facade-w1600.webp"
+      }
+    ],
+    "formats": {
+      "webp": {
+        "fallback": "/images/optimized/hero/ortho-image-de-facade.webp",
+        "variants": [
+          {
+            "width": 768,
+            "height": 372,
+            "src": "/images/optimized/hero/ortho-image-de-facade-w768.webp"
+          },
+          {
+            "width": 1280,
+            "height": 619,
+            "src": "/images/optimized/hero/ortho-image-de-facade-w1280.webp"
+          },
+          {
+            "width": 1600,
+            "height": 774,
+            "src": "/images/optimized/hero/ortho-image-de-facade-w1600.webp"
+          }
+        ]
+      },
+      "avif": {
+        "fallback": "/images/optimized/hero/ortho-image-de-facade.avif",
+        "variants": [
+          {
+            "width": 768,
+            "height": 372,
+            "src": "/images/optimized/hero/ortho-image-de-facade-w768.avif"
+          },
+          {
+            "width": 1280,
+            "height": 619,
+            "src": "/images/optimized/hero/ortho-image-de-facade-w1280.avif"
+          },
+          {
+            "width": 1600,
+            "height": 774,
+            "src": "/images/optimized/hero/ortho-image-de-facade-w1600.avif"
+          }
+        ]
+      }
+    },
+    "avifFallback": "/images/optimized/hero/ortho-image-de-facade.avif",
+    "avifVariants": [
+      {
+        "width": 768,
+        "height": 372,
+        "src": "/images/optimized/hero/ortho-image-de-facade-w768.avif"
+      },
+      {
+        "width": 1280,
+        "height": 619,
+        "src": "/images/optimized/hero/ortho-image-de-facade-w1280.avif"
+      },
+      {
+        "width": 1600,
+        "height": 774,
+        "src": "/images/optimized/hero/ortho-image-de-facade-w1600.avif"
       }
     ]
   }

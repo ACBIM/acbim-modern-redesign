@@ -8,6 +8,7 @@ import AppIcon from '@/components/AppIcon'
 import ServiceGalleryRibbon from '@/components/ServiceGalleryRibbon'
 import PrebProgramServiceContent from '@/components/services/PrebProgramServiceContent'
 import { PROJECTS_DATA, SERVICES_DATA } from '@/constants'
+import { getAvifSrcSet } from '@/lib/imageDimensions'
 import { pickMetaDescription } from '@/lib/seo'
 import { generateBreadcrumbSchema, generateServiceSchema } from '@/lib/schema'
 import { BASE_URL, COMPANY_NAME } from '@/lib/site'
@@ -208,13 +209,18 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
               <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
                 {relatedProjects.map((project) => (
                   <Link key={project.slug} href={`/projets/${project.slug}`} className="group relative block overflow-hidden rounded-lg shadow-lg">
-                    <Image
-                      src={project.imageUrl}
-                      alt={project.title}
-                      width={400}
-                      height={300}
-                      className="h-64 w-full transform object-cover transition-transform duration-500 group-hover:scale-110"
-                    />
+                    <picture className="block h-64 w-full">
+                      {getAvifSrcSet(project.imageUrl) ? (
+                        <source type="image/avif" srcSet={getAvifSrcSet(project.imageUrl)} />
+                      ) : null}
+                      <Image
+                        src={project.imageUrl}
+                        alt={project.title}
+                        width={400}
+                        height={300}
+                        className="h-64 w-full transform object-cover transition-transform duration-500 group-hover:scale-110"
+                      />
+                    </picture>
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
                     <div className="absolute bottom-0 left-0 p-6 text-white">
                       <h3 className="text-2xl font-bold">{project.title}</h3>
