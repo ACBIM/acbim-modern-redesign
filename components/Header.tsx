@@ -45,7 +45,13 @@ const Header: React.FC = () => {
         { href: '/a-propos', label: 'À Propos' },
         { href: '/contact', label: 'Contact' },
     ];
-    
+
+    // Lien actif: gere le slash final (trailingSlash) et les sous-pages
+    const isActiveLink = (href: string) => {
+        if (href === '/') return pathname === '/';
+        return pathname === href || pathname.startsWith(`${href}/`);
+    };
+
     // Logique de style selon la page
     const shouldUseDarkStyle = isHomePage ? (scrolled || isOpen) : true;
     
@@ -68,7 +74,7 @@ const Header: React.FC = () => {
                         <Link 
                             key={link.href} 
                             href={link.href} 
-                            className={`font-medium ${pathname === link.href ? 'text-[#ee7527]' : linkColor} hover:text-[#ee7527] transition-colors`}
+                            className={`font-medium ${isActiveLink(link.href) ? 'text-[#ee7527]' : linkColor} hover:text-[#ee7527] transition-colors`}
                         >
                             {link.label}
                         </Link>
@@ -112,7 +118,7 @@ const Header: React.FC = () => {
                                 key={link.href} 
                                 href={link.href} 
                                 onClick={() => setIsOpen(false)}
-                                className={`${pathname === link.href ? 'text-[#ee7527]' : 'text-slate-800'} hover:text-[#ee7527] font-medium`}
+                                className={`${isActiveLink(link.href) ? 'text-[#ee7527]' : 'text-slate-800'} hover:text-[#ee7527] font-medium`}
                             >
                                 {link.label}
                             </Link>
