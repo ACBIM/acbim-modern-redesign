@@ -22,9 +22,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const service = SERVICES_DATA.find((item) => item.slug === slug)
   if (!service) return {}
 
-  const title = service.title
-  const socialTitle = `${service.title} | ${COMPANY_NAME}`
-  const description = pickMetaDescription([service.description]) ?? service.description
+  const title = service.seoTitle ?? service.title
+  const socialTitle = `${service.seoTitle ?? service.title} | ${COMPANY_NAME}`
+  const description = pickMetaDescription([service.seoDescription, service.description]) ?? service.description
   const canonical = `/services/${service.slug}/`
   const keywords = service.seoKeywords
     ? [...service.seoKeywords, COMPANY_NAME, 'Aurillac', 'Cantal', 'Auvergne-Rhône-Alpes']

@@ -47,6 +47,8 @@ export interface Service {
   slug: string
   iconKey: IconKey
   title: string
+  seoTitle?: string
+  seoDescription?: string
   subtitle: string
   imageUrl: string
   cardImageUrl?: string
