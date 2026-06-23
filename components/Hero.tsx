@@ -179,7 +179,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-[#1d1d1b]/80" />
 
       <div className="relative z-10 px-6 text-center">
-        <h1 className="mx-auto mb-10 max-w-6xl text-3xl font-bold leading-tight md:mb-12 md:text-5xl">
+        <h1 className="mx-auto mb-16 max-w-6xl text-3xl font-bold leading-tight md:mb-20 md:text-5xl">
           <span className="block">Relevé 3D, géomètre-topographe</span>
           <span className="my-1 block text-[#ee7527] md:my-2">ACBIM</span>
           <span className="block">la mesure de l’existant dans le Cantal</span>
