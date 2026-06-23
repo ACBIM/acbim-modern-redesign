@@ -143,7 +143,7 @@ export default function Hero() {
   }
 
   return (
-    <section id="home" className="relative flex h-screen items-center justify-center overflow-hidden text-white">
+    <section id="home" className="relative flex min-h-[100svh] items-center justify-center overflow-hidden py-24 pb-28 text-white md:h-screen md:py-0">
       <div className="absolute inset-0 overflow-hidden">
         {heroSlides.map((slide, index) => {
           const isActive = index === currentIndex
@@ -179,15 +179,24 @@ export default function Hero() {
       <div className="absolute inset-0 bg-[#1d1d1b]/80" />
 
       <div className="relative z-10 px-6 text-center">
-        <h1 className="mb-8 text-6xl font-bold leading-tight md:text-8xl">
-          BET <span className="text-[#ee7527]">ACBIM</span>
+        <h1 className="mx-auto mb-4 max-w-5xl text-2xl font-bold leading-tight md:mb-6 md:text-5xl">
+          <span className="text-[#ee7527]">Géomètre-topographe</span> et relevé{' '}
+          <span className="text-[#ee7527]">3D</span> : <span className="text-[#ee7527]">ACBIM</span>, la mesure de l’existant dans le Cantal
         </h1>
-        <h2 className="mb-4 text-4xl font-bold leading-tight md:text-6xl">
-          Votre patrimoine <span className="text-[#ee7527]">numérique</span>
+        <h2 className="mx-auto mb-5 max-w-4xl text-base font-semibold leading-snug text-slate-100 md:mb-6 md:text-2xl">
+          État des lieux, plans de l’existant, scanner 3D, drone et maquette BIM à Aurillac
         </h2>
-        <p className="mx-auto mb-8 max-w-3xl text-lg text-slate-200 md:text-xl">
-          Du relevé sur site au livrable: ACBIM propose des solutions de relevés 3D, maquette numérique 3D, orthophotos, imagerie 3D, plans 2D et plans topographiques au service de vos projets de rénovation et de gestion de patrimoine.
+        <p className="mx-auto mb-6 max-w-3xl text-base leading-relaxed text-slate-200 md:mb-8 md:text-lg">
+          Besoin de mesurer, relever ou documenter un bâtiment ou un terrain ? ACBIM, géomètre-topographe à Aurillac, transforme l’existant en données fiables : relevé 3D, état des lieux, plans et maquette BIM, dans le Cantal et au-delà.
         </p>
+
+        <div className="mx-auto mb-7 flex max-w-3xl flex-wrap items-center justify-center gap-2 md:mb-8">
+          {['BIM d’Argent', 'PTNB'].map((proof) => (
+            <span key={proof} className="rounded-full border border-white/25 bg-white/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.14em] text-slate-100">
+              {proof}
+            </span>
+          ))}
+        </div>
 
         <div className="flex flex-wrap items-center justify-center gap-3">
           <Link

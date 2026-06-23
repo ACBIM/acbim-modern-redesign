@@ -14,23 +14,23 @@ const poppins = Poppins({
 })
 
 const defaultDescription =
-  "ACBIM, géomètre-topographe et expert BIM à Aurillac : relevé scanner 3D, drone, plans 2D et topographiques, maquette numérique pour rénovation et patrimoine."
+  "Géomètre-topographe à Aurillac (Cantal) : mesure de l’existant, relevé 3D, état des lieux, plans de l’existant, scanner laser, drone et BIM."
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: {
-    default: `${COMPANY_NAME} | BIM, Relevé 3D et Numérisation`,
+    default: `Géomètre-topographe & relevé 3D — mesure de l’existant | ${COMPANY_NAME}`,
     template: `%s | ${COMPANY_NAME}`,
   },
   description: defaultDescription,
   keywords: [
-    'BIM Cantal',
-    'relevé scanner 3D Aurillac',
+    'géomètre-topographe Cantal',
+    'relevé 3D Cantal',
+    'état des lieux Aurillac',
+    'plans de l’existant',
+    'scanner 3D Aurillac',
     'maquette numérique BIM',
-    'numérisation bâtiment',
     'drone photogrammétrie',
-    'visite virtuelle 360',
-    'plans 2D',
     'plans topographiques',
     'Auvergne-Rhône-Alpes',
   ],
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     locale: SITE_LOCALE,
     url: BASE_URL,
     siteName: COMPANY_NAME,
-    title: `${COMPANY_NAME} | BIM, Relevé 3D et Numérisation`,
+    title: `Géomètre-topographe & relevé 3D — mesure de l’existant | ${COMPANY_NAME}`,
     description: defaultDescription,
     images: [
       {
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: `${COMPANY_NAME} | BIM, Relevé 3D et Numérisation`,
+    title: `Géomètre-topographe & relevé 3D — mesure de l’existant | ${COMPANY_NAME}`,
     description: defaultDescription,
     images: [DEFAULT_OG_IMAGE_URL],
   },
