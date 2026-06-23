@@ -179,10 +179,10 @@ export default function Hero() {
       <div className="absolute inset-0 bg-[#1d1d1b]/80" />
 
       <div className="relative z-10 px-6 text-center">
-        <h1 className="mx-auto mb-16 max-w-6xl text-3xl font-bold leading-tight md:mb-20 md:text-5xl">
-          <span className="block">Relevé 3D, géomètre-topographe</span>
-          <span className="my-1 block text-[#ee7527] md:my-2">ACBIM</span>
-          <span className="block">la mesure de l’existant dans le Cantal</span>
+        <h1 className="mx-auto mb-16 max-w-6xl font-bold leading-tight md:mb-20">
+          <span className="block text-2xl md:text-4xl">Relevé 3D, géomètre-topographe</span>
+          <span className="my-1 block text-4xl text-[#ee7527] md:my-2 md:text-6xl">ACBIM</span>
+          <span className="block text-2xl md:text-4xl">la mesure de l’existant dans le Cantal</span>
         </h1>
         <h2 className="mx-auto mb-5 max-w-4xl text-base font-semibold leading-snug text-slate-100 md:mb-6 md:text-2xl">
           État des lieux, plans de l’existant, scanner 3D, drone et maquette BIM à Aurillac
