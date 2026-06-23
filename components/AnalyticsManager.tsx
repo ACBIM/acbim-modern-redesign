@@ -200,9 +200,9 @@ export default function AnalyticsManager() {
   }, [consent])
 
   const currentLabel = useMemo(() => {
-    if (consent === 'granted') return 'Mesure d’audience acceptee'
-    if (consent === 'denied') return 'Mesure d’audience refusee'
-    return 'Aucun choix enregistre'
+    if (consent === 'granted') return 'Mesure d’audience acceptée'
+    if (consent === 'denied') return 'Mesure d’audience refusée'
+    return 'Aucun choix enregistré'
   }, [consent])
 
   const applyConsent = (nextConsent: Exclude<ConsentState, 'unknown'>) => {
@@ -243,7 +243,7 @@ export default function AnalyticsManager() {
             <p className="font-semibold text-slate-950">Cookies de mesure d’audience</p>
             <p>
               ACBIM utilise Google Analytics uniquement avec votre accord pour mesurer l’audience du site. Vous pouvez
-              accepter, refuser ou modifier votre choix a tout moment.
+              accepter, refuser ou modifier votre choix à tout moment.
             </p>
             <Link className="font-semibold text-[#c75d19] underline-offset-4 hover:underline" href="/cookies/">
               En savoir plus
@@ -265,7 +265,7 @@ export default function AnalyticsManager() {
               }}
               className="rounded-md border border-slate-300 bg-white px-4 py-2 text-sm font-semibold text-slate-700 transition hover:bg-slate-100"
             >
-              Parametrer
+              Paramétrer
             </button>
             <button
               type="button"
@@ -290,7 +290,7 @@ export default function AnalyticsManager() {
               <div>
                 <p className="text-sm font-semibold uppercase tracking-[0.16em] text-[#ee7527]">Cookies</p>
                 <h2 id="cookie-preferences-title" className="mt-1 text-2xl font-bold text-slate-950">
-                  Preferences de confidentialite
+                  Préférences de confidentialité
                 </h2>
               </div>
               <button
@@ -303,7 +303,7 @@ export default function AnalyticsManager() {
             </div>
 
             <p className="mt-4 text-sm leading-6 text-slate-700">
-              Statut actuel : <span className="font-semibold text-slate-950">{currentLabel}</span>. Le site ne depose
+              Statut actuel : <span className="font-semibold text-slate-950">{currentLabel}</span>. Le site ne dépose
               pas de cookie publicitaire. La mesure d’audience Google Analytics est facultative.
             </p>
 
@@ -312,7 +312,7 @@ export default function AnalyticsManager() {
                 <div>
                   <h3 className="font-semibold text-slate-950">Mesure d’audience</h3>
                   <p className="mt-1 text-sm leading-6 text-slate-600">
-                    Autoriser Google Analytics a produire des statistiques de consultation du site ACBIM.
+                    Autoriser Google Analytics à produire des statistiques de consultation du site ACBIM.
                   </p>
                 </div>
                 <label className="inline-flex min-w-32 items-center gap-3 text-sm font-semibold text-slate-950">
@@ -352,7 +352,7 @@ export default function AnalyticsManager() {
             </div>
 
             <p className="mt-4 text-xs leading-5 text-slate-500">
-              Votre choix est conserve 6 mois. Les cookies Google Analytics sont configures pour une duree maximale de
+              Votre choix est conservé 6 mois. Les cookies Google Analytics sont configurés pour une durée maximale de
               13 mois.
             </p>
           </section>
